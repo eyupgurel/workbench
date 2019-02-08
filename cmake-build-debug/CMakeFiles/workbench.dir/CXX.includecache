@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egl/Documents/sc/C++/workbench/containers/vector.cpp
+vector.h
+/home/egl/Documents/sc/C++/workbench/containers/vector.h
+
+/home/egl/Documents/sc/C++/workbench/containers/vector.h
+stdexcept
+-
+iostream
+-
+

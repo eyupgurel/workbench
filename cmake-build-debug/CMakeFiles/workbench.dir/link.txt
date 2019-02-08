@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/workbench.dir/main.cpp.o CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o CMakeFiles/workbench.dir/containers/vector.cpp.o  -o workbench 
