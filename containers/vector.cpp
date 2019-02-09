@@ -7,7 +7,7 @@
 
 namespace containers {
 
-    vector::vector() {}
+    vector::vector():elems{nullptr},sz{0} {}
 
     vector::vector(int size): elems{new double[size]}, sz{size} {
 
@@ -20,16 +20,16 @@ namespace containers {
     vector::~vector() {
         delete[] elems;
     }
-    vector::vector(const vector& v){
-        sz = v.size();
-        elems = new double[v.size()];
+    vector::vector(const vector& v): elems{new double[v.size()]}, sz(v.size()){
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
     }
 
     vector& vector::operator=(const containers::vector &v) {
+        auto p = new double[v.size()];
         sz = v.size();
-        elems = new double[v.size()];
+        if(elems!= nullptr) delete[] elems;
+        elems = p;
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
         return *this;

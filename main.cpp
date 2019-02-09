@@ -57,6 +57,8 @@ void test_vector(){
 
     v9_new = v8_new = v8;
 
+    v9_new = v8_new;
+
     v9_new.print();
 
 
