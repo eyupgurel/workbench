@@ -177,6 +177,33 @@ algorithms/mergesort.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/mergesort.cpp.s
 .PHONY : algorithms/mergesort.cpp.s
 
+containers/list_container.o: containers/list_container.cpp.o
+
+.PHONY : containers/list_container.o
+
+# target to build an object file
+containers/list_container.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.o
+.PHONY : containers/list_container.cpp.o
+
+containers/list_container.i: containers/list_container.cpp.i
+
+.PHONY : containers/list_container.i
+
+# target to preprocess a source file
+containers/list_container.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.i
+.PHONY : containers/list_container.cpp.i
+
+containers/list_container.s: containers/list_container.cpp.s
+
+.PHONY : containers/list_container.s
+
+# target to generate assembly for a file
+containers/list_container.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.s
+.PHONY : containers/list_container.cpp.s
+
 containers/vector.o: containers/vector.cpp.o
 
 .PHONY : containers/vector.o
@@ -203,6 +230,33 @@ containers/vector.s: containers/vector.cpp.s
 containers/vector.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector.cpp.s
 .PHONY : containers/vector.cpp.s
+
+containers/vector_container.o: containers/vector_container.cpp.o
+
+.PHONY : containers/vector_container.o
+
+# target to build an object file
+containers/vector_container.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_container.cpp.o
+.PHONY : containers/vector_container.cpp.o
+
+containers/vector_container.i: containers/vector_container.cpp.i
+
+.PHONY : containers/vector_container.i
+
+# target to preprocess a source file
+containers/vector_container.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_container.cpp.i
+.PHONY : containers/vector_container.cpp.i
+
+containers/vector_container.s: containers/vector_container.cpp.s
+
+.PHONY : containers/vector_container.s
+
+# target to generate assembly for a file
+containers/vector_container.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_container.cpp.s
+.PHONY : containers/vector_container.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +300,15 @@ help:
 	@echo "... algorithms/mergesort.o"
 	@echo "... algorithms/mergesort.i"
 	@echo "... algorithms/mergesort.s"
+	@echo "... containers/list_container.o"
+	@echo "... containers/list_container.i"
+	@echo "... containers/list_container.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
+	@echo "... containers/vector_container.o"
+	@echo "... containers/vector_container.i"
+	@echo "... containers/vector_container.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

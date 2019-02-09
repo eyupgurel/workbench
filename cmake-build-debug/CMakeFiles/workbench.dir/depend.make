@@ -7,12 +7,24 @@ CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o: ../algorithms/mergesort.cpp
 CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o: ../algorithms/mergesort.h
 
+CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
+CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
+CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
+
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.cpp
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.h
 
+CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/container.h
+CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector.h
+CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector_container.cpp
+CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector_container.h
+
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 

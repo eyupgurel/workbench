@@ -8,19 +8,24 @@
 #include <stdexcept>
 #include <iostream>
 
+
 namespace containers {
 
     class vector {
     public:
-        vector(const unsigned long size);
-        vector(const std::initializer_list<double> list);
+        vector();
+        vector(int size);
+        vector(std::initializer_list<double> list);
+        vector(const vector& v);
+        vector& operator=(const vector& v);
         ~vector();
-        double& operator[](const unsigned long index);
+        double& operator[](int index) const;
+        int size() const;
         void print() const;
         //void push_back(const double new_elem);
     private:
         double *elems;
-        unsigned long sz;
+        int sz;
     };
 
 }

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o"
   "CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o"
   "CMakeFiles/workbench.dir/containers/vector.cpp.o"
+  "CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
+  "CMakeFiles/workbench.dir/containers/list_container.cpp.o"
   "workbench.pdb"
   "workbench"
 )
