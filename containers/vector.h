@@ -15,10 +15,12 @@ namespace containers {
     class vector {
     public:
         vector();
-        vector(int size);
+        explicit vector(int size);
         vector(std::initializer_list<double> list);
         vector(const vector& v);
         vector& operator=(const vector& v);
+        vector(vector&& v);
+        vector& operator=(vector&& v);
         ~vector();
         double& operator[](int index) const;
         int size() const;

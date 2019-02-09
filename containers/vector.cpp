@@ -17,15 +17,13 @@ namespace containers {
                     sz{static_cast<int>(list.size())} {
         std::copy(list.begin(), list.end(),elems);
     }
-    vector::~vector() {
-        delete[] elems;
-    }
+
     vector::vector(const vector& v): elems{new double[v.size()]}, sz(v.size()){
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
     }
 
-    vector& vector::operator=(const containers::vector &v) {
+    vector& vector::operator=(const vector &v) {
         auto p = new double[v.size()];
         sz = v.size();
         if(elems!= nullptr) delete[] elems;
@@ -33,6 +31,23 @@ namespace containers {
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
         return *this;
+    }
+
+    vector::vector(vector &&v):elems{v.elems}, sz{v.size()} {
+        v.elems = nullptr;
+        v.sz = 0;
+    }
+
+    vector& vector::operator=(vector&& v) {
+        elems = v.elems;
+        sz = v.size();
+        v.elems = nullptr;
+        v.sz = 0;
+        return *this;
+    }
+
+    vector::~vector() {
+        delete[] elems;
     }
 
     double& vector::operator[](int index) const{
@@ -48,6 +63,9 @@ namespace containers {
         }
         std::cout << std::endl;
     }
+
+
+
 
 
 }

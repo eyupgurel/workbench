@@ -18,6 +18,7 @@ using vector = containers::vector;
 
 void test_merge_sort();
 void move_hanoi_towers();
+vector square_vector(vector& v);
 void test_vector();
 void test_container(container& c);
 

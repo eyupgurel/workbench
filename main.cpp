@@ -24,9 +24,16 @@ void test_container(container& c){
     }
 }
 
+vector square_vector(vector& v){
+    auto sv = vector(v.size());
+    for(auto i = 0; i < v.size(); i++){
+        sv[i] = v[i] * v[i];
+    }
+    return sv;
+}
+
+
 void test_vector(){
-
-
 
     auto v = vector(5);
     v[0] = 1.7;
@@ -53,28 +60,27 @@ void test_vector(){
     vector v8_new;
     v8_new.print();
 
-    vector v9_new;
-
-    v9_new = v8_new = v8;
+    vector v9_new = v8_new = square_vector(v8);
 
     v9_new = v8_new;
 
     v9_new.print();
 
-
-
-
-
+    auto v10_new = std::move(v9_new);
 
 
 
     vector v5 = {4.32,43.23,67.4,4.22,9.85};
 
+
+
+
     vector v6{4.3200000000000000,43.23,67.4,4.22,9.85, 1.1};
 
+
+
+
     v8.print();
-
-
 }
 
 void test_merge_sort(){
