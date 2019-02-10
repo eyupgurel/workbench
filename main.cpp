@@ -62,11 +62,13 @@ void test_vector(){
 
     vector v9_new = v8_new = square_vector(v8);
 
-    v9_new = v8_new;
-
     v9_new.print();
 
-    auto v10_new = std::move(v9_new);
+    vector v12 = square_vector(v8);
+
+
+
+    //auto v10_new = std::move(v9_new);
 
 
 
