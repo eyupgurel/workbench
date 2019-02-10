@@ -4,9 +4,12 @@
 #include "list_container.h"
 
 namespace containers {
-    list_container::list_container(std::initializer_list<double> list):l(list){}
-    list_container::~list_container() {}
-    double& list_container::operator[](int i)
+    template<typename T>
+    list_container<T>::list_container(std::initializer_list<T> list):l(list){}
+    template<typename T>
+    list_container<T>::~list_container() {}
+    template<typename T>
+    T& list_container<T>::operator[](int i)
     {
         for(auto& item: l){
             if(i==0) return item;
@@ -14,5 +17,8 @@ namespace containers {
         }
         throw std::out_of_range("List container");
     }
-    int list_container::size() const {return static_cast<int>(l.size());}
+    template<typename T>
+    int list_container<T>::size() const {return static_cast<int>(l.size());}
+
+    template class list_container<double>;
 }

@@ -3,11 +3,17 @@
 //
 #include "vector_container.h"
 
-
 namespace containers{
-    vector_container::vector_container(int sz): v(sz){}
-    vector_container::vector_container(std::initializer_list<double> list):v(list){}
-    vector_container::~vector_container(){}
-    double& vector_container::operator[](int i){return v[i];}
-    int vector_container::size() const {return v.size();};
+    template<typename T>
+    vector_container<T>::vector_container(int sz): v(sz){}
+    template<typename T>
+    vector_container<T>::vector_container(std::initializer_list<T> list):v(list){}
+    template<typename T>
+    vector_container<T>::~vector_container(){}
+    template<typename T>
+    T& vector_container<T>::operator[](int i){return v[i];}
+    template<typename T>
+    int vector_container<T>::size() const {return v.size();};
+
+    template class vector_container<double>;
 }

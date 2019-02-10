@@ -10,12 +10,13 @@
 #include <list>
 
 namespace containers{
-    class list_container: public container {
+    template<typename T>
+    class list_container: public container<T> {
         std::list<double> l;
     public:
-        list_container(std::initializer_list<double> list);
+        list_container(std::initializer_list<T> list);
         ~list_container();
-        double& operator[](int i);
+        T& operator[](int i);
         int size() const;
     };
 

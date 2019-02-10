@@ -6,25 +6,29 @@
 #include "vector.h"
 
 namespace containers {
+    template<typename T>
+    my_vector<T>::my_vector():elems{nullptr},sz{0} {}
 
-    vector::vector():elems{nullptr},sz{0} {}
-
-    vector::vector(int size): elems{new double[size]}, sz{size} {
-
+    template<typename T>
+    my_vector<T>::my_vector(int size): elems{new T[size]}, sz{size} {
     }
-    vector::vector(std::initializer_list<double> list):
-                    elems{new double[list.size()]},
+
+    template<typename T>
+    my_vector<T>::my_vector(std::initializer_list<T> list):
+                    elems{new T[list.size()]},
                     sz{static_cast<int>(list.size())} {
         std::copy(list.begin(), list.end(),elems);
     }
 
-    vector::vector(const vector& v): elems{new double[v.size()]}, sz(v.size()){
+    template<typename T>
+    my_vector<T>::my_vector(const my_vector<T>& v): elems{new T[v.size()]}, sz(v.size()){
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
     }
 
-    vector& vector::operator=(const vector &v) {
-        auto p = new double[v.size()];
+    template<typename T>
+    my_vector<T>& my_vector<T>::operator=(const my_vector<T> &v) {
+        auto p = new T[v.size()];
         sz = v.size();
         if(elems!= nullptr) delete[] elems;
         elems = p;
@@ -33,12 +37,14 @@ namespace containers {
         return *this;
     }
 
-    vector::vector(vector &&v):elems{v.elems}, sz{v.size()} {
+    template<typename T>
+    my_vector<T>::my_vector(my_vector<T> &&v):elems{v.elems}, sz{v.size()} {
         v.elems = nullptr;
         v.sz = 0;
     }
 
-    vector& vector::operator=(vector&& v) {
+    template<typename T>
+    my_vector<T>& my_vector<T>::operator=(my_vector<T>&& v) {
         elems = v.elems;
         sz = v.size();
         v.elems = nullptr;
@@ -46,26 +52,28 @@ namespace containers {
         return *this;
     }
 
-    vector::~vector() {
+    template<typename T>
+    my_vector<T>::~my_vector() {
         delete[] elems;
     }
 
-    double& vector::operator[](int index) const{
+    template<typename T>
+    T& my_vector<T>::operator[](int index) const{
         if(index >= sz) throw std::out_of_range("index out of range");
         return elems[index];
     }
-    int vector::size() const {return sz;}
+
+    template<typename T>
+    int my_vector<T>::size() const {return sz;}
 
 
-    void vector::print() const {
+    template<typename T>
+    void my_vector<T>::print() const {
         for(int i = 0; i < sz; ++i){
             std::cout << elems[i] << " ";
         }
         std::cout << std::endl;
     }
-
-
-
-
-
+    template class my_vector<double>;
 }
+

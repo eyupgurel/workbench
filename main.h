@@ -14,13 +14,15 @@
 
 using namespace algorithms;
 using namespace containers;
-using vector = containers::vector;
+
 
 void test_merge_sort();
 void move_hanoi_towers();
-vector square_vector(vector& v);
+template<typename T>
+my_vector<T> square_vector(my_vector<T>& v);
 void test_vector();
-void test_container(container& c);
+template<typename T>
+void test_container(container<T>& c);
 
 
 #endif //WORKBENCH_MAIN_H

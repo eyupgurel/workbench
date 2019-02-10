@@ -9,13 +9,14 @@
 #include "vector.h"
 
 namespace containers{
-    class vector_container: public container{
-        vector v;
+    template<typename T>
+    class vector_container: public container<T>{
+        my_vector<T> v;
     public:
         vector_container(int sz);
-        vector_container(std::initializer_list<double> list);
+        vector_container(std::initializer_list<T> list);
         ~vector_container();
-        double& operator[](int i);
+        T& operator[](int i);
         int size() const;
     };
 }

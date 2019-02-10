@@ -10,9 +10,10 @@
 
 
 namespace containers{
+    template<typename T>
     class container{
     public:
-        virtual double& operator[](int i) = 0;
+        virtual T& operator[](int i) = 0;
         virtual int size() const = 0;
         virtual ~container() = default;
     };

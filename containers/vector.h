@@ -11,23 +11,23 @@
 
 
 namespace containers {
-
-    class vector {
+template <typename T>
+    class my_vector {
     public:
-        vector();
-        explicit vector(int size);
-        vector(std::initializer_list<double> list);
-        vector(const vector& v);
-        vector& operator=(const vector& v);
-        vector(vector&& v);
-        vector& operator=(vector&& v);
-        ~vector();
-        double& operator[](int index) const;
+        my_vector();
+        explicit my_vector(int size);
+        my_vector(std::initializer_list<T> list);
+        my_vector(const my_vector<T>& v);
+        my_vector<T>& operator=(const my_vector<T>& v);
+        my_vector(my_vector<T>&& v);
+        my_vector<T>& operator=(my_vector<T>&& v);
+        ~my_vector();
+        T& operator[](int index) const;
         int size() const;
         void print() const;
         //void push_back(const double new_elem);
     private:
-        double *elems;
+        T *elems;
         int sz;
     };
 
