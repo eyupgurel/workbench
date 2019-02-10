@@ -19,7 +19,7 @@ using namespace containers;
 void test_merge_sort();
 void move_hanoi_towers();
 template<typename T>
-my_vector<T> square_vector(my_vector<T>& v);
+vector<T> square_vector(vector<T>& v);
 void test_vector();
 template<typename T>
 void test_container(container<T>& c);

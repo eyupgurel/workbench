@@ -24,8 +24,8 @@ void test_container(container<T>& c){
     }
 }
 template<typename T>
-my_vector<T> square_vector(my_vector<T>& v){
-    auto sv = my_vector<T>(v.size());
+vector<T> square_vector(vector<T>& v){
+    auto sv = vector<T>(v.size());
     for(auto i = 0; i < v.size(); i++){
         sv[i] = v[i] * v[i];
     }
@@ -35,7 +35,7 @@ my_vector<T> square_vector(my_vector<T>& v){
 
 void test_vector(){
 
-    auto v = my_vector<double>(5);
+    auto v = vector<double>(5);
     v[0] = 1.7;
     v[1] = 3.14;
     v[2] = 2.74;
@@ -43,13 +43,13 @@ void test_vector(){
     v[4] = 0.102;
 
     {
-        auto v2 = my_vector<double>(3);
+        auto v2 = vector<double>(3);
         v2[0] = 1.7;
         v2[1] = 3.14;
         v2[2] = 2.74;
     }
 
-    auto v8 = my_vector<double>({4.32,43.23,67.4,4.22,9.85,23.44,43.23,44.43});
+    auto v8 = vector<double>({4.32,43.23,67.4,4.22,9.85,23.44,43.23,44.43});
 
     v8.print();
 
@@ -57,14 +57,14 @@ void test_vector(){
 
     v8_copy.print();
 
-    my_vector<double> v8_new;
+    vector<double> v8_new;
     v8_new.print();
 
-    my_vector<double> v9_new = v8_new = square_vector(v8);
+    vector<double> v9_new = v8_new = square_vector(v8);
 
     v9_new.print();
 
-    my_vector<double> v12 = square_vector(v8);
+    vector<double> v12 = square_vector(v8);
 
 
 
@@ -72,12 +72,12 @@ void test_vector(){
 
 
 
-    my_vector<double> v5 = {4.32,43.23,67.4,4.22,9.85};
+    vector<double> v5 = {4.32,43.23,67.4,4.22,9.85};
 
 
 
 
-    my_vector<double> v6{4.3200000000000000,43.23,67.4,4.22,9.85, 1.1};
+    vector<double> v6{4.3200000000000000,43.23,67.4,4.22,9.85, 1.1};
 
 
 

@@ -12,16 +12,16 @@
 
 namespace containers {
 template <typename T>
-    class my_vector {
+    class vector {
     public:
-        my_vector();
-        explicit my_vector(int size);
-        my_vector(std::initializer_list<T> list);
-        my_vector(const my_vector<T>& v);
-        my_vector<T>& operator=(const my_vector<T>& v);
-        my_vector(my_vector<T>&& v);
-        my_vector<T>& operator=(my_vector<T>&& v);
-        ~my_vector();
+        vector();
+        explicit vector(int size);
+        vector(std::initializer_list<T> list);
+        vector(const vector<T>& v);
+        vector<T>& operator=(const vector<T>& v);
+        vector(vector<T>&& v);
+        vector<T>& operator=(vector<T>&& v);
+        ~vector();
         T& operator[](int index) const;
         int size() const;
         void print() const;

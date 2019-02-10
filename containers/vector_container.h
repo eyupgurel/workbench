@@ -11,7 +11,7 @@
 namespace containers{
     template<typename T>
     class vector_container: public container<T>{
-        my_vector<T> v;
+        vector<T> v;
     public:
         vector_container(int sz);
         vector_container(std::initializer_list<T> list);

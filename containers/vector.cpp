@@ -7,27 +7,27 @@
 
 namespace containers {
     template<typename T>
-    my_vector<T>::my_vector():elems{nullptr},sz{0} {}
+    vector<T>::vector():elems{nullptr},sz{0} {}
 
     template<typename T>
-    my_vector<T>::my_vector(int size): elems{new T[size]}, sz{size} {
+    vector<T>::vector(int size): elems{new T[size]}, sz{size} {
     }
 
     template<typename T>
-    my_vector<T>::my_vector(std::initializer_list<T> list):
+    vector<T>::vector(std::initializer_list<T> list):
                     elems{new T[list.size()]},
                     sz{static_cast<int>(list.size())} {
         std::copy(list.begin(), list.end(),elems);
     }
 
     template<typename T>
-    my_vector<T>::my_vector(const my_vector<T>& v): elems{new T[v.size()]}, sz(v.size()){
+    vector<T>::vector(const vector<T>& v): elems{new T[v.size()]}, sz(v.size()){
         for(auto i = 0; i < sz; i++)
             elems[i] = v[i];
     }
 
     template<typename T>
-    my_vector<T>& my_vector<T>::operator=(const my_vector<T> &v) {
+    vector<T>& vector<T>::operator=(const vector<T> &v) {
         auto p = new T[v.size()];
         sz = v.size();
         if(elems!= nullptr) delete[] elems;
@@ -38,13 +38,13 @@ namespace containers {
     }
 
     template<typename T>
-    my_vector<T>::my_vector(my_vector<T> &&v):elems{v.elems}, sz{v.size()} {
+    vector<T>::vector(vector<T> &&v):elems{v.elems}, sz{v.size()} {
         v.elems = nullptr;
         v.sz = 0;
     }
 
     template<typename T>
-    my_vector<T>& my_vector<T>::operator=(my_vector<T>&& v) {
+    vector<T>& vector<T>::operator=(vector<T>&& v) {
         elems = v.elems;
         sz = v.size();
         v.elems = nullptr;
@@ -53,27 +53,27 @@ namespace containers {
     }
 
     template<typename T>
-    my_vector<T>::~my_vector() {
+    vector<T>::~vector() {
         delete[] elems;
     }
 
     template<typename T>
-    T& my_vector<T>::operator[](int index) const{
+    T& vector<T>::operator[](int index) const{
         if(index >= sz) throw std::out_of_range("index out of range");
         return elems[index];
     }
 
     template<typename T>
-    int my_vector<T>::size() const {return sz;}
+    int vector<T>::size() const {return sz;}
 
 
     template<typename T>
-    void my_vector<T>::print() const {
+    void vector<T>::print() const {
         for(int i = 0; i < sz; ++i){
             std::cout << elems[i] << " ";
         }
         std::cout << std::endl;
     }
-    template class my_vector<double>;
+    template class vector<double>;
 }
 
