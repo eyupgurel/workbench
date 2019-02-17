@@ -1,0 +1,929 @@
+
+sudo chmod -R ugo+rw /run/media/cyrus/8cb7e0fa-9117-4f51-a8e0-d70186c46f58/disk-image
+
+____________________________ Dagger 2 __________________________________________
+https://guides.codepath.com/android/dependency-injection-with-dagger-2
+
+_____________________________ Dagger 2 ________________________________________
+__________________ Rx Java ________________________________________________________
+
+https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+
+https://blog.mindorks.com/rxjava-anatomy-what-is-rxjava-how-rxjava-is-designed-and-how-rxjava-works-d357b3aca586
+
+505 758 32 25
+__________________ Rx Java ________________________________________________________
+
+______________________ Git Continuous Integration Protocol _____________________
+
+git checkout master (for start up we are on the master branch)
+git checkout -b dev (create a dev branch on which we will develop our app)
+//code and run tests on development computer
+git commit -am 'feature xxx developed!' (tests are successful lets commit our changes)
+
+git checkout master (development is done and local tests are successful but we have to do
+                    the integration continuously since we want to know whether our development
+                    has interferences with concurrent development undertook by our team members.
+                    We go to the merge branch to start the integration process)
+
+git fetch origin (fetch origin to sync it with remote developments what others
+                  have committed should be in the final merge tree to be tested)
+git merge origin/master (after fetch origin is up to date with the remote but
+                        our master branch is not so do the merge to make it
+                        happen)
+
+git branch -d merge (remove the merge branch to discard any
+                     previous merge state left from previous integrations)
+
+git checkout -b merge (create a fresh merge branch from master branch
+                      our master branch is up to date and ready our merge branch
+                      freshly emanates from the master branch and a clone it for now.
+                      Merge branch is the branch where we will merge all of our
+                      development. On teamcity there should be a build configuration
+                      listening to the merge branch which will be triggered whenever
+                      we push on merge)
+
+git merge dev (incorporate dev commits resolve any conflict if necessary)
+
+git push -u origin :merge (remove remote merge branch)
+git push -u origin merge (create remote merge branch. The tests should commence now)
+
+//if the build and test processes succeeds
+git checkout master (go to the master branch to finalize continuous integration)
+git merge merge (everything is ok! Merge the dev branch with the master)
+git push -u origin master (this is the final step we update remote master final
+                          test+build sequence will be triggered on teamcity to
+                          verify everthing is ok on master branch)
+git checkout dev (go to the dev branch to merge it with master so that everything
+                  is up to date on that branch)
+git merge merge
+
+git push -u origin dev (update remote dev to finalize the whole process)
+
+
+_____________________ Git Continuous Integration Protocol_______________________
+
+
+docker container run -d --name tmca --privileged -v ~/Workspace/TeamCity/agent/:/data/teamcity_agent/conf \
+--device /dev/bus/usb:/dev/bus/usb --network sun \
+-e SERVER_URL=http://tmcs:8111 \
+-e DOCKER_IN_DOCKER=start \
+-e MYSQL_URI=mysql://root:erhu@tmctdb:3306/FantasyLeague-Test \
+-e JWT_SECRET=463kEEgPPQ0493230TSTupQEGHTsZXTT \
+-e NODE_ENV=test \
+-e PORT=3333 \
+-e DOCKER_IN_DOCKER=start \
+eyupgurel/teamcity-android-agent:2017.2.2 bash /run-services.sh
+
+
+
+xhost +
+docker container run -d --name android-emulator --privileged -e DISPLAY=$DISPLAY \
+-v /tmp/.X11-unix:/tmp/.X11-unix -v /usr/lib:/usr/lib \
+pinfake/android-emulator-x11
+
+
+
+
+To install:
+- Google APIs Intel x86 Atom System Image (system-images;android-27;google_apis;x86)
+Preparing "Install Google APIs Intel x86 Atom System Image (revision: 4)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis/x86-27_r04.zip
+"Install Google APIs Intel x86 Atom System Image (revision: 4)" ready.
+Installing Google APIs Intel x86 Atom System Image in /home/cyrus/Android/Sdk/system-images/android-27/google_apis/x86
+"Install Google APIs Intel x86 Atom System Image (revision: 4)" complete.
+"Install Google APIs Intel x86 Atom System Image (revision: 4)" finished.
+
+Pixel 2 XL API 27
+
+
+
+https://github.com/thedrhax-dockerfiles/android-avd/blob/master/container/entrypoint.sh
+
+
+~/Android/Sdk/tools/emulator -avd Pixel_XL_API_26 -netdelay none -netspeed full
+~/Android/Sdk/tools/emulator -list-avds
+~/Android/Sdk/tools/bin/sdkmanager --list
+adb shell am instrument -w com.example.android.testing.notes/android.support.test.runner.AndroidJUnitRunner
+
+./gradlew app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.example.android.testing.notes.notes.NotesScreenTest
+
+./gradlew  app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.annotation=com.example.android.testing
+
+./gradlew  app:connectedAndroidTest -Pandroid.testInstrumentationRunnerArguments.annotation=com.alienstar.cyrus.advancedandroid
+
+- Android instrumented test build
+./gradlew assembleDebugAndroidTest
+
+
+____________________Teamcity __________________________________
+Enable teamcity services
+sudo systemctl enable teamcity-agent
+sudo systemctl enable teamcity-server
+sudo systemctl start teamcity-agent
+sudo systemctl start teamcity-server
+
+admin USER
+user name: su pwd: 113aRaGiL101
+
+videos:
+https://www.youtube.com/watch?v=MmGDQkgknfY&t=2s
+
+#installing teamcity on fedora
+wget https://download.jetbrains.com/teamcity/TeamCity-2017.2.2.tar.gz
+tar xfz ./TeamCity-2017.2.2.tar.gz
+./TeamCity/bin/runAll.sh start
+
+#install MySQL (https://www.if-not-true-then-false.com/2010/install-mysql-on-fedora-centos-red-hat-rhel/)
+su -
+dnf install https://dev.mysql.com/get/mysql57-community-release-fc27-10.noarch.rpm
+dnf install mysql-community-server
+systemctl start mysqld.service
+systemctl enable mysqld.service
+grep 'A temporary password is generated for root@localhost' /var/log/mysqld.log |tail -1
+
+/usr/bin/mysql_secure_installation
+mysql -u root -p (user: root@localhost  pwd: Ad*PZabRE.d6jjc*=)
+CREATE DATABASE history;
+CREATE USER 'cyrus'@'46.196.76.132' IDENTIFIED BY '113Qp.k=0TPR';
+GRANT ALL ON cyrus.* TO 'webdb_user'@'46.196.76.132';
+FLUSH PRIVILEGES;
+
+admin USER
+user name: su pwd: 113aRaGiL101109aYmUnCu107
+
+TeamCity via Docker
+docker container run -it -e SERVER_URL="http://localhost:8111/" -v /opt/teamcity/buildAgent/conf:/data/teamcity_agent/conf --network host jetbrains/teamcity-agent
+https://github.com/mingchen/docker-android-build-box/blob/master/Dockerfile
+
+
+https://www.slideshare.net/pawegio/building-ci-pipeline-based-on-teamcity-docker-in-android-team
+export SERVER_URL=http://<TEAMCITY_SERVER_URL>:8111
+docker build -t teamcity-android-agent .
+docker-compose up teamcity-server teamcity-agent
+
+Teamcity Docker Postgresql
+http://cloudinvent.com/blog/setup-teamcity-postgresql-with-official-docker-images/
+__________________TeamCity__________________________________
+
+__________________________Gradle______________________________
+
+https://www.youtube.com/watch?v=Xw6CKEsWvxo
+
+___________________________Gradle_______________________
+
+________________________________ Bengisu ________________________________________________________
+
+https://www.dhgate.com/store/product/wholesale-bjd-sd-bb-girl-doll-jointed-high/406120087.html
+
+_______________________________ gradle __________________________________________________________________________
+
+if $JAVA_HOME i
+s set to be different from android-studio JDK use:
+
+gradle build -Dorg.gradle.java.home=/opt/android-studio/jre
+
+______________________________ gradle ______________________________________________________________________________
+
+
+
+
+____________________________ linux __________________________________________________
+
+To search content within a folder:
+grep -rnw /home/cyrus/TeamCity/data/ -e 'tmcs'
+
+
+
+
+
+
+
+
+_____________________________linux___________________________________________
+
+
+
+
+
+
+
+
+___ wget command to install Oracle JAVA JDK from stupid oracle website for centos and ubuntu ___
+
+wget --no-cookies \
+--no-check-certificate \
+--header "Cookie: oraclelicense=accept-securebackup-cookie" \
+"http://download.oracle.com/otn-pub/java/jdk/8u162-b12/0da788060d494f5095bf8624735fa2f1/jdk-8u162-linux-x64.rpm" \
+-O jdk-8u162-linux-x64.rpm
+
+wget "https://www.jetbrains.com/teamcity/download/download-thanks.html?platform=linux" -O teamcity_server.tar.gz
+
+see => https://gist.github.com/scottvrosenthal/11187116
+___ wget command to install Oracle JAVA JDK from stupid oracle website for centos and ubuntu ___
+
+______________ Docker swarm lab __________________________________________
+
+[root@neptune ~]# docker swarm init --advertise-addr 165.227.175.29
+Swarm initialized: current node (rc89r7j6v5rnnwntg2l67p58h) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-2m7orphuff06y4diz7fbqown97x3kvh9ezwuky2rwdtn3zw0ct-cg4qtgvrikv4mqo3aogrpzf7q 165.227.175.29:2377
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+
+Above token command line need not in fact to be memorized. Token can be obtained:
+
+docker swarm join-token manager
+
+
+
+______________ Docker swarm lab __________________________________________
+
+docker run --name dump -p 3306:3306 -e MYSQL_ROOT_PASSWORD=erhu -d mysql
+
+docker exec -i dump mysql -root -erhu < ./d.sql
+
+https://github.com/bretfisher/udemy-docker-mastery
+
+
+_______________________________ TTY ________________________________________
+http://www.linusakesson.net/programming/tty/index.php
+_______________________________ TTY ________________________________________
+
+___________________________ DOCKER __________________________________________________
+-- install docker
+su -
+pacman -S docker
+
+-- start docker deamon at start up
+systemctl enable docker
+systemctl start docker
+-- check everything is ok
+docker version
+
+-- add existing user to docker group to thwart writing sudo before each docker command
+gpasswd -a cyrus docker
+-- check docker command works under user
+exit
+docker version
+
+-- install docker-machine
+su -
+pacman -S docker-machine
+-- check docker-machine
+docker-machine version
+
+-- install docker-compose
+pacman -S docker-compose
+-- check docker-compose
+docker-compose version
+
+docker commands
+
+docker container run --name deephive --detach --env MYSQL_ROOT_PASSWORD=erhu --network neptune centos/mysql-57-centos7:latest
+docker exec -i deephive centos/mysql-57-centos7:latest -cyrus -erhu FantasyLeague-Test < /home/cyrus/dump/SchemaFantasyLeague.sql
+
+mysql -u cyrus erhu FantasyLeague-Test < /home/cyrus/dump/SchemaFantasyLeague.sql
+
+docker exec -i deephive mysql -u cyrus erhu FantasyLeague-Test < /home/cyrus/d/d.sql
+
+
+___________________________ DOCKER __________________________________________________
+
+__________________________________________________________________________-
+add a user to an existing group
+gpasswd -a cyrus docker
+________________________________________________________________________________________________
+JENKINS
+pacaur -S jenkins
+systemctl enable jenkins
+systemctl start jenkins
+http://localhost:8090/
+administrator pwd:924a5f865f63419f9c886456e1f293ba
+
+___________________________________________________________________________________________________
+pwds
+109aYmUnCu107
+109aYmUnCu107113aRaGiL101
+
+109aymuncu107
+
+109andalin97
+
+
+
+113aRaGiL101
+109aNdAlİnA97
+____________________________________________________________________________________________
+
+https://www.reddit.com/r/archlinux/comments/6h6drg/android_studio_emulator_wont_start/
+
+
+__________________________________________________________________________________________________
+
+
+
+bguney@isyatirim.com.tr
+
+
+__________________________________________________________________________________________________
+
+https://finance.google.com/finance/portfolio?action=view&pid=2&ei=oGY5Wqi5LtOQswHv2rTgBQ
+____________________________________________________________________________________
+Unreal youtube videos
+https://www.youtube.com/watch?v=vCmxwyw6lkY
+https://www.youtube.com/watch?v=LZ7pTPOuxwc
+
+__________________________________________________________________________________
+
+java -jar /home/cyrus/Downloads/pepk.jar --keystore=/home/cyrus/Android/stt_key.jks --alias=stt_key0 --output=/home/cyrus/Android/encrypted-stt_key.jks --encryptionkey=eb10fe8f7c7c9df715022017b00c6471f8ba8170b13049a11e6c09ffe3056a104a3bbe4ac5a955f4ba4fe93fc8cef27558a3eb9d2a529a2092761fb833b656cd48b9de6a
+keytool -export -rfc -keystore /home/cyrus/Android/stt_key.jks -alias stt_key0 -file /home/cyrus/Android/upload_stt_key_certificate.pem
+
+stt_key.jks pwd: pC@12TK@34
+
+slack eyupgurel@gmail.com pwd: 109andalin97
+
+
+______________________________________________________________________________________________________________
+
+https://www.quora.com/How-can-I-prepare-for-a-tough-coding-interview-in-one-week
+
+______________________________________________________________________________________________________________
+
+Expandable list view disable collapse
+
+liveScoreExpandableListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+    @Override
+    public boolean onGroupClick(ExpandableListView parent, View v,
+                                int groupPosition, long id) {
+        return true; // This way the expander cannot be collapsed
+    }
+});
+
+Expandable list view open as expanded
+
+@Override
+public View getGroupView(int listPosition, boolean isExpanded,
+                         View convertView, ViewGroup parent) {
+
+                         ExpandableListView mExpandableListView = (ExpandableListView) parent;
+                         mExpandableListView.expandGroup(listPosition);
+
+
+return  convertView;
+}
+
+_________________________________ git  __________________________________________________________________
+Remove directory from git and local
+      git rm -r one-of-the-directories
+      git commit -m "Remove unwanted directory"
+      git push origin <your-git-branch> (typically 'master', but not always)
+      In the case you want to remove this directory from git but not delete it entirely from the filesystem (local)
+      git rm -r --cached myFolder
+__________________________________ git ___________________________________________________________________
+Facebook key hash
+a4MudL9TXy8EgMrgPcjChdqLbSU=
+
+_____________________________________________________________________________________________________________________________
+webstorm email: gurelo@itu.edu.tr pwd: Vat69SibelGit
+
+
+_______________________________________________________________________________________________________________________________________
+Eski saxocu Özgür Hatipoğlu 505 791 40 47
+________________________________________________________________________________________________________________________________________
+Arch linux installation
+
+1) Prepare partition & Install Arch Linux => https://www.ostechnix.com/install-arch-linux-latest-version/
+2) Arch Linux post installation => https://www.ostechnix.com/arch-linux-2016-post-installation/
+3) Install Deepin Desktop Environment in Arch Linux => https://www.ostechnix.com/install-deepin-desktop-environment-arch-linux/
+4) Install Nvidia Graphics Card driver
+   sudo pacman -S nvidia nvidia-libgl (https://devtalk.nvidia.com/default/topic/981014/anyone-know-how-to-get-a-gtx-1070-running-on-arch-linux-/)
+5) Install Yaourt using a custom repository => https://www.ostechnix.com/install-yaourt-arch-linux/
+6) yaourt -S google-chrome
+7) yaourt -S webstorm
+8) Install zip program => http://www.archlinuxuser.com/2013/01/how-to-extract-archives-targz-zip-rar.html
+9) yaourt -S android-studio
+10) Oracle Virtualbox installation => http://www.2daygeek.com/install-upgrade-oracle-virtualbox-on-arch-linux-manjaro/
+11) MariaDB(MySQL) installation => https://www.youtube.com/watch?v=j9IgAeWTcZw
+    sudo pacman -S mariadb
+    sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+    sudo systemctl enable mariadb.service
+    sudo systemctl start mariadb.service
+    mysql_secure_installation
+    reboot
+    mysql -u root -p
+    CREATE USER 'cyrus'@'localhost' IDENTIFIED BY 'erhu';
+    GRANT ALL PRIVILEGES ON *.* TO 'cyrus'@'localhost';
+    FLUSH PRIVILEGES;
+
+12) Wifi installation https://www.youtube.com/watch?v=MAi9DurTRQc
+  sudo systemctl disable dhcpcd@enp3s0.service
+  pacman -S networkmanager network-manager-applet
+  sudo systemctl enable NetworkManager.service
+  sudo systemctl disable netctl-auto@wlp2s0.service
+  reboot
+  Alienstar 113aRaGiL101109aYmUnCu107
+            109aYmUnCu107113aRaGiL101
+
+
+13) yaourt -S openssh (for generating ssh keys) (later to get ssh key: cat ~/.ssh/id_rsa.pub)
+
+14) install Dark Reader chrome add on
+
+15) install pacaur https://www.ostechnix.com/install-pacaur-arch-linux/
+    sudo pacman -S expac yajl --noconfirm
+    mkdir ~/tmp
+    cd ~/tmp/
+    gpg --recv-keys --keyserver hkp://pgp.mit.edu 1EB2638FF56C0C53
+    curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=cower
+    makepkg -i PKGBUILD --noconfirm
+    curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
+    makepkg -i PKGBUILD --noconfirm
+
+15-a) For pacaur cache purge => pacaur -Scc
+
+
+
+16) install transmission => sudo pacman -S transmission-gtk
+
+17) addition of gnome interface on top of deepin interface: (https://www.cio.com/article/3095453/linux/how-to-install-arch-linux-on-your-pc.html)
+    -- install the necessary packages
+    pacman -S gnome gnome-extra
+    pacman -S iw wpa_supplicant dialog network-manager-applet networkmanager
+    pacman -S xf86-input-synaptics
+    pacman -S bash-completion
+    -- deactivate lightdm
+    vi /etc/lightdm/lightdm.conf
+    Find the following line and comment it out
+    greeter-session=lightdm-deepin-greeter => #greeter-session=lightdm-deepin-greeter
+    systemctl disable lightdm.service
+    -- now all we need to do is to tell "systemd" so that Gnome Display Manager and Network start at the system boot:
+    systemctl enable NetworkManager.service
+    systemctl enable gdm.service
+    reboot
+
+https://www.cio.com/article/3095453/linux/how-to-install-arch-linux-on-your-pc.html
+
+Useful Arch links
+
+https://www.quora.com/How-can-I-reinstall-the-boot-loader-in-Arch-Linux
+_______________________________________________________________________________________________________
+
+
+Increasing the amount of inotify watchers
+
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
+
+__________________________________________________________________________________________________________________________________
+Android grid view
+https://www.raywenderlich.com/127544/android-gridview-getting-started
+https://coderwall.com/p/fmavhg/android-cursoradapter-with-custom-layout-and-how-to-use-it
+
+________________________________________________________________________________________________________________________________
+Electrum seed: awkward vote summer moment receive simple brain armor rural solve rack emerge  pwd 109zmqQPeskquesqTeperJoh101
+General pwd 109zmRpbbaqQPeskquesqTeperJoh101
+________________________________________________________________________________
+mobileague tracking id: UA-107223202-1
+md5sum ./mobileague-all.tar.xz
+aws stt pwd: 14de5bc92ef4d9c46fa87200155bdfa1
+___________________________________________________________________________________________
+Upgrading angular cli globally
+su -
+npm uninstall -g angular-cli
+npm install -g @angular/cli@latest
+
+Upgrading angular cli locally
+
+rm -rf node_modules
+npm uninstall --save-dev angular-cli
+npm install --save-dev @angular/cli@latest
+npm install (for node_modules restoration)
+________________________________________________________________________________________________________________________________
+Installing chinese and japanese characters on arch linux
+For a list of enabled locales, run: $ locale -a
+open /etc/locale.gen  uncomment zh* UTF-8 and ja* UTF-8
+Save the file, and generate the locale: # locale-gen (For more information https://wiki.archlinux.org/index.php/locale)
+
+ install noto fonts bundles
+ sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+ yaourt -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
+
+ __________________________________________________________________________________________________________________
+
+firebase mobileague
+
+Web client ID: 246890859781-m6mioq3mpgduuqblj8mga9g1piftgqtf.apps.googleusercontent.com
+Web client secret: ZwRMFFNHIydn-dHzABaW0PvY
+
+
+https://console.developers.google.com/apis/dashboard?project=firebase-mobileague&duration=PT1H
+_______________________________________________________________________________________________________________________________________
+sudo keytool -exportcert -keystore /home/cyrus/Android/stt_key.jks -list -v
+sudo keytool -exportcert -keystore /home/cyrus/Android/keystore.jks -list -v  (pwd: 113aRaGiL101) =>
+Certificate fingerprints:
+	 MD5:  CA:86:B0:34:82:C1:19:0E:AA:75:4E:3A:5C:91:C5:66
+	 SHA1: 5B:E9:F0:88:D2:AB:60:EB:13:C0:03:08:4B:AF:7A:5E:BF:EA:28:71
+	 SHA256: 1D:E5:DB:2E:DD:D7:BF:C2:E5:53:54:85:11:B2:69:7E:01:BD:E1:72:11:58:E1:ED:1C:08:07:C6:7A:75:BA:0A
+______________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+sudo keytool -exportcert -keystore ~/.android/debug.keystore -list -v (pwd: Android or android) =>
+Certificate fingerprints:
+	 MD5:  0D:33:2C:91:59:4D:7B:E9:92:06:7D:9A:17:23:FC:02
+	 SHA1: 6B:83:2E:74:BF:53:5F:2F:04:80:CA:E0:3D:C8:C2:85:DA:8B:6D:25
+	 SHA256: 15:EF:4E:49:0D:F9:C1:CC:51:80:31:CD:26:F3:22:9E:23:CB:1D:42:C6:C5:F9:9E:54:95:72:3C:E4:A2:EA:10
+____________________________________________________________________________________________________________
+
+
+
+
+
+https://stackoverflow.com/questions/45183691/google-sign-in-error-statusstatuscode-developer-error-resolution-null-from-sa#
+
+
+__________________________________________________________________________________________
+fantasy league node socket communication
+
+socket.emit('command', {type:'configure', params: {deviceId:'3b96261963ce5f20',configuration:{log:true, logType: 0}}});
+
+socket.emit('command', {type:'configure', params: {deviceId:'3f10730631f88d0c',configuration:{log:true, logType: 0}}});
+socket.emit('command', {type:'configure', params: {deviceId:'3b96261963ce5f20',configuration:{log:true, logType: 0}}});
+
+socket.emit('command', {type:'configure', params: {deviceId:'af01880d54059b89',configuration:{log:true, logType: 0}}});
+
+af01880d54059b89
+
+4d09b05fb14d1a86
+3b96261963ce5f20
+
+8c7b4bb1fa38ff9b
+af01880d54059b89
+
+109aYmUnCu107113aRaGiL101
+
+
+socket.emit('command', {type:'revoke', params: {deviceId:'3b96261963ce5f20'}});
+__________________________________________________________________________________________
+
+
+facebook android login:
+https://developers.facebook.com/docs/facebook-login/android
+keytool -exportcert -alias key0 -keystore /home/cyrus/Android/keystore.jks | openssl sha1 -binary | openssl base64
+
+eyupgurel@gmail.com
+113aRaGiL101
+
+google play list app upload
+https://play.google.com/apps/publish/?dev_acc=09825306348836447360#AppListPlace
+____________________________________________________________________
+yaourt change temp directory (for compilation)
+open /etc/yaourtrc
+#TMPDIR="/tmp"
+TMPDIR="/home/cyrus/tmp"
+yaourt --m-arg "--skipchecksums --skippgpcheck" -Sb <package>
+
+_______________________________________________________________________
+STT AWS account
+password: pC@34TK@56
+______________________________________________________________________
+
+
+heroku app
+https://morning-eyrie-23807.herokuapp.com/ | https://git.heroku.com/morning-eyrie-23807.git
+
+{
+  "token" : "eyJhbGciOiJIUzI1NiJ9.MTY.twyQpc-Uz0l13zIpqb7DtAIEoYEov-4OhRjECLInsyQ"
+}
+
+______________ How to install and operate mongo db ______________________________________________________________________
+Download mongodb Linux x64 legacy version from https://www.mongodb.com/
+Extract into the folder you would like to operate
+ren folder name as mongo and create a new directory called mongo-data to store data into
+open terminal in /mongo/bin
+run ./mongod --dbpath ../../mongo-data (after this your mongodb should be up and running)
+open another terminal in /mongo/bin
+run ./mongo
+\u0027
+________________________________________________________________________________________________
+www.0wikipedia.org
+________________________________________________________________________________________________________________________
+Push notification: https://console.firebase.google.com/project/firebase-mobileague/notification
+
+
+
+______________ AWS node connect ____________________________________________________________________________________________________
+/home/cyrus/sc/pk-hive/fantasy-league.pem
+
+mobileague:Frankfurt
+
+sudo ssh -i "/home/cyrus/sc/pk-hive/mobileague-frankfurt.pem" ec2-user@ec2-18-194-177-184.eu-central-1.compute.amazonaws.com
+su pwd 109zaparatuburgutnubeqnidnu97
+
+http://ec2-user@ec2-18-194-177-184.eu-central-1.compute.amazonaws.com:3000
+
+_________ AWS node update ___________________________________________________________________________________________________________
+
+
+cd /home/cyrus/sc/nodejs/fantasyleaguenode
+git add *
+git commit -m '?'
+git push -u origin master
+113aRaGiL101
+
+new amazon linux ssh -i "/home/cyrus/sc/pk-hive/fantasy-league.pem" ec2-user@ec2-35-161-221-238.us-west-2.compute.amazonaws.com
+
+su -
+109zaparatuburgutnubeqnidnu97
+cd /home/fantasy-league/fantasyleaguenode
+git reset --hard HEAD
+git pull
+113aRaGiL101
+forever stopall
+forever start ./bin/www
+
+
+cd /home/fantasy-league-admin/mobileague_admin
+git reset --hard HEAD
+git pull
+113aRaGiL101
+
+
+__________________________ Digital Ocean Swarm Set up __________________________________________________
+sudo ssh -i " ~/.ssh/id_rsa" 165.227.175.29
+
+
+
+
+__________________________ Digital Ocean Swarm Set up __________________________________________________
+
+
+
+
+___________ Red hat linux permanent configuration ________________________________________________________________________________
+su -
+113aRaGiL101
+vi /etc/bashrc
+(press a and activate edit mode and then append lines listed below press CAP LOCK and then ESC Z to save changes.)
+export MYSQL_URI='mysql://root:113aRaGiL101@mysqldb.cvao76ejfbfe.eu-central-1.rds.amazonaws.com:3306/FantasyLeague-Prod' Frankfurt
+
+
+
+
+export JWT_SECRET='ty784TYQmstRROPR2349888dDDLPR'
+export NODE_ENV='production'
+export PORT=3000
+
+export NODE_ENV=test
+export PORT=3333
+export MYSQL_URI=mysql://root:erhu@neptune:3306/FantasyLeague-Test
+export JWT_SECRET=463kEEgPPQ0493230TSTupQEGHTsZXTT
+
+
+reboot
+_____________________________________________________________________________________________________________________________________
+
+AWS red hat linux public dns
+http://ec2-34-211-174-98.us-west-2.compute.amazonaws.com:3000
+
+
+
+kerim sari AWS login e-mail: kerim.sari@mobilentis.com pwd: 113aRaGiL101
+Frankfurt
+Access Key Id = AKIAI4YRSJHYYPIN5G5Q
+Secret Access Key = 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
+Account number = 673912595145
+
+
+
+
+Password for 'https://mobilentis@bitbucket.org':  ⁠⁠⁠pc12tk34
+
+https://mobilentis@bitbucket.org/mobilentissoftware/fantasyleaguenode.git
+
+# How to assign root password to AWS linux
+
+$ sudo su
+
+# passwd root
+
+# passwd –l root
+
+# How to install git to AWS Linux
+sudo yum install git
+
+# To set up Node.js on your Linux instance
+curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
+sudo yum -y install nodejs
+
+
+# To upgrade AWS Linux
+
+yum upgrade -y
+
+Fantasy league android app hash
+jaDBKmNOh7BYPnZ9etIYbhCo1ro=
+
+
+sudo systemctl disable dhcpcd@enp3s0.service
+https://www.youtube.com/watch?v=MAi9DurTRQc
+______________________________________________________________
+Steps required for installing google play services inside
+genymotion
+
+
+    Visit opengapps.org
+    Select x86 as platform
+    Choose the Android version corresponding to your virtual device
+    Select nano as variant
+    Download the zip file
+    Drag & Drop the zip installer in new Genymotion virtual device (2.7.2 and above only)
+    Follow the pop-up instructions
+
+____________________________________________________________________________________
+git fetch origin master
+git reset --hard FETCH_HEAD
+git clean -df
+
+or
+
+git reset --hard HEAD
+git pull
+____________________________________________________________________________________
+adding npm packages for test
+npm install mocha@3.4.2 --save-dev
+npm install expect@1.20.2 --save-dev
+npm install supertest@3.0.0 --save-dev
+__________________________________________________________________________________
+How to configure webstorm registry
+you can open registry with ctrl+shift+A (Actions) -> type 'registry'
+For terminal max lines increase `terminal.buffer.max.lines.count` value
+_________________________________________________________________________
+
+
+_________________________________________________________________________
+v.mParent.mChildren[1].getTag();
+
+___________________________________________________________________
+cleaning up Fantasy-League-Dev for testing Mobile App
+DELETE FROM `FantasyLeague-Dev`.`PeriodicSquadPlayer` WHERE `LineId`>'0';
+DELETE FROM `FantasyLeague-Dev`.`GamerPeriod` WHERE `GamerId`>'0';
+DELETE FROM `FantasyLeague-Dev`.`Squad` WHERE `SquadId`>'0';
+DELETE FROM `FantasyLeague-Dev`.`GamerTeam` WHERE `TeamId` >'0';
+DELETE FROM `FantasyLeague-Dev`.`Gamer` WHERE `GamerId`>'0';
+_________________________________________________________________
+
+Android google sign in doc
+https://developers.google.com/identity/sign-in/android/start-integrating
+
+_________________________________________________________________________
+TwitterToken
+TwitterExpirationDate
+
+__________________________________________________________________
+
+keytool -genkey -v -keystore /home/cyrus/.android/debug.keystore -alias AndroidDebugKey -storepass android -keypass android -keyalg RSA -validity 14000
+
+___________________________________________________________________
+Accounts: Test google account  email: barbasmithbrown@gmail.com pwd:renklitv
+
+
+____________________________________________________________________
+
+7873194
+7875652
+
+
+
+
+____________________________________________________________________________________________
+
+when archlinux does not detect one of the monitors
+su -
+pacman -Rsn nvidia-settings nvidia-utils nvidia
+rm -rf /etc/X11/xconf.org.d
+pacman -Syy nvidia-settings nvidia-utils nvidia
+reboot
+
+Downgrading nvidia package
+
+pacman -U /var/cache/pacman/pkg/nvidia-utils-396.54-1-x86_64.pkg.tar.xz
+pacman -U /var/cache/pacman/pkg/nvidia-settings-396.51-1-x86_64.pkg.tar.xz
+pacman -U /var/cache/pacman/pkg/nvidia-396.54-6-x86_64.pkg.tar.xz
+
+__________________________________________________________________________
+Nvidia settings persistence by xorg.conf
+
+there must be xorg.conf in the folder /etc/X11/xorg.conf.d so check
+su -
+cat /etc/X11/xorg.conf.d/xorg.conf
+
+if nonexistent persist configuration by nvidia-settings tool
+Gnome display settings overrides refresh rate configure refresh rate by this tool accordingly
+
+
+
+
+
+
+
+
+_________________________________________________________________________
+
+
+
+
+IntelliJ inotify issue on ArchLinux
+
+To fix the warning about fs.inotify.max_user_watches the IntelliJ shows, it is necessary to set a value for the fs.inotify.max_user_watches and then apply the change.
+Here are the commands necessary to fix the issue on ArchLinux:
+
+su -
+echo 'fs.inotify.max_user_watches = 524288' >>/usr/lib/sysctl.d/50-default.conf
+sysctl -p --system
+
+
+Anaconda
+
+Please run
+
+	$ source /opt/anaconda/bin/activate root
+	$ source /opt/anaconda/bin/deactivate root
+
+to activate and deactivate the anaconda environment.
+
+
+In case of failed pacman -Syu  and hunspell-en has a conflict
+pacman -Rdd hunspell-en && pacman -Syyu
+
+
+sap hana express:
+
+docker => https://hub.docker.com/_/sap-hana-express-edition/plans/f2dc436a-d851-4c22-a2ba-9de07db7a9ac?tab=instructions
+
+sudo chmod 600 /data/saphanaexpress/conf.json
+sudo chown 12000:79 /data/saphanaexpress/conf.json
+
+
+{
+"master_password" : "HXEHana1",
+"system_user_password" : "37jD4qP9",
+"default_tenant_system_user_password" : "37jD4qP10"
+}
+
+
+sudo docker container run -p 39013:39013 -p 39017:39017 -p 39041-39045:39041-39045 -p 1128-1129:1128-1129 -p 59013-59014:59013-59014 -v /data/saphanaexpress:/hana/mounts \
+--ulimit nofile=1048576:1048576 \
+--sysctl kernel.shmmax=1073741824 \
+--sysctl net.ipv4.ip_local_port_range='40000 60999' \
+--sysctl kernel.shmmni=524288 \
+--sysctl kernel.shmall=8388608 \
+--name saphanaexpress20 \
+store/saplabs/hanaexpress:2.00.033.00.20180925.2 \
+--passwords-url file:///hana/mounts/conf.json \
+--agree-to-sap-license
+
+hana cockpit url: http://172.17.0.2:8000/sap/hana/admin/cockpit
+
+Upgrading Web IDE in HANA Express
+https://blogs.sap.com/2018/03/09/upgrading-web-ide-in-hana-express/
+
+curl -L -b "oraclelicense=a" https://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jre-8u191-linux-x64.rpm -O
+
+HXEHana1
+
+
+
+sudo docker container run -p 39013:39013 -p 39017:39017 -p 39041-39045:39041-39045 -p 1128-1129:1128-1129 -p 59013-59014:59013-59014 -v /data/saphanaexpress:/hana/mounts \
+--ulimit nofile=1048576:1048576 \
+--sysctl kernel.shmmax=1073741824 \
+--sysctl net.ipv4.ip_local_port_range='40000 60999' \
+--sysctl kernel.shmmni=524288 \
+--sysctl kernel.shmall=8388608 \
+--name saphanaexpress20 \
+store/saplabs/hanaexpress:2.00.033.00.20180925.2 \
+--master-password 37jD4qP9 \
+--agree-to-sap-license
+
+write bootable disk image
+sudo dd bs=4M if=/home/egl/Downloads/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190209-Media.iso of=/dev/sdb status=progress oflag=sync
+
+
+https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=JPY&apikey=5OB63R2MCADSLWCI
+
+
+______________________________ Pacman _________________________________________________________________________
+In case of error "error: failed to prepare transaction (invalid or corrupted database)"
+
+sudo pacman -Scc
+sudo pacman-key --refresh-keys
+sudo pacman -Syyu
+______________________________ Pacman _________________________________________________________________________
+
+______________________________ Uncensored wikipedia ___________________________________________________________
+
+https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/
+
+
+______________________________ Uncensored wikipedia ___________________________________________________________
+

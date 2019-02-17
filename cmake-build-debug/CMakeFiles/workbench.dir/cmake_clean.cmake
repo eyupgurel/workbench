@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/containers/vector.cpp.o"
   "CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
   "CMakeFiles/workbench.dir/containers/list_container.cpp.o"
+  "CMakeFiles/workbench.dir/containers/powervector.cpp.o"
+  "CMakeFiles/workbench.dir/containers/stream.cpp.o"
   "workbench.pdb"
   "workbench"
 )

@@ -204,6 +204,60 @@ containers/list_container.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.s
 .PHONY : containers/list_container.cpp.s
 
+containers/powervector.o: containers/powervector.cpp.o
+
+.PHONY : containers/powervector.o
+
+# target to build an object file
+containers/powervector.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/powervector.cpp.o
+.PHONY : containers/powervector.cpp.o
+
+containers/powervector.i: containers/powervector.cpp.i
+
+.PHONY : containers/powervector.i
+
+# target to preprocess a source file
+containers/powervector.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/powervector.cpp.i
+.PHONY : containers/powervector.cpp.i
+
+containers/powervector.s: containers/powervector.cpp.s
+
+.PHONY : containers/powervector.s
+
+# target to generate assembly for a file
+containers/powervector.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/powervector.cpp.s
+.PHONY : containers/powervector.cpp.s
+
+containers/stream.o: containers/stream.cpp.o
+
+.PHONY : containers/stream.o
+
+# target to build an object file
+containers/stream.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/stream.cpp.o
+.PHONY : containers/stream.cpp.o
+
+containers/stream.i: containers/stream.cpp.i
+
+.PHONY : containers/stream.i
+
+# target to preprocess a source file
+containers/stream.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/stream.cpp.i
+.PHONY : containers/stream.cpp.i
+
+containers/stream.s: containers/stream.cpp.s
+
+.PHONY : containers/stream.s
+
+# target to generate assembly for a file
+containers/stream.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/stream.cpp.s
+.PHONY : containers/stream.cpp.s
+
 containers/vector.o: containers/vector.cpp.o
 
 .PHONY : containers/vector.o
@@ -303,6 +357,12 @@ help:
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
+	@echo "... containers/powervector.o"
+	@echo "... containers/powervector.i"
+	@echo "... containers/powervector.s"
+	@echo "... containers/stream.o"
+	@echo "... containers/stream.i"
+	@echo "... containers/stream.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
