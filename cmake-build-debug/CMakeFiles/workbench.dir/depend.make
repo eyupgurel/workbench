@@ -11,12 +11,6 @@ CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/containe
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
 
-CMakeFiles/workbench.dir/containers/powervector.cpp.o: ../containers/powervector.cpp
-CMakeFiles/workbench.dir/containers/powervector.cpp.o: ../containers/powervector.h
-
-CMakeFiles/workbench.dir/containers/stream.cpp.o: ../containers/stream.cpp
-CMakeFiles/workbench.dir/containers/stream.cpp.o: ../containers/stream.h
-
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.cpp
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.h
 
@@ -29,10 +23,13 @@ CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
-CMakeFiles/workbench.dir/main.cpp.o: ../containers/powervector.h
-CMakeFiles/workbench.dir/main.cpp.o: ../containers/stream.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/sortany.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
+CMakeFiles/workbench.dir/main.cpp.o: ../multithread/arithmetic.h
+
+CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o: ../multithread/arithmetic.cpp
+CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o: ../multithread/arithmetic.h
 
