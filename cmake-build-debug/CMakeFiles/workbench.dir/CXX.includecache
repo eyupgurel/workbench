@@ -48,11 +48,19 @@ vector
 list
 -
 
+/home/egl/Documents/sc/C++/workbench/containers/vector.cpp
+vector.h
+/home/egl/Documents/sc/C++/workbench/containers/vector.h
+
 /home/egl/Documents/sc/C++/workbench/containers/vector.h
 stdexcept
 -
 iostream
 -
+
+/home/egl/Documents/sc/C++/workbench/containers/vector_container.cpp
+vector_container.h
+/home/egl/Documents/sc/C++/workbench/containers/vector_container.h
 
 /home/egl/Documents/sc/C++/workbench/containers/vector_container.h
 container.h
@@ -61,6 +69,8 @@ vector.h
 /home/egl/Documents/sc/C++/workbench/containers/vector.h
 
 /home/egl/Documents/sc/C++/workbench/main.cpp
+functional
+-
 main.h
 /home/egl/Documents/sc/C++/workbench/main.h
 
@@ -72,6 +82,10 @@ numeric
 future
 -
 forward_list
+-
+regex
+-
+random
 -
 algorithms/mergesort.h
 /home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h
