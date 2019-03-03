@@ -94,6 +94,9 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/common.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/container.h">
 			<Option target="workbench"/>
 		</Unit>
@@ -103,7 +106,10 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/list_container.h">
 			<Option target="workbench"/>
 		</Unit>
-		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/sortany.h">
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/myarray.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/myarray.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vector.cpp">
@@ -122,12 +128,6 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/main.h">
-			<Option target="workbench"/>
-		</Unit>
-		<Unit filename="/home/egl/Documents/sc/C++/workbench/multithread/arithmetic.cpp">
-			<Option target="workbench"/>
-		</Unit>
-		<Unit filename="/home/egl/Documents/sc/C++/workbench/multithread/arithmetic.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/CMakeLists.txt">

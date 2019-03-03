@@ -135,18 +135,18 @@ CMakeFiles/workbench.dir/containers/list_container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/list_container.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/list_container.cpp -o CMakeFiles/workbench.dir/containers/list_container.cpp.s
 
-CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o: CMakeFiles/workbench.dir/flags.make
-CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o: ../multithread/arithmetic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o -c /home/egl/Documents/sc/C++/workbench/multithread/arithmetic.cpp
+CMakeFiles/workbench.dir/containers/myarray.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../containers/myarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/workbench.dir/containers/myarray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/myarray.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/myarray.cpp
 
-CMakeFiles/workbench.dir/multithread/arithmetic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/multithread/arithmetic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/multithread/arithmetic.cpp > CMakeFiles/workbench.dir/multithread/arithmetic.cpp.i
+CMakeFiles/workbench.dir/containers/myarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/myarray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/myarray.cpp > CMakeFiles/workbench.dir/containers/myarray.cpp.i
 
-CMakeFiles/workbench.dir/multithread/arithmetic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/multithread/arithmetic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/multithread/arithmetic.cpp -o CMakeFiles/workbench.dir/multithread/arithmetic.cpp.s
+CMakeFiles/workbench.dir/containers/myarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/myarray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/myarray.cpp -o CMakeFiles/workbench.dir/containers/myarray.cpp.s
 
 # Object files for target workbench
 workbench_OBJECTS = \
@@ -156,7 +156,7 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/containers/vector.cpp.o" \
 "CMakeFiles/workbench.dir/containers/vector_container.cpp.o" \
 "CMakeFiles/workbench.dir/containers/list_container.cpp.o" \
-"CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o"
+"CMakeFiles/workbench.dir/containers/myarray.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -167,7 +167,7 @@ workbench: CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/vector.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/vector_container.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/list_container.cpp.o
-workbench: CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o
+workbench: CMakeFiles/workbench.dir/containers/myarray.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable workbench"

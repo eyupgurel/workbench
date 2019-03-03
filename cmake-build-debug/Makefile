@@ -204,6 +204,33 @@ containers/list_container.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.s
 .PHONY : containers/list_container.cpp.s
 
+containers/myarray.o: containers/myarray.cpp.o
+
+.PHONY : containers/myarray.o
+
+# target to build an object file
+containers/myarray.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/myarray.cpp.o
+.PHONY : containers/myarray.cpp.o
+
+containers/myarray.i: containers/myarray.cpp.i
+
+.PHONY : containers/myarray.i
+
+# target to preprocess a source file
+containers/myarray.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/myarray.cpp.i
+.PHONY : containers/myarray.cpp.i
+
+containers/myarray.s: containers/myarray.cpp.s
+
+.PHONY : containers/myarray.s
+
+# target to generate assembly for a file
+containers/myarray.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/myarray.cpp.s
+.PHONY : containers/myarray.cpp.s
+
 containers/vector.o: containers/vector.cpp.o
 
 .PHONY : containers/vector.o
@@ -285,33 +312,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-multithread/arithmetic.o: multithread/arithmetic.cpp.o
-
-.PHONY : multithread/arithmetic.o
-
-# target to build an object file
-multithread/arithmetic.cpp.o:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/multithread/arithmetic.cpp.o
-.PHONY : multithread/arithmetic.cpp.o
-
-multithread/arithmetic.i: multithread/arithmetic.cpp.i
-
-.PHONY : multithread/arithmetic.i
-
-# target to preprocess a source file
-multithread/arithmetic.cpp.i:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/multithread/arithmetic.cpp.i
-.PHONY : multithread/arithmetic.cpp.i
-
-multithread/arithmetic.s: multithread/arithmetic.cpp.s
-
-.PHONY : multithread/arithmetic.s
-
-# target to generate assembly for a file
-multithread/arithmetic.cpp.s:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/multithread/arithmetic.cpp.s
-.PHONY : multithread/arithmetic.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -330,6 +330,9 @@ help:
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
+	@echo "... containers/myarray.o"
+	@echo "... containers/myarray.i"
+	@echo "... containers/myarray.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
@@ -339,9 +342,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... multithread/arithmetic.o"
-	@echo "... multithread/arithmetic.i"
-	@echo "... multithread/arithmetic.s"
 .PHONY : help
 
 
