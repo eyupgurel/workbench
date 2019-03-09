@@ -34,3 +34,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/vector_container.h
  /home/egl/Documents/sc/C++/workbench/main.cpp
  /home/egl/Documents/sc/C++/workbench/main.h
+ /home/egl/Documents/sc/C++/workbench/union/Entry.h
+CMakeFiles/workbench.dir/union/Entry.cpp.o
+ /home/egl/Documents/sc/C++/workbench/union/Entry.cpp
+ /home/egl/Documents/sc/C++/workbench/union/Entry.h

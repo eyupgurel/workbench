@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/containers/vector.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vector_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/main.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/main.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

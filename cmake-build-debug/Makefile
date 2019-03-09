@@ -312,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+union/Entry.o: union/Entry.cpp.o
+
+.PHONY : union/Entry.o
+
+# target to build an object file
+union/Entry.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/Entry.cpp.o
+.PHONY : union/Entry.cpp.o
+
+union/Entry.i: union/Entry.cpp.i
+
+.PHONY : union/Entry.i
+
+# target to preprocess a source file
+union/Entry.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/Entry.cpp.i
+.PHONY : union/Entry.cpp.i
+
+union/Entry.s: union/Entry.cpp.s
+
+.PHONY : union/Entry.s
+
+# target to generate assembly for a file
+union/Entry.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/Entry.cpp.s
+.PHONY : union/Entry.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -342,6 +369,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... union/Entry.o"
+	@echo "... union/Entry.i"
+	@echo "... union/Entry.s"
 .PHONY : help
 
 

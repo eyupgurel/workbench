@@ -33,4 +33,8 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
+CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
+
+CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.cpp
+CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.h
 
