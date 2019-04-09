@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/algorithms/hanoitower.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/algorithms/mergesort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/list_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/list_container.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/myarray.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/myarray.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vector.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector.cpp.o"

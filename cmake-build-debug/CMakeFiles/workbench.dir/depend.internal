@@ -7,6 +7,9 @@ CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o
 CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o
  /home/egl/Documents/sc/C++/workbench/algorithms/mergesort.cpp
  /home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h
+CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o
+ /home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp
+ /home/egl/Documents/sc/C++/workbench/algorithms/shellsort.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/list_container.cpp
@@ -26,6 +29,7 @@ CMakeFiles/workbench.dir/containers/vector_container.cpp.o
 CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/algorithms/hanoitower.h
  /home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h
+ /home/egl/Documents/sc/C++/workbench/algorithms/shellsort.h
  /home/egl/Documents/sc/C++/workbench/common.h
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/list_container.h

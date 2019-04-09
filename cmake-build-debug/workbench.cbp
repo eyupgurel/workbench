@@ -94,6 +94,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/common.h">
 			<Option target="workbench"/>
 		</Unit>

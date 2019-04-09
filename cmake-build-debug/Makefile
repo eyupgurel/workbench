@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/egl/Documents/sc/C++/workbench/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -176,6 +176,33 @@ algorithms/mergesort.s: algorithms/mergesort.cpp.s
 algorithms/mergesort.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/mergesort.cpp.s
 .PHONY : algorithms/mergesort.cpp.s
+
+algorithms/shellsort.o: algorithms/shellsort.cpp.o
+
+.PHONY : algorithms/shellsort.o
+
+# target to build an object file
+algorithms/shellsort.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o
+.PHONY : algorithms/shellsort.cpp.o
+
+algorithms/shellsort.i: algorithms/shellsort.cpp.i
+
+.PHONY : algorithms/shellsort.i
+
+# target to preprocess a source file
+algorithms/shellsort.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/shellsort.cpp.i
+.PHONY : algorithms/shellsort.cpp.i
+
+algorithms/shellsort.s: algorithms/shellsort.cpp.s
+
+.PHONY : algorithms/shellsort.s
+
+# target to generate assembly for a file
+algorithms/shellsort.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/shellsort.cpp.s
+.PHONY : algorithms/shellsort.cpp.s
 
 containers/list_container.o: containers/list_container.cpp.o
 
@@ -354,6 +381,9 @@ help:
 	@echo "... algorithms/mergesort.o"
 	@echo "... algorithms/mergesort.i"
 	@echo "... algorithms/mergesort.s"
+	@echo "... algorithms/shellsort.o"
+	@echo "... algorithms/shellsort.i"
+	@echo "... algorithms/shellsort.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"

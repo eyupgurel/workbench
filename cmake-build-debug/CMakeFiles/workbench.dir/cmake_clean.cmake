@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/containers/list_container.cpp.o"
   "CMakeFiles/workbench.dir/containers/myarray.cpp.o"
   "CMakeFiles/workbench.dir/union/Entry.cpp.o"
+  "CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o"
   "workbench.pdb"
   "workbench"
 )

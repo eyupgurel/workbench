@@ -4,5 +4,8 @@
 
 #ifndef WORKBENCH_COMMON_H
 #define WORKBENCH_COMMON_H
+struct Point{
+    int x, y;
+};
 
 #endif //WORKBENCH_COMMON_H
