@@ -1,6 +1,7 @@
 #include "main.h"
 
 
+
 //template<typename T>  //It is not possible to (re)define an operator for a pair of built-in types, such as pointers
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
@@ -9,6 +10,10 @@
 
 int main()
 {
+
+    //Assert::run_test();
+
+
     test_shell_sort();
 
 

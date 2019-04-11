@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp
-shellsort.h
-/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.h
+/home/egl/Documents/sc/C++/workbench/assert/assert.cpp
+assert.h
+/home/egl/Documents/sc/C++/workbench/assert/assert.h
 
-/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.h
-cstddef
+/home/egl/Documents/sc/C++/workbench/assert/assert.h
+string
 -
-vector
--
-iostream
--
-cstring
+sstream
 -
 

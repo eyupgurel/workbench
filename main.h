@@ -15,6 +15,7 @@
 #include "containers/list_container.h"
 #include "containers/myarray.h"
 #include "union/Entry.h"
+#include "assert/assert.h"
 
 using namespace algorithms;
 using namespace containers;

@@ -204,6 +204,33 @@ algorithms/shellsort.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/shellsort.cpp.s
 .PHONY : algorithms/shellsort.cpp.s
 
+assert/assert.o: assert/assert.cpp.o
+
+.PHONY : assert/assert.o
+
+# target to build an object file
+assert/assert.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/assert/assert.cpp.o
+.PHONY : assert/assert.cpp.o
+
+assert/assert.i: assert/assert.cpp.i
+
+.PHONY : assert/assert.i
+
+# target to preprocess a source file
+assert/assert.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/assert/assert.cpp.i
+.PHONY : assert/assert.cpp.i
+
+assert/assert.s: assert/assert.cpp.s
+
+.PHONY : assert/assert.s
+
+# target to generate assembly for a file
+assert/assert.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/assert/assert.cpp.s
+.PHONY : assert/assert.cpp.s
+
 containers/list_container.o: containers/list_container.cpp.o
 
 .PHONY : containers/list_container.o
@@ -384,6 +411,9 @@ help:
 	@echo "... algorithms/shellsort.o"
 	@echo "... algorithms/shellsort.i"
 	@echo "... algorithms/shellsort.s"
+	@echo "... assert/assert.o"
+	@echo "... assert/assert.i"
+	@echo "... assert/assert.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
