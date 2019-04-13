@@ -21,4 +21,15 @@ namespace containers {
         uninitialized_copy(v.begin(),v.end(),b.elem);
     }
 
+    template<class T, class A>
+    vectorex<T,A>::vectorex(vectorex<T,A> &&v):b{move(v.b)} {
+
+    }
+
+    template<class T, class A>
+    vectorex<T,A>& vectorex<T,A>::operator=(vectorex<T, A> &&v)noexcept {
+        clear();
+        swap(*this,v);
+    }
+
 }
