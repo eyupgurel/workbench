@@ -6,11 +6,8 @@
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
 
-
-
 int main()
 {
-
     //Assert::run_test();
 
 

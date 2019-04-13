@@ -24,10 +24,17 @@ CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../containers/myarray.h
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.cpp
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.h
 
+CMakeFiles/workbench.dir/containers/vector_base.cpp.o: ../containers/vector_base.cpp
+CMakeFiles/workbench.dir/containers/vector_base.cpp.o: ../containers/vector_base.h
+
 CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector_container.cpp
 CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector_container.h
+
+CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vector_base.h
+CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
+CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
 
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h

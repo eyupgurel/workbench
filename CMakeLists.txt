@@ -3,4 +3,4 @@ project(workbench)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(workbench main.cpp algorithms/hanoitower.cpp algorithms/hanoitower.h algorithms/mergesort.cpp algorithms/mergesort.h main.h containers/vector.cpp containers/vector.h containers/container.h containers/vector_container.cpp containers/vector_container.h containers/list_container.cpp containers/list_container.h containers/myarray.cpp containers/myarray.h common.h union/Entry.cpp union/Entry.h algorithms/shellsort.cpp algorithms/shellsort.h assert/assert.cpp assert/assert.h)
+add_executable(workbench main.cpp algorithms/hanoitower.cpp algorithms/hanoitower.h algorithms/mergesort.cpp algorithms/mergesort.h main.h containers/vector.cpp containers/vector.h containers/container.h containers/vector_container.cpp containers/vector_container.h containers/list_container.cpp containers/list_container.h containers/myarray.cpp containers/myarray.h common.h union/Entry.cpp union/Entry.h algorithms/shellsort.cpp algorithms/shellsort.h assert/assert.cpp assert/assert.h containers/vectorex.cpp containers/vectorex.h containers/vector_base.cpp containers/vector_base.h)

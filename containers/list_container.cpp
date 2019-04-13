@@ -4,6 +4,8 @@
 #include "list_container.h"
 
 namespace containers {
+
+
     template<typename T>
     list_container<T>::list_container(std::initializer_list<T> list):l(list){}
     template<typename T>

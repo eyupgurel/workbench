@@ -24,11 +24,18 @@ CMakeFiles/workbench.dir/containers/myarray.cpp.o
 CMakeFiles/workbench.dir/containers/vector.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/vector.cpp
  /home/egl/Documents/sc/C++/workbench/containers/vector.h
+CMakeFiles/workbench.dir/containers/vector_base.cpp.o
+ /home/egl/Documents/sc/C++/workbench/containers/vector_base.cpp
+ /home/egl/Documents/sc/C++/workbench/containers/vector_base.h
 CMakeFiles/workbench.dir/containers/vector_container.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/vector.h
  /home/egl/Documents/sc/C++/workbench/containers/vector_container.cpp
  /home/egl/Documents/sc/C++/workbench/containers/vector_container.h
+CMakeFiles/workbench.dir/containers/vectorex.cpp.o
+ /home/egl/Documents/sc/C++/workbench/containers/vector_base.h
+ /home/egl/Documents/sc/C++/workbench/containers/vectorex.cpp
+ /home/egl/Documents/sc/C++/workbench/containers/vectorex.h
 CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/algorithms/hanoitower.h
  /home/egl/Documents/sc/C++/workbench/algorithms/mergesort.h

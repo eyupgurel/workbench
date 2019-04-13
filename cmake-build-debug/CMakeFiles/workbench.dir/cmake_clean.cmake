@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/union/Entry.cpp.o"
   "CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o"
   "CMakeFiles/workbench.dir/assert/assert.cpp.o"
+  "CMakeFiles/workbench.dir/containers/vectorex.cpp.o"
+  "CMakeFiles/workbench.dir/containers/vector_base.cpp.o"
   "workbench.pdb"
   "workbench"
 )

@@ -312,6 +312,33 @@ containers/vector.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector.cpp.s
 .PHONY : containers/vector.cpp.s
 
+containers/vector_base.o: containers/vector_base.cpp.o
+
+.PHONY : containers/vector_base.o
+
+# target to build an object file
+containers/vector_base.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_base.cpp.o
+.PHONY : containers/vector_base.cpp.o
+
+containers/vector_base.i: containers/vector_base.cpp.i
+
+.PHONY : containers/vector_base.i
+
+# target to preprocess a source file
+containers/vector_base.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_base.cpp.i
+.PHONY : containers/vector_base.cpp.i
+
+containers/vector_base.s: containers/vector_base.cpp.s
+
+.PHONY : containers/vector_base.s
+
+# target to generate assembly for a file
+containers/vector_base.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_base.cpp.s
+.PHONY : containers/vector_base.cpp.s
+
 containers/vector_container.o: containers/vector_container.cpp.o
 
 .PHONY : containers/vector_container.o
@@ -338,6 +365,33 @@ containers/vector_container.s: containers/vector_container.cpp.s
 containers/vector_container.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vector_container.cpp.s
 .PHONY : containers/vector_container.cpp.s
+
+containers/vectorex.o: containers/vectorex.cpp.o
+
+.PHONY : containers/vectorex.o
+
+# target to build an object file
+containers/vectorex.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.o
+.PHONY : containers/vectorex.cpp.o
+
+containers/vectorex.i: containers/vectorex.cpp.i
+
+.PHONY : containers/vectorex.i
+
+# target to preprocess a source file
+containers/vectorex.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.i
+.PHONY : containers/vectorex.cpp.i
+
+containers/vectorex.s: containers/vectorex.cpp.s
+
+.PHONY : containers/vectorex.s
+
+# target to generate assembly for a file
+containers/vectorex.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
+.PHONY : containers/vectorex.cpp.s
 
 main.o: main.cpp.o
 
@@ -423,9 +477,15 @@ help:
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
+	@echo "... containers/vector_base.o"
+	@echo "... containers/vector_base.i"
+	@echo "... containers/vector_base.s"
 	@echo "... containers/vector_container.o"
 	@echo "... containers/vector_container.i"
 	@echo "... containers/vector_container.s"
+	@echo "... containers/vectorex.o"
+	@echo "... containers/vectorex.i"
+	@echo "... containers/vectorex.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
