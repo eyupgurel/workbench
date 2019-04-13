@@ -29,7 +29,14 @@ namespace containers {
     template<class T, class A>
     vectorex<T,A>& vectorex<T,A>::operator=(vectorex<T, A> &&v)noexcept {
         clear();
-        swap(*this,v);
+        std::swap(*this,v);
+    }
+
+    template<class T, class A>
+    vectorex<T,A>& vectorex<T,A>::operator=(const vectorex<T, A> &v) noexcept {
+        auto temp{v};
+        std::swap(*this,temp);
+        return *this;
     }
 
 }
