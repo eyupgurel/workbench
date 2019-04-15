@@ -154,6 +154,9 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/main.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/memory/move.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/union/Entry.cpp">
 			<Option target="workbench"/>
 		</Unit>

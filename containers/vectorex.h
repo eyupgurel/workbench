@@ -7,6 +7,7 @@
 
 #include <memory>
 #include "vector_base.h"
+#include "../memory/move.h"
 using namespace std;
 
 namespace containers {
@@ -27,9 +28,9 @@ namespace containers {
         size_type size(){return b.space-b.elem;}
         size_type capacity(){return b.last-b.elem;}
         void reserve(size_type n); //increase capacity to n
-        void resize(size_type n, const T& = {});
+        void resize(size_type n, const T& val= {});
         void clear(){resize(0);}
-        void push_back(const T&);
+        void push_back(const T& val);
     };
 
 }

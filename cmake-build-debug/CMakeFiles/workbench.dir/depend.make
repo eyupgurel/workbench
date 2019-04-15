@@ -35,6 +35,7 @@ CMakeFiles/workbench.dir/containers/vector_container.cpp.o: ../containers/vector
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
+CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../memory/move.h
 
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h

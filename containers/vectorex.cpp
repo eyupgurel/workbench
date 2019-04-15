@@ -30,13 +30,62 @@ namespace containers {
     vectorex<T,A>& vectorex<T,A>::operator=(vectorex<T, A> &&v)noexcept {
         clear();
         std::swap(*this,v);
+        return *this;
     }
 
     template<class T, class A>
     vectorex<T,A>& vectorex<T,A>::operator=(const vectorex<T, A> &v) noexcept {
-        auto temp{v};
-        std::swap(*this,temp);
+        if(capacity()<v.size()){
+            auto temp{v};
+            std::swap(*this,temp);
+            return *this;
+        }
+        if(this==&v)
+            return *this;
+
+        b.space = b.end();
+        size_type sz = size();
+        size_type asz = v.size();
+        b.alloc = v.b.alloc;
+
+        if(asz<=sz){
+            copy(v.begin(),v.begin()+asz,b.elem);
+            for(T* p = b.elem+asz;p!=b.space;++p)
+                p->~T();
+        } else{
+            copy(v.begin(),v.begin()+sz,b.elem);
+            uninitialized_copy(v.begin()+sz,v.end(),b.space);
+        }
+        b.space = b.end = b.elem+asz;
         return *this;
-    }
+       }
+
+       template<typename T, typename A>
+       void vectorex<T,A>::reserve(vectorex<T,A>::size_type n) {
+           if(n<=capacity()) return; //never decrease allocation
+           vector_base<T,A>nb{b.alloc,n};
+           memory::uninitialized_move<T>(b.elem,b.elem+size(),nb.elem);
+           swap(b,nb);
+       }
+
+       template<typename T, typename A>
+       void vectorex<T,A>::resize(size_type n, const T& val){
+           reserve(n);
+           if(size()<n)
+               uninitialized_fill(b.elem+size(), b.elem+n, val);
+           else
+               memory::destroy<T>(b.elem+size(),b.elem+n);
+           b.space = b.last = b.elem+n;
+       }
+
+       template<typename T, typename A>
+       void vectorex<T,A>::push_back(const T& val){
+           if(capacity()==size())
+               reserve(size()?size()*2:8);
+           b.alloc.construct(&b.elem[size()],val);
+           ++b.last;
+           ++b.space;
+       }
+
 
 }
