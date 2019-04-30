@@ -4,8 +4,8 @@
 
 
 #include "vector.h"
+using namespace containers;
 
-namespace containers {
     template<typename T>
     vector<T>::vector():elems{nullptr},sz{0} {}
 
@@ -75,5 +75,4 @@ namespace containers {
         std::cout << std::endl;
     }
     template class vector<double>;
-}
 

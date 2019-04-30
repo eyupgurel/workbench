@@ -2,8 +2,8 @@
 // Created by egl on 2/8/19.
 //
 #include "vector_container.h"
+using namespace containers;
 
-namespace containers{
     template<typename T>
     vector_container<T>::vector_container(int sz): v(sz){}
     template<typename T>
@@ -16,4 +16,3 @@ namespace containers{
     int vector_container<T>::size() const {return v.size();};
 
     template class vector_container<double>;
-}

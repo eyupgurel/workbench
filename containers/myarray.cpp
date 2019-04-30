@@ -3,8 +3,8 @@
 //
 
 #include "myarray.h"
+using namespace containers;
 
-namespace containers{
     template<typename T, size_t N>
     T* myarray<T,N>::begin() noexcept{
         return elem;
@@ -39,4 +39,3 @@ namespace containers{
     const T* myarray<T,N>::data()const noexcept {return elem;}
 
     //template class myarray<Point,3>;
-}

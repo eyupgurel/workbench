@@ -106,6 +106,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/assert/assert.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/chrono/chrono.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/chrono/chrono.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/common.h">
 			<Option target="workbench"/>
 		</Unit>

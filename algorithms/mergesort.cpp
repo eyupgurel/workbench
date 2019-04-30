@@ -5,7 +5,7 @@
 #include "mergesort.h"
 
 using namespace std;
-namespace algorithms {
+using namespace algorithms;
     void merge_sort::sort() const {
         sort(numbers_);
     }
@@ -79,6 +79,3 @@ namespace algorithms {
         }
         cout << endl;
     }
-
-
-}

@@ -5,7 +5,7 @@
 #include "hanoitower.h"
 using namespace std;
 
-namespace algorithms{
+using namespace algorithms;
     hanoi_towers::hanoi_towers(const int height)
     {
         for (auto i = 1; i <= height; i++)
@@ -36,4 +36,3 @@ namespace algorithms{
     {
         move(r1, d, r2, tower);
     }
-}

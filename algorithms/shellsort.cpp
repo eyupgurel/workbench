@@ -5,8 +5,8 @@
 
 
 #include "shellsort.h"
-namespace algorithms {
-    void ssort(void* base, size_t n, size_t sz, CFT cmp){
+using namespace algorithms;
+    void algorithms::ssort(void* base, size_t n, size_t sz, CFT cmp){
         for(int gap=n/2; 0<gap;gap/=2){
             for(int i=gap; i<n; ++i){
                 for(int j=i-gap; j>=0; j-=gap){
@@ -41,7 +41,7 @@ namespace algorithms {
     int cmpDept(const void* p, const void* q){
         return static_cast<const User*>(p)->dept - static_cast<const User*>(q)->dept;
     }
-    void test_shell_sort(){
+    void algorithms::test_shell_sort(){
         vector<User>heads={
                 {"Ritchie D.M.", "dmr", 11271},
                 {"Sethi R.", "ravi", 11272},
@@ -62,5 +62,4 @@ namespace algorithms {
         cout << "Heads in order of department number:\n";
         ssort(heads.data(),6,sizeof(User),cmpDept);
         print_users(heads);
-    };
-}
+    }

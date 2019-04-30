@@ -3,7 +3,7 @@
 //
 
 #include "vectorex.h"
-namespace containers {
+using namespace containers;
     template<class T,class A>
     void vectorex<T,A>::destroy_elements(){
         for(T* p=b.elem;p!=b.space;++p)
@@ -87,5 +87,3 @@ namespace containers {
            ++b.space;
        }
 
-
-}

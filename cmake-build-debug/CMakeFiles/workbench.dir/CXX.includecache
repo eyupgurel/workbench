@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/containers/vector_base.h
-memory
--
+/home/egl/Documents/sc/C++/workbench/chrono/chrono.cpp
+chrono.h
+/home/egl/Documents/sc/C++/workbench/chrono/chrono.h
 
-/home/egl/Documents/sc/C++/workbench/containers/vectorex.cpp
-vectorex.h
-/home/egl/Documents/sc/C++/workbench/containers/vectorex.h
-
-/home/egl/Documents/sc/C++/workbench/containers/vectorex.h
-memory
--
-vector_base.h
-/home/egl/Documents/sc/C++/workbench/containers/vector_base.h
-../memory/move.h
-/home/egl/Documents/sc/C++/workbench/memory/move.h
-
-/home/egl/Documents/sc/C++/workbench/memory/move.h
-utility
+/home/egl/Documents/sc/C++/workbench/chrono/chrono.h
+string
 -
 

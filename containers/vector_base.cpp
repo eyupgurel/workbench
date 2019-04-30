@@ -3,7 +3,7 @@
 //
 
 #include "vector_base.h"
-namespace containers {
+using namespace containers;
     template<class T,class A>
     vector_base<T,A>::vector_base(vector_base&& b):alloc{b.alloc},
     elem{b.elem},space{b.space},last{b.last}{b.space = b.last = b.elem = nullptr;}
@@ -16,5 +16,3 @@ namespace containers {
         return *this;
     }
 
-
-}

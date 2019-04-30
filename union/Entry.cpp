@@ -3,8 +3,8 @@
 //
 
 #include "Entry.h"
-namespace unions{
 
+using namespace unions;
     int Entry::number() const {
         if(type!=Tag::number) throw Bad_entry();
         return i;
@@ -68,5 +68,3 @@ namespace unions{
     Entry::Entry(int i) {
         set_number(i);
     }
-
-}
