@@ -10,7 +10,7 @@ namespace chrono{
     enum class Month{jan=1,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec};
     class Date{
     public:
-        class bad_date{};
+        class bad_date:exception{};
         explicit Date(int dd={}, Month mm={}, int yy={});
 
         int day() const;
@@ -33,6 +33,17 @@ namespace chrono{
     bool is_leapyear(int y);
     bool operator==(const Date& a, const Date& b);
     bool operator!=(const Date& a, const Date& b);
+
+
+    Date& operator++(Date& d);
+    Date& operator--(Date& d);
+
+    Date& operator+=(Date& d, int n);
+    Date& operator-=(Date& d, int n);
+
+    Date operator+(Date d, int n);
+    Date operator-(Date d, int n);
+
 
     const Date& default_date();
 
