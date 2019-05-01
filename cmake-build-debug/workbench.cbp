@@ -154,6 +154,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vectorex.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/lifetime/lifetime.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/main.cpp">
 			<Option target="workbench"/>
 		</Unit>

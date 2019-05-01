@@ -16,6 +16,8 @@
 #include "containers/myarray.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
+#include "chrono/chrono.h"
+#include "lifetime/lifetime.h"
 
 using namespace algorithms;
 using namespace containers;

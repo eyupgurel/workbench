@@ -8,7 +8,13 @@
 
 int main()
 {
+
+    lifetime::drive();
     //Assert::run_test();
+
+    chrono::Date d{2,chrono::Month::feb,1980};
+    auto dc{d};
+    auto da = d;
 
 
     test_shell_sort();

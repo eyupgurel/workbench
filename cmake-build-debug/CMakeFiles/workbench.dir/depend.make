@@ -40,16 +40,21 @@ CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../memory/move.h
 
+CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
+CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h
+
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/shellsort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../assert/assert.h
+CMakeFiles/workbench.dir/main.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/main.cpp.o: ../common.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/myarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
+CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h

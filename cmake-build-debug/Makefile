@@ -420,6 +420,33 @@ containers/vectorex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
 .PHONY : containers/vectorex.cpp.s
 
+lifetime/lifetime.o: lifetime/lifetime.cpp.o
+
+.PHONY : lifetime/lifetime.o
+
+# target to build an object file
+lifetime/lifetime.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o
+.PHONY : lifetime/lifetime.cpp.o
+
+lifetime/lifetime.i: lifetime/lifetime.cpp.i
+
+.PHONY : lifetime/lifetime.i
+
+# target to preprocess a source file
+lifetime/lifetime.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lifetime/lifetime.cpp.i
+.PHONY : lifetime/lifetime.cpp.i
+
+lifetime/lifetime.s: lifetime/lifetime.cpp.s
+
+.PHONY : lifetime/lifetime.s
+
+# target to generate assembly for a file
+lifetime/lifetime.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lifetime/lifetime.cpp.s
+.PHONY : lifetime/lifetime.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -516,6 +543,9 @@ help:
 	@echo "... containers/vectorex.o"
 	@echo "... containers/vectorex.i"
 	@echo "... containers/vectorex.s"
+	@echo "... lifetime/lifetime.o"
+	@echo "... lifetime/lifetime.i"
+	@echo "... lifetime/lifetime.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
