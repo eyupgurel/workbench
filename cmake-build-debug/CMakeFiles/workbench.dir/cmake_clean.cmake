@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/containers/vector_base.cpp.o"
   "CMakeFiles/workbench.dir/chrono/chrono.cpp.o"
   "CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o"
+  "CMakeFiles/workbench.dir/containers/simplematrix.cpp.o"
+  "CMakeFiles/workbench.dir/forward/forward.cpp.o"
   "workbench.pdb"
   "workbench"
 )

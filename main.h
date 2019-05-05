@@ -10,14 +10,18 @@
 #include "algorithms/hanoitower.h"
 #include "algorithms/shellsort.h"
 #include "containers/vector.h"
+#include "containers/vectorex.h"
 #include "containers/container.h"
 #include "containers/vector_container.h"
 #include "containers/list_container.h"
 #include "containers/myarray.h"
+#include "containers/simplematrix.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
 #include "chrono/chrono.h"
 #include "lifetime/lifetime.h"
+#include "forward/forward.h"
+
 
 using namespace algorithms;
 using namespace containers;

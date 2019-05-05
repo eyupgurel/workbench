@@ -8,6 +8,9 @@
 
 int main()
 {
+    forward::drive();
+    containers::drive_vectorex();
+    containers::drive_simple_matrix();
 
     lifetime::drive();
     //Assert::run_test();

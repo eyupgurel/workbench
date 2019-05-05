@@ -312,6 +312,33 @@ containers/myarray.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/myarray.cpp.s
 .PHONY : containers/myarray.cpp.s
 
+containers/simplematrix.o: containers/simplematrix.cpp.o
+
+.PHONY : containers/simplematrix.o
+
+# target to build an object file
+containers/simplematrix.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/simplematrix.cpp.o
+.PHONY : containers/simplematrix.cpp.o
+
+containers/simplematrix.i: containers/simplematrix.cpp.i
+
+.PHONY : containers/simplematrix.i
+
+# target to preprocess a source file
+containers/simplematrix.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/simplematrix.cpp.i
+.PHONY : containers/simplematrix.cpp.i
+
+containers/simplematrix.s: containers/simplematrix.cpp.s
+
+.PHONY : containers/simplematrix.s
+
+# target to generate assembly for a file
+containers/simplematrix.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/simplematrix.cpp.s
+.PHONY : containers/simplematrix.cpp.s
+
 containers/vector.o: containers/vector.cpp.o
 
 .PHONY : containers/vector.o
@@ -419,6 +446,33 @@ containers/vectorex.s: containers/vectorex.cpp.s
 containers/vectorex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
 .PHONY : containers/vectorex.cpp.s
+
+forward/forward.o: forward/forward.cpp.o
+
+.PHONY : forward/forward.o
+
+# target to build an object file
+forward/forward.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/forward.cpp.o
+.PHONY : forward/forward.cpp.o
+
+forward/forward.i: forward/forward.cpp.i
+
+.PHONY : forward/forward.i
+
+# target to preprocess a source file
+forward/forward.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/forward.cpp.i
+.PHONY : forward/forward.cpp.i
+
+forward/forward.s: forward/forward.cpp.s
+
+.PHONY : forward/forward.s
+
+# target to generate assembly for a file
+forward/forward.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/forward.cpp.s
+.PHONY : forward/forward.cpp.s
 
 lifetime/lifetime.o: lifetime/lifetime.cpp.o
 
@@ -531,6 +585,9 @@ help:
 	@echo "... containers/myarray.o"
 	@echo "... containers/myarray.i"
 	@echo "... containers/myarray.s"
+	@echo "... containers/simplematrix.o"
+	@echo "... containers/simplematrix.i"
+	@echo "... containers/simplematrix.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
@@ -543,6 +600,9 @@ help:
 	@echo "... containers/vectorex.o"
 	@echo "... containers/vectorex.i"
 	@echo "... containers/vectorex.s"
+	@echo "... forward/forward.o"
+	@echo "... forward/forward.i"
+	@echo "... forward/forward.s"
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"

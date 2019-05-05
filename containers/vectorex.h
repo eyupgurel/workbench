@@ -33,6 +33,7 @@ namespace containers {
         void push_back(const T& val);
     };
 
+    void drive_vectorex();
 }
 
 
