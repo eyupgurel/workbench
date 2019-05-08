@@ -23,7 +23,11 @@ namespace forward{
         A(string&& s) { std::cout << "rvalue overload, s=" << s  << "\n";
             std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
                       &s << endl;}
-        A(string& s)  { std::cout << "lvalue overload, s=" << s << "\n"; }
+        A(const string& s)  { std::cout << "lvalue overload, s=" << s << "\n"; }
+
+      //  A(const string&& s) { std::cout << "const rvalue overload, s=" << s  << "\n";
+      //     std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
+      //               &s << endl;}
     };
 
     class B {

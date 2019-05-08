@@ -14,4 +14,14 @@ void forward::drive() {
     string s{"Hello baby kiss me! I will give you my address"};
 
     auto t = make_unique2<B>(2, i, 3, s, string{"I am beautiful but I have no address"});
+
+    A ar{string{"I'am a right value"}};
+    string vs{"I can be varied"};
+    const string cs{"I am constant!"};
+    A ars{move(vs)};
+    A acs{move(cs)}; //here it calls lvalue overload because if move is applied to "const string" type
+                     //it will become const string&& and the A(const string& s) constructor will
+                     //win over A(string&& s) because  the compiler respects constantness and it should!
+
+
 }
