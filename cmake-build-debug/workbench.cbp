@@ -160,6 +160,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vectorex.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/Xref.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/Xref.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/forward.cpp">
 			<Option target="workbench"/>
 		</Unit>

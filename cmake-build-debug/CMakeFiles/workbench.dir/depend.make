@@ -43,6 +43,9 @@ CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../memory/move.h
 
+CMakeFiles/workbench.dir/forward/Xref.cpp.o: ../forward/Xref.cpp
+CMakeFiles/workbench.dir/forward/Xref.cpp.o: ../forward/Xref.h
+
 CMakeFiles/workbench.dir/forward/forward.cpp.o: ../forward/forward.cpp
 CMakeFiles/workbench.dir/forward/forward.cpp.o: ../forward/forward.h
 
@@ -63,6 +66,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vectorex.h
+CMakeFiles/workbench.dir/main.cpp.o: ../forward/Xref.h
 CMakeFiles/workbench.dir/main.cpp.o: ../forward/forward.h
 CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp

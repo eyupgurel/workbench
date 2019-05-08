@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o"
   "CMakeFiles/workbench.dir/containers/simplematrix.cpp.o"
   "CMakeFiles/workbench.dir/forward/forward.cpp.o"
+  "CMakeFiles/workbench.dir/forward/Xref.cpp.o"
   "workbench.pdb"
   "workbench"
 )

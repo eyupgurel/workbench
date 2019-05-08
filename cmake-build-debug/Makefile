@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/egl/Documents/sc/C++/workbench/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -447,6 +447,33 @@ containers/vectorex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
 .PHONY : containers/vectorex.cpp.s
 
+forward/Xref.o: forward/Xref.cpp.o
+
+.PHONY : forward/Xref.o
+
+# target to build an object file
+forward/Xref.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/Xref.cpp.o
+.PHONY : forward/Xref.cpp.o
+
+forward/Xref.i: forward/Xref.cpp.i
+
+.PHONY : forward/Xref.i
+
+# target to preprocess a source file
+forward/Xref.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/Xref.cpp.i
+.PHONY : forward/Xref.cpp.i
+
+forward/Xref.s: forward/Xref.cpp.s
+
+.PHONY : forward/Xref.s
+
+# target to generate assembly for a file
+forward/Xref.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/Xref.cpp.s
+.PHONY : forward/Xref.cpp.s
+
 forward/forward.o: forward/forward.cpp.o
 
 .PHONY : forward/forward.o
@@ -600,6 +627,9 @@ help:
 	@echo "... containers/vectorex.o"
 	@echo "... containers/vectorex.i"
 	@echo "... containers/vectorex.s"
+	@echo "... forward/Xref.o"
+	@echo "... forward/Xref.i"
+	@echo "... forward/Xref.s"
 	@echo "... forward/forward.o"
 	@echo "... forward/forward.i"
 	@echo "... forward/forward.s"

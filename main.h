@@ -21,6 +21,7 @@
 #include "chrono/chrono.h"
 #include "lifetime/lifetime.h"
 #include "forward/forward.h"
+#include "forward/Xref.h"
 
 
 using namespace algorithms;

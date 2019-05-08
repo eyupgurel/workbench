@@ -96,6 +96,20 @@ vector_base.h
 ../memory/move.h
 /home/egl/Documents/sc/C++/workbench/memory/move.h
 
+/home/egl/Documents/sc/C++/workbench/forward/Xref.h
+utility
+-
+string
+-
+iostream
+-
+memory
+-
+
+/home/egl/Documents/sc/C++/workbench/forward/forward.cpp
+forward.h
+/home/egl/Documents/sc/C++/workbench/forward/forward.h
+
 /home/egl/Documents/sc/C++/workbench/forward/forward.h
 utility
 -
@@ -151,6 +165,8 @@ lifetime/lifetime.h
 /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.h
 forward/forward.h
 /home/egl/Documents/sc/C++/workbench/forward/forward.h
+forward/Xref.h
+/home/egl/Documents/sc/C++/workbench/forward/Xref.h
 
 /home/egl/Documents/sc/C++/workbench/memory/move.h
 utility

@@ -14,9 +14,15 @@ using namespace std;
 namespace forward{
 
     struct A {
-        A(int&& n) { std::cout << "rvalue overload, n=" << n << "\n"; }
+        A(int&& n) {
+            std::cout << "rvalue overload, n=" << n << "\n";
+            std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
+            &n << endl;
+        }
         A(int& n)  { std::cout << "lvalue overload, n=" << n << "\n"; }
-        A(string&& s) { std::cout << "rvalue overload, s=" << s  << "\n"; }
+        A(string&& s) { std::cout << "rvalue overload, s=" << s  << "\n";
+            std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
+                      &s << endl;}
         A(string& s)  { std::cout << "lvalue overload, s=" << s << "\n"; }
     };
 
@@ -36,16 +42,16 @@ namespace forward{
         A a1_, a2_, a3_,a4_,a5_;
     };
 
-    template<class T, class U>
+    template<typename T, typename U>
     std::unique_ptr<T> make_unique1(U&& u)
     {
-        return std::unique_ptr<T>(new T(std::forward<U>(u)));
+        return std::unique_ptr<T>{new T{std::forward<U>(u)}};
     }
 
-    template<class T, class... U>
+    template<typename T, typename... U>
     std::unique_ptr<T> make_unique2(U&&... u)
     {
-        return std::unique_ptr<T>(new T(std::forward<U>(u)...));
+        return std::unique_ptr<T>{new T{std::forward<U>(u)...}};
     }
 
     void drive();
