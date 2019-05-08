@@ -23,17 +23,17 @@ namespace forward{
         Xref(int i, T* p)// store a pointer: Xref is the owner
         :index{i}, elem{p}, owned{true}
         {
-            std::cout << "ran Xref(int i, T* p)";
+            std::cout << "ran Xref(int i, T* p)\n";
         }
         Xref(int i, T& r)// store a pointer to r, owned by someone else
                :index{i}, elem{&r}, owned{false}
         {
-            std::cout << "ran Xref(int i, T& r)";
+            std::cout << "ran Xref(int i, T& r)\n";
         }
         Xref(int i, T&& r)// move r into Xref, Xref is the owner
                 :index{i}, elem{new T{move(r)}}, owned{true}
         {
-            std::cout << "ran Xref(int i, T&& r)";
+            std::cout << "ran Xref(int i, T&& r)\n";
         }
         ~Xref()
         {
