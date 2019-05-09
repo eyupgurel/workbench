@@ -48,6 +48,7 @@ CMakeFiles/workbench.dir/forward/Xref.cpp.o: ../forward/Xref.h
 
 CMakeFiles/workbench.dir/forward/forward.cpp.o: ../forward/forward.cpp
 CMakeFiles/workbench.dir/forward/forward.cpp.o: ../forward/forward.h
+CMakeFiles/workbench.dir/forward/forward.cpp.o: ../memory/move.h
 
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h

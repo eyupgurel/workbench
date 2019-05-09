@@ -8,6 +8,7 @@
 #include <string>
 #include <iostream>
 #include <memory>
+#include "../memory/move.h"
 
 using namespace std;
 
@@ -34,11 +35,11 @@ namespace forward{
     public:
         template<class T1, class T2, class T3, class T4, class T5>
         B(T1&& t1, T2&& t2, T3&& t3, T4&& t4, T5&& t5) :
-                a1_{std::forward<T1>(t1)},
-                a2_{std::forward<T2>(t2)},
-                a3_{std::forward<T3>(t3)},
-                a4_{std::forward<T4>(t4)},
-                a5_{std::forward<T5>(t5)}
+                a1_{memory::my_forward<T1>(t1)},
+                a2_{memory::my_forward<T2>(t2)},
+                a3_{memory::my_forward<T3>(t3)},
+                a4_{memory::my_forward<T4>(t4)},
+                a5_{memory::my_forward<T5>(t5)}
         {
         }
 
@@ -49,13 +50,13 @@ namespace forward{
     template<typename T, typename U>
     std::unique_ptr<T> make_unique1(U&& u)
     {
-        return std::unique_ptr<T>{new T{std::forward<U>(u)}};
+        return std::unique_ptr<T>{new T{memory::my_forward<U>(u)}};
     }
 
     template<typename T, typename... U>
     std::unique_ptr<T> make_unique2(U&&... u)
     {
-        return std::unique_ptr<T>{new T{std::forward<U>(u)...}};
+        return std::unique_ptr<T>{new T{memory::my_forward<U>(u)...}};
     }
 
     void drive();
