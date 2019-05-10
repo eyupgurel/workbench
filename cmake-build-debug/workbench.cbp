@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/SFINAE/SFINAE.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/SFINAE/SFINAE.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/algorithms/hanoitower.cpp">
 			<Option target="workbench"/>
 		</Unit>

@@ -123,6 +123,33 @@ workbench/fast:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/build
 .PHONY : workbench/fast
 
+SFINAE/SFINAE.o: SFINAE/SFINAE.cpp.o
+
+.PHONY : SFINAE/SFINAE.o
+
+# target to build an object file
+SFINAE/SFINAE.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/SFINAE/SFINAE.cpp.o
+.PHONY : SFINAE/SFINAE.cpp.o
+
+SFINAE/SFINAE.i: SFINAE/SFINAE.cpp.i
+
+.PHONY : SFINAE/SFINAE.i
+
+# target to preprocess a source file
+SFINAE/SFINAE.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/SFINAE/SFINAE.cpp.i
+.PHONY : SFINAE/SFINAE.cpp.i
+
+SFINAE/SFINAE.s: SFINAE/SFINAE.cpp.s
+
+.PHONY : SFINAE/SFINAE.s
+
+# target to generate assembly for a file
+SFINAE/SFINAE.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/SFINAE/SFINAE.cpp.s
+.PHONY : SFINAE/SFINAE.cpp.s
+
 algorithms/hanoitower.o: algorithms/hanoitower.cpp.o
 
 .PHONY : algorithms/hanoitower.o
@@ -591,6 +618,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... workbench"
 	@echo "... edit_cache"
+	@echo "... SFINAE/SFINAE.o"
+	@echo "... SFINAE/SFINAE.i"
+	@echo "... SFINAE/SFINAE.s"
 	@echo "... algorithms/hanoitower.o"
 	@echo "... algorithms/hanoitower.i"
 	@echo "... algorithms/hanoitower.s"
