@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/SFINAE/SFINAE.cpp
-SFINAE.h
-/home/egl/Documents/sc/C++/workbench/SFINAE/SFINAE.h
+/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp
+array.h
+/home/egl/Documents/sc/C++/workbench/templates/array/array.h
 
-/home/egl/Documents/sc/C++/workbench/SFINAE/SFINAE.h
-vector
+/home/egl/Documents/sc/C++/workbench/templates/array/array.h
+cstddef
 -
 

@@ -22,6 +22,7 @@
 #include "lifetime/lifetime.h"
 #include "forward/forward.h"
 #include "forward/Xref.h"
+#include "templates/array/array.h"
 
 
 using namespace algorithms;

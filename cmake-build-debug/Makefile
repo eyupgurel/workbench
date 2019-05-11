@@ -582,6 +582,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+templates/array/array.o: templates/array/array.cpp.o
+
+.PHONY : templates/array/array.o
+
+# target to build an object file
+templates/array/array.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.o
+.PHONY : templates/array/array.cpp.o
+
+templates/array/array.i: templates/array/array.cpp.i
+
+.PHONY : templates/array/array.i
+
+# target to preprocess a source file
+templates/array/array.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.i
+.PHONY : templates/array/array.cpp.i
+
+templates/array/array.s: templates/array/array.cpp.s
+
+.PHONY : templates/array/array.s
+
+# target to generate assembly for a file
+templates/array/array.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.s
+.PHONY : templates/array/array.cpp.s
+
 union/Entry.o: union/Entry.cpp.o
 
 .PHONY : union/Entry.o
@@ -669,6 +696,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... templates/array/array.o"
+	@echo "... templates/array/array.i"
+	@echo "... templates/array/array.s"
 	@echo "... union/Entry.o"
 	@echo "... union/Entry.i"
 	@echo "... union/Entry.s"

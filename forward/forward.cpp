@@ -25,8 +25,8 @@ void forward::drive() {
                      //win over A(string&& s) because  the compiler respects constantness and it should!
 
     string& rvs{vs};
-    A fs{std::forward<string>(vs)}; //will call A(const string&& s) constructor because forward deems vs as a rvalue (actually inside the template, template paremeter T reduces to string)
-    A frs{std::forward<string&>(rvs)}; //will call A(const string& s) constructor because forward deems rvs as a lvalue (actually inside the template, template paremeter T reduces to string&)
+    A fs{std::forward<string>(vs)}; //will call A(const string&& s) constructor because forward deems vs as a rvalue (actually inside the templates, templates paremeter T reduces to string)
+    A frs{std::forward<string&>(rvs)}; //will call A(const string& s) constructor because forward deems rvs as a lvalue (actually inside the templates, templates paremeter T reduces to string&)
 
 
 }

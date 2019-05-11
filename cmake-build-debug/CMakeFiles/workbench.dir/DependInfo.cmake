@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/forward/forward.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/forward/forward.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/main.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/main.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

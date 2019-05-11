@@ -38,4 +38,4 @@ using namespace containers;
     template<typename T, size_t N>
     const T* myarray<T,N>::data()const noexcept {return elem;}
 
-    //template class myarray<Point,3>;
+    //templates class myarray<Point,3>;

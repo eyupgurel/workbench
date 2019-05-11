@@ -2,12 +2,13 @@
 
 
 
-//template<typename T>  //It is not possible to (re)define an operator for a pair of built-in types, such as pointers
+//templates<typename T>  //It is not possible to (re)define an operator for a pair of built-in types, such as pointers
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
 
 int main()
 {
+    templates::test_template_array();
     forward::drive();
     forward::driveXref();
 

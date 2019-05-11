@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/forward/forward.cpp.o"
   "CMakeFiles/workbench.dir/forward/Xref.cpp.o"
   "CMakeFiles/workbench.dir/SFINAE/SFINAE.cpp.o"
+  "CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "workbench.pdb"
   "workbench"
 )

@@ -29,7 +29,7 @@ namespace memory{
     constexpr _Tp&&
     my_forward(typename std::remove_reference<_Tp>::type&& __t) noexcept
     {
-        static_assert(!std::is_lvalue_reference<_Tp>::value, "template argument"
+        static_assert(!std::is_lvalue_reference<_Tp>::value, "templates argument"
                                                              " substituting _Tp is an lvalue reference type");
         return static_cast<_Tp&&>(__t);
     }
