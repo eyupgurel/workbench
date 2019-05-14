@@ -12,6 +12,14 @@
 
 using namespace std;
 namespace functionobject{
+
+    template<typename Iter, typename Fct>
+    Fct for_each_apply_fct(Iter beg, Iter end, Fct fct){
+        while(beg!=end)
+            fct(*beg++);
+        return fct;
+    }
+
     template<typename T>
     class Add{
         complex<T> zval;
@@ -21,8 +29,10 @@ namespace functionobject{
         void operator()(complex<T>&z)const{z+=zval;}
     };
     template<typename T>
-    void h(vector<complex<T>>& vec, list<complex<T>>& lst, complex<T> z);
+    void h1(vector<complex<T>>& vec, list<complex<T>>& lst, complex<T> z);
 
+    template<typename T>
+    void h2(vector<complex<T>>& vec, list<complex<T>>& lst, complex<T> z);
     void drive_function_object();
 }
 
