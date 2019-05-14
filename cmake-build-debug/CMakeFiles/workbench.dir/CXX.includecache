@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp
-array.h
-/home/egl/Documents/sc/C++/workbench/templates/array/array.h
+/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp
+tiny.h
+/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
 
-/home/egl/Documents/sc/C++/workbench/templates/array/array.h
-cstddef
+/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
+stdexcept
 -
 

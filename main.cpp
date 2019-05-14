@@ -8,6 +8,8 @@
 
 int main()
 {
+    typeconversion::drive_tiny();
+    math::drive_complex();
     templates::test_template_array();
     forward::drive();
     forward::driveXref();

@@ -582,6 +582,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+math/_complex.o: math/_complex.cpp.o
+
+.PHONY : math/_complex.o
+
+# target to build an object file
+math/_complex.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.o
+.PHONY : math/_complex.cpp.o
+
+math/_complex.i: math/_complex.cpp.i
+
+.PHONY : math/_complex.i
+
+# target to preprocess a source file
+math/_complex.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.i
+.PHONY : math/_complex.cpp.i
+
+math/_complex.s: math/_complex.cpp.s
+
+.PHONY : math/_complex.s
+
+# target to generate assembly for a file
+math/_complex.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.s
+.PHONY : math/_complex.cpp.s
+
 templates/array/array.o: templates/array/array.cpp.o
 
 .PHONY : templates/array/array.o
@@ -608,6 +635,33 @@ templates/array/array.s: templates/array/array.cpp.s
 templates/array/array.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.s
 .PHONY : templates/array/array.cpp.s
+
+typeconversion/tiny.o: typeconversion/tiny.cpp.o
+
+.PHONY : typeconversion/tiny.o
+
+# target to build an object file
+typeconversion/tiny.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o
+.PHONY : typeconversion/tiny.cpp.o
+
+typeconversion/tiny.i: typeconversion/tiny.cpp.i
+
+.PHONY : typeconversion/tiny.i
+
+# target to preprocess a source file
+typeconversion/tiny.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeconversion/tiny.cpp.i
+.PHONY : typeconversion/tiny.cpp.i
+
+typeconversion/tiny.s: typeconversion/tiny.cpp.s
+
+.PHONY : typeconversion/tiny.s
+
+# target to generate assembly for a file
+typeconversion/tiny.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeconversion/tiny.cpp.s
+.PHONY : typeconversion/tiny.cpp.s
 
 union/Entry.o: union/Entry.cpp.o
 
@@ -696,9 +750,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... math/_complex.o"
+	@echo "... math/_complex.i"
+	@echo "... math/_complex.s"
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"
+	@echo "... typeconversion/tiny.o"
+	@echo "... typeconversion/tiny.i"
+	@echo "... typeconversion/tiny.s"
 	@echo "... union/Entry.o"
 	@echo "... union/Entry.i"
 	@echo "... union/Entry.s"

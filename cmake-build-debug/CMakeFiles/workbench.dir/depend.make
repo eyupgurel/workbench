@@ -75,12 +75,20 @@ CMakeFiles/workbench.dir/main.cpp.o: ../forward/forward.h
 CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
+CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
+CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
+
+CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.cpp
+CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
 
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.cpp
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h
+
+CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
+CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h
 
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.cpp
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.h
