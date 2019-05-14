@@ -25,6 +25,7 @@
 #include "templates/array/array.h"
 #include "math/_complex.h"
 #include "typeconversion/tiny.h"
+#include "operators/operators.h"
 
 using namespace algorithms;
 using namespace containers;

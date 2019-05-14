@@ -8,6 +8,7 @@
 
 int main()
 {
+    operators::drive_assoc();
     typeconversion::drive_tiny();
     math::drive_complex();
     templates::test_template_array();

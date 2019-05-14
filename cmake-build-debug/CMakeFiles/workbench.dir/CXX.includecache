@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp
-tiny.h
-/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
+/home/egl/Documents/sc/C++/workbench/operators/operators.cpp
+operators.h
+/home/egl/Documents/sc/C++/workbench/operators/operators.h
 
-/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
-stdexcept
+/home/egl/Documents/sc/C++/workbench/operators/operators.h
+vector
+-
+string
+-
+iostream
+-
+fstream
 -
 

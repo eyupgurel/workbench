@@ -609,6 +609,33 @@ math/_complex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.s
 .PHONY : math/_complex.cpp.s
 
+operators/operators.o: operators/operators.cpp.o
+
+.PHONY : operators/operators.o
+
+# target to build an object file
+operators/operators.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/operators.cpp.o
+.PHONY : operators/operators.cpp.o
+
+operators/operators.i: operators/operators.cpp.i
+
+.PHONY : operators/operators.i
+
+# target to preprocess a source file
+operators/operators.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/operators.cpp.i
+.PHONY : operators/operators.cpp.i
+
+operators/operators.s: operators/operators.cpp.s
+
+.PHONY : operators/operators.s
+
+# target to generate assembly for a file
+operators/operators.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/operators.cpp.s
+.PHONY : operators/operators.cpp.s
+
 templates/array/array.o: templates/array/array.cpp.o
 
 .PHONY : templates/array/array.o
@@ -753,6 +780,9 @@ help:
 	@echo "... math/_complex.o"
 	@echo "... math/_complex.i"
 	@echo "... math/_complex.s"
+	@echo "... operators/operators.o"
+	@echo "... operators/operators.i"
+	@echo "... operators/operators.s"
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"

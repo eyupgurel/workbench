@@ -199,6 +199,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/memory/move.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/operators/operators.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/operators/operators.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp">
 			<Option target="workbench"/>
 		</Unit>

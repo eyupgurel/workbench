@@ -20,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "CMakeFiles/workbench.dir/math/_complex.cpp.o"
   "CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"
+  "CMakeFiles/workbench.dir/operators/operators.cpp.o"
   "workbench.pdb"
   "workbench"
 )
