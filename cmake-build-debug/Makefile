@@ -528,6 +528,33 @@ forward/forward.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/forward.cpp.s
 .PHONY : forward/forward.cpp.s
 
+functionobject/functionobject.o: functionobject/functionobject.cpp.o
+
+.PHONY : functionobject/functionobject.o
+
+# target to build an object file
+functionobject/functionobject.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o
+.PHONY : functionobject/functionobject.cpp.o
+
+functionobject/functionobject.i: functionobject/functionobject.cpp.i
+
+.PHONY : functionobject/functionobject.i
+
+# target to preprocess a source file
+functionobject/functionobject.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functionobject/functionobject.cpp.i
+.PHONY : functionobject/functionobject.cpp.i
+
+functionobject/functionobject.s: functionobject/functionobject.cpp.s
+
+.PHONY : functionobject/functionobject.s
+
+# target to generate assembly for a file
+functionobject/functionobject.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functionobject/functionobject.cpp.s
+.PHONY : functionobject/functionobject.cpp.s
+
 lifetime/lifetime.o: lifetime/lifetime.cpp.o
 
 .PHONY : lifetime/lifetime.o
@@ -771,6 +798,9 @@ help:
 	@echo "... forward/forward.o"
 	@echo "... forward/forward.i"
 	@echo "... forward/forward.s"
+	@echo "... functionobject/functionobject.o"
+	@echo "... functionobject/functionobject.i"
+	@echo "... functionobject/functionobject.s"
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"

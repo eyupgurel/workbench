@@ -8,6 +8,7 @@
 
 int main()
 {
+    functionobject::drive_function_object();
     operators::drive_assoc();
     typeconversion::drive_tiny();
     math::drive_complex();

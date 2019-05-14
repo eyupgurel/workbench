@@ -178,6 +178,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/forward.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/functionobject/functionobject.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/functionobject/functionobject.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp">
 			<Option target="workbench"/>
 		</Unit>
