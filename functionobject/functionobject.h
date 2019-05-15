@@ -33,6 +33,10 @@ namespace functionobject{
 
     template<typename T>
     void h2(vector<complex<T>>& vec, list<complex<T>>& lst, complex<T> z);
+
+    template<typename T>
+    void h3(vector<complex<T>>& vec, list<complex<T>>& lst, complex<T> z);
+
     void drive_function_object();
 }
 

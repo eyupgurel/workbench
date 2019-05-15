@@ -89,6 +89,9 @@ CMakeFiles/workbench.dir/main.cpp.o
 CMakeFiles/workbench.dir/math/_complex.cpp.o
  /home/egl/Documents/sc/C++/workbench/math/_complex.cpp
  /home/egl/Documents/sc/C++/workbench/math/_complex.h
+CMakeFiles/workbench.dir/operators/base3.cpp.o
+ /home/egl/Documents/sc/C++/workbench/operators/base3.cpp
+ /home/egl/Documents/sc/C++/workbench/operators/base3.h
 CMakeFiles/workbench.dir/operators/operators.cpp.o
  /home/egl/Documents/sc/C++/workbench/operators/operators.cpp
  /home/egl/Documents/sc/C++/workbench/operators/operators.h

@@ -636,6 +636,33 @@ math/_complex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.s
 .PHONY : math/_complex.cpp.s
 
+operators/base3.o: operators/base3.cpp.o
+
+.PHONY : operators/base3.o
+
+# target to build an object file
+operators/base3.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/base3.cpp.o
+.PHONY : operators/base3.cpp.o
+
+operators/base3.i: operators/base3.cpp.i
+
+.PHONY : operators/base3.i
+
+# target to preprocess a source file
+operators/base3.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/base3.cpp.i
+.PHONY : operators/base3.cpp.i
+
+operators/base3.s: operators/base3.cpp.s
+
+.PHONY : operators/base3.s
+
+# target to generate assembly for a file
+operators/base3.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/base3.cpp.s
+.PHONY : operators/base3.cpp.s
+
 operators/operators.o: operators/operators.cpp.o
 
 .PHONY : operators/operators.o
@@ -810,6 +837,9 @@ help:
 	@echo "... math/_complex.o"
 	@echo "... math/_complex.i"
 	@echo "... math/_complex.s"
+	@echo "... operators/base3.o"
+	@echo "... operators/base3.i"
+	@echo "... operators/base3.s"
 	@echo "... operators/operators.o"
 	@echo "... operators/operators.i"
 	@echo "... operators/operators.s"

@@ -22,6 +22,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"
   "CMakeFiles/workbench.dir/operators/operators.cpp.o"
   "CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o"
+  "CMakeFiles/workbench.dir/operators/base3.cpp.o"
   "workbench.pdb"
   "workbench"
 )

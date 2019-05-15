@@ -89,6 +89,9 @@ CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.cpp
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
 
+CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.cpp
+CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.h
+
 CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.cpp
 CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.h
 

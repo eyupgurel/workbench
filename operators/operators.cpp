@@ -12,7 +12,6 @@ int& Assoc::operator[](const string & s) {
     return vec.back().second;
 }
 
-
 void operators::drive_assoc() {
     Assoc values;
     string buf;
