@@ -22,7 +22,7 @@ namespace math{
         _complex& operator+=(ldouble r){re+=r;return *this;}
         _complex& operator-=(_complex z){re-=z.re,im-=z.im;return *this;}
     };
-    constexpr _complex operator "" i(ldouble d)
+    constexpr _complex operator "" _i(ldouble d)
     {
         return {0,d}; // complex is a literal type
     }

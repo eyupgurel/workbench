@@ -28,7 +28,7 @@ void f(_complex x, _complex y, _complex z)
 }
 
 void math::drive_complex(){
-    _complex zq{1.2+12e3i};
+    _complex zq{1.2+12e3_i};
     constexpr _complex cz{1.2,2.1};
      _complex z1{3.2,7.3};
     _complex z2{0.2,4.4};
