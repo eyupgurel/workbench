@@ -30,10 +30,11 @@
 #include "functionobject/functionobject.h"
 #include "union/unionofclasses.h"
 
+
 using namespace algorithms;
 using namespace containers;
 
-
+void drive_linear_algebra();
 void test_merge_sort();
 void move_hanoi_towers();
 template<typename T>

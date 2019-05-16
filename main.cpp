@@ -8,6 +8,7 @@
 
 int main()
 {
+    drive_linear_algebra();
     containers::drive_string();
     unions::drive_union_of_classes();
     functionobject::drive_function_object();

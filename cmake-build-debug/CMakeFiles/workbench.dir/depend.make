@@ -62,6 +62,9 @@ CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h
 
+CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o: ../linearalgebra/linearalgebra.cpp
+CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o: ../linearalgebra/linearalgebra.h
+
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/shellsort.h

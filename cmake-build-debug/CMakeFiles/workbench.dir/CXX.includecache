@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/containers/_string.cpp
-_string.h
-/home/egl/Documents/sc/C++/workbench/containers/_string.h
+/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.cpp
+linearalgebra.h
+/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.h
 
-/home/egl/Documents/sc/C++/workbench/containers/_string.h
-stdexcept
--
-cstring
--
-iostream
+/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.h
+cstddef
 -
 

@@ -609,6 +609,33 @@ lifetime/lifetime.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lifetime/lifetime.cpp.s
 .PHONY : lifetime/lifetime.cpp.s
 
+linearalgebra/linearalgebra.o: linearalgebra/linearalgebra.cpp.o
+
+.PHONY : linearalgebra/linearalgebra.o
+
+# target to build an object file
+linearalgebra/linearalgebra.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o
+.PHONY : linearalgebra/linearalgebra.cpp.o
+
+linearalgebra/linearalgebra.i: linearalgebra/linearalgebra.cpp.i
+
+.PHONY : linearalgebra/linearalgebra.i
+
+# target to preprocess a source file
+linearalgebra/linearalgebra.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.i
+.PHONY : linearalgebra/linearalgebra.cpp.i
+
+linearalgebra/linearalgebra.s: linearalgebra/linearalgebra.cpp.s
+
+.PHONY : linearalgebra/linearalgebra.s
+
+# target to generate assembly for a file
+linearalgebra/linearalgebra.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.s
+.PHONY : linearalgebra/linearalgebra.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -888,6 +915,9 @@ help:
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"
+	@echo "... linearalgebra/linearalgebra.o"
+	@echo "... linearalgebra/linearalgebra.i"
+	@echo "... linearalgebra/linearalgebra.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
