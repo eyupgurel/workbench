@@ -20,7 +20,7 @@ namespace  unions{
             string s;
         };
     public:
-        struct Bad_entry{};
+        struct Bad_entry:exception{};
         string name;
         ~Entry();
         Entry(const Entry& entry);

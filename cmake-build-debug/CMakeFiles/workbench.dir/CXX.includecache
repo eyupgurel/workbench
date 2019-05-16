@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/math/_complex.cpp
-_complex.h
-/home/egl/Documents/sc/C++/workbench/math/_complex.h
+/home/egl/Documents/sc/C++/workbench/containers/_string.cpp
+_string.h
+/home/egl/Documents/sc/C++/workbench/containers/_string.h
 
-/home/egl/Documents/sc/C++/workbench/math/_complex.h
+/home/egl/Documents/sc/C++/workbench/containers/_string.h
+stdexcept
+-
+cstring
+-
+iostream
+-
 

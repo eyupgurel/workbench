@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/operators/operators.cpp.o"
   "CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o"
   "CMakeFiles/workbench.dir/operators/base3.cpp.o"
+  "CMakeFiles/workbench.dir/containers/_string.cpp.o"
+  "CMakeFiles/workbench.dir/union/unionofclasses.cpp.o"
   "workbench.pdb"
   "workbench"
 )

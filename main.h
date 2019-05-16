@@ -16,6 +16,7 @@
 #include "containers/list_container.h"
 #include "containers/myarray.h"
 #include "containers/simplematrix.h"
+#include "containers/_string.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
 #include "chrono/chrono.h"
@@ -27,6 +28,7 @@
 #include "typeconversion/tiny.h"
 #include "operators/operators.h"
 #include "functionobject/functionobject.h"
+#include "union/unionofclasses.h"
 
 using namespace algorithms;
 using namespace containers;

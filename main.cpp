@@ -8,6 +8,8 @@
 
 int main()
 {
+    containers::drive_string();
+    unions::drive_union_of_classes();
     functionobject::drive_function_object();
     operators::drive_assoc();
     typeconversion::drive_tiny();

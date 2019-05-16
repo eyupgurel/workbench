@@ -19,6 +19,9 @@ CMakeFiles/workbench.dir/assert/assert.cpp.o: ../assert/assert.h
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.cpp
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.h
 
+CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.cpp
+CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.h
+
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
@@ -65,6 +68,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/shellsort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../assert/assert.h
 CMakeFiles/workbench.dir/main.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/main.cpp.o: ../common.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/_string.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/myarray.h
@@ -85,6 +89,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
+CMakeFiles/workbench.dir/main.cpp.o: ../union/unionofclasses.h
 
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.cpp
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
@@ -103,4 +108,7 @@ CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h
 
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.cpp
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.h
+
+CMakeFiles/workbench.dir/union/unionofclasses.cpp.o: ../union/unionofclasses.cpp
+CMakeFiles/workbench.dir/union/unionofclasses.cpp.o: ../union/unionofclasses.h
 

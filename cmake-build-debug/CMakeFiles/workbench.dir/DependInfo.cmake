@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/assert/assert.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/assert/assert.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/chrono/chrono.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/chrono/chrono.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/containers/_string.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/_string.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/list_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/list_container.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/myarray.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/myarray.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/simplematrix.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/simplematrix.cpp.o"
@@ -28,6 +29,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/union/unionofclasses.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/unionofclasses.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

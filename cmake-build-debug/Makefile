@@ -285,6 +285,33 @@ chrono/chrono.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/chrono/chrono.cpp.s
 .PHONY : chrono/chrono.cpp.s
 
+containers/_string.o: containers/_string.cpp.o
+
+.PHONY : containers/_string.o
+
+# target to build an object file
+containers/_string.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_string.cpp.o
+.PHONY : containers/_string.cpp.o
+
+containers/_string.i: containers/_string.cpp.i
+
+.PHONY : containers/_string.i
+
+# target to preprocess a source file
+containers/_string.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_string.cpp.i
+.PHONY : containers/_string.cpp.i
+
+containers/_string.s: containers/_string.cpp.s
+
+.PHONY : containers/_string.s
+
+# target to generate assembly for a file
+containers/_string.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_string.cpp.s
+.PHONY : containers/_string.cpp.s
+
 containers/list_container.o: containers/list_container.cpp.o
 
 .PHONY : containers/list_container.o
@@ -771,6 +798,33 @@ union/Entry.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/Entry.cpp.s
 .PHONY : union/Entry.cpp.s
 
+union/unionofclasses.o: union/unionofclasses.cpp.o
+
+.PHONY : union/unionofclasses.o
+
+# target to build an object file
+union/unionofclasses.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/unionofclasses.cpp.o
+.PHONY : union/unionofclasses.cpp.o
+
+union/unionofclasses.i: union/unionofclasses.cpp.i
+
+.PHONY : union/unionofclasses.i
+
+# target to preprocess a source file
+union/unionofclasses.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/unionofclasses.cpp.i
+.PHONY : union/unionofclasses.cpp.i
+
+union/unionofclasses.s: union/unionofclasses.cpp.s
+
+.PHONY : union/unionofclasses.s
+
+# target to generate assembly for a file
+union/unionofclasses.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/unionofclasses.cpp.s
+.PHONY : union/unionofclasses.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -798,6 +852,9 @@ help:
 	@echo "... chrono/chrono.o"
 	@echo "... chrono/chrono.i"
 	@echo "... chrono/chrono.s"
+	@echo "... containers/_string.o"
+	@echo "... containers/_string.i"
+	@echo "... containers/_string.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
@@ -852,6 +909,9 @@ help:
 	@echo "... union/Entry.o"
 	@echo "... union/Entry.i"
 	@echo "... union/Entry.s"
+	@echo "... union/unionofclasses.o"
+	@echo "... union/unionofclasses.i"
+	@echo "... union/unionofclasses.s"
 .PHONY : help
 
 
