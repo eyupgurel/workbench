@@ -15,6 +15,11 @@ _string::_string(const char* p):sz{strlen(p)},
     strcpy(ptr,p);
 }
 
+template<size_t N>
+_string::_string(const char(&p)[N]):sz{N},ptr{sz<=short_max?ch:new char[sz+1]},space{0}{
+    strcpy(ptr,p);
+}
+
 _string::_string(const _string& s){
    copy_from(s);
 }
@@ -116,7 +121,6 @@ bool containers::operator!=(const containers::_string &lhs, const containers::_s
     return !(lhs==rhs);
 }
 
-
 char* containers::begin(_string& s){
     return s.c_str();
 }
@@ -145,7 +149,17 @@ _string containers::operator ""_s(const char *p, size_t) {
     return _string{p};
 }
 
+_string f(const _string& s){
+    cout << s << endl;
+    _string d=s+s;
+    return d;
+}
+
 void containers::drive_string() {
+    _string r{f("print me!")};
+    char animal[8]{"Mammoth"};
+    _string sa{animal};
+
     _string s{"abcdefghij"};
     cout << s << '\n';
     s+='k';
@@ -166,9 +180,4 @@ void containers::drive_string() {
     _string buf;
     while (cin>>buf && buf!="quit")
         cout << buf << " " << buf.size() << " " << buf.capacity() << '\n';
-
-
-
-
-
 }

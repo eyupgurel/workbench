@@ -15,6 +15,8 @@ namespace containers{
     public:
         _string();
         _string(const char * p);
+        template<size_t N>
+        _string(const char(&p)[N]);
         _string(const _string&);
         _string& operator=(const _string&);
         _string(_string&&)noexcept;
