@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.cpp
-linearalgebra.h
-/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.h
+/home/egl/Documents/sc/C++/workbench/inheritance/Vector.cpp
+Vector.h
+/home/egl/Documents/sc/C++/workbench/inheritance/Vector.h
 
-/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.h
-cstddef
+/home/egl/Documents/sc/C++/workbench/inheritance/Vector.h
+vector
+-
+stdexcept
 -
 

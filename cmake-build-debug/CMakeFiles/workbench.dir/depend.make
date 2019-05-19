@@ -59,6 +59,9 @@ CMakeFiles/workbench.dir/forward/forward.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/functionobject.cpp
 CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/functionobject.h
 
+CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.cpp
+CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.h
+
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h
 

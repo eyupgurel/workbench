@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/forward/Xref.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/forward/Xref.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/forward/forward.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/forward/forward.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/functionobject/functionobject.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/inheritance/Vector.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/inheritance/Vector.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/linearalgebra/linearalgebra.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/main.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/main.cpp.o"

@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/containers/_string.cpp.o"
   "CMakeFiles/workbench.dir/union/unionofclasses.cpp.o"
   "CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o"
+  "CMakeFiles/workbench.dir/inheritance/Vector.cpp.o"
   "workbench.pdb"
   "workbench"
 )

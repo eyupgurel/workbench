@@ -2,12 +2,17 @@
 
 
 
+
+
+
+
 //templates<typename T>  //It is not possible to (re)define an operator for a pair of built-in types, such as pointers
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
 
 int main()
 {
+    drive_safe_vector();
     drive_linear_algebra();
     containers::drive_string();
     unions::drive_union_of_classes();

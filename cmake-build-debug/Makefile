@@ -582,6 +582,33 @@ functionobject/functionobject.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functionobject/functionobject.cpp.s
 .PHONY : functionobject/functionobject.cpp.s
 
+inheritance/Vector.o: inheritance/Vector.cpp.o
+
+.PHONY : inheritance/Vector.o
+
+# target to build an object file
+inheritance/Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/inheritance/Vector.cpp.o
+.PHONY : inheritance/Vector.cpp.o
+
+inheritance/Vector.i: inheritance/Vector.cpp.i
+
+.PHONY : inheritance/Vector.i
+
+# target to preprocess a source file
+inheritance/Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/inheritance/Vector.cpp.i
+.PHONY : inheritance/Vector.cpp.i
+
+inheritance/Vector.s: inheritance/Vector.cpp.s
+
+.PHONY : inheritance/Vector.s
+
+# target to generate assembly for a file
+inheritance/Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/inheritance/Vector.cpp.s
+.PHONY : inheritance/Vector.cpp.s
+
 lifetime/lifetime.o: lifetime/lifetime.cpp.o
 
 .PHONY : lifetime/lifetime.o
@@ -912,6 +939,9 @@ help:
 	@echo "... functionobject/functionobject.o"
 	@echo "... functionobject/functionobject.i"
 	@echo "... functionobject/functionobject.s"
+	@echo "... inheritance/Vector.o"
+	@echo "... inheritance/Vector.i"
+	@echo "... inheritance/Vector.s"
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"

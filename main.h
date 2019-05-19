@@ -31,12 +31,16 @@
 #include "union/unionofclasses.h"
 
 
+
 using namespace algorithms;
 using namespace containers;
 
+void drive_safe_vector();
 void drive_linear_algebra();
 void test_merge_sort();
 void move_hanoi_towers();
+
+
 template<typename T>
 containers::vector<T> square_vector(containers::vector<T>& v);
 

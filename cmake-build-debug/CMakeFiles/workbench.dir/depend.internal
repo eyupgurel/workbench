@@ -59,6 +59,9 @@ CMakeFiles/workbench.dir/forward/forward.cpp.o
 CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o
  /home/egl/Documents/sc/C++/workbench/functionobject/functionobject.cpp
  /home/egl/Documents/sc/C++/workbench/functionobject/functionobject.h
+CMakeFiles/workbench.dir/inheritance/Vector.cpp.o
+ /home/egl/Documents/sc/C++/workbench/inheritance/Vector.cpp
+ /home/egl/Documents/sc/C++/workbench/inheritance/Vector.h
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o
  /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp
  /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.h
