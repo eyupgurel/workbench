@@ -6,8 +6,20 @@
 
 using namespace pointer;
 
-using Pstd_mem = void (Std_interface::*)(); // pointer-to-member type
+void g(C& z1, C& z2){
+    C* p{&z2};
+    Pmfi pf=&C::print;
+    Pm pm=&C::val;
 
+    z1.print(1);
+    (z1.*pf)(2);
+    z1.*pm="nv 1";
+    p->*pm="nv 2";
+    z2.print(3);
+    (p->*pf)(4);
+
+
+}
 
 void f(Std_interface* p)
 {
@@ -18,6 +30,10 @@ void f(Std_interface* p)
 
 
 void pointer::derive_pointer(){
+    C z1{"Sing a"};
+    C z2{"Song"};
+    g(z1,z2);
+
     // declare pointer to data member
     int X::*ptiptr = &X::a;
 
