@@ -92,6 +92,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
+CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
@@ -105,6 +106,9 @@ CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.h
 
 CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.cpp
 CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.h
+
+CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.cpp
+CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.h
 
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.cpp
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h

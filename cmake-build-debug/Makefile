@@ -771,6 +771,33 @@ operators/operators.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/operators/operators.cpp.s
 .PHONY : operators/operators.cpp.s
 
+pointer/pointer.o: pointer/pointer.cpp.o
+
+.PHONY : pointer/pointer.o
+
+# target to build an object file
+pointer/pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/pointer/pointer.cpp.o
+.PHONY : pointer/pointer.cpp.o
+
+pointer/pointer.i: pointer/pointer.cpp.i
+
+.PHONY : pointer/pointer.i
+
+# target to preprocess a source file
+pointer/pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/pointer/pointer.cpp.i
+.PHONY : pointer/pointer.cpp.i
+
+pointer/pointer.s: pointer/pointer.cpp.s
+
+.PHONY : pointer/pointer.s
+
+# target to generate assembly for a file
+pointer/pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/pointer/pointer.cpp.s
+.PHONY : pointer/pointer.cpp.s
+
 templates/array/array.o: templates/array/array.cpp.o
 
 .PHONY : templates/array/array.o
@@ -960,6 +987,9 @@ help:
 	@echo "... operators/operators.o"
 	@echo "... operators/operators.i"
 	@echo "... operators/operators.s"
+	@echo "... pointer/pointer.o"
+	@echo "... pointer/pointer.i"
+	@echo "... pointer/pointer.s"
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"

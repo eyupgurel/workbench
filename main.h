@@ -29,6 +29,7 @@
 #include "operators/operators.h"
 #include "functionobject/functionobject.h"
 #include "union/unionofclasses.h"
+#include "pointer/pointer.h"
 
 
 

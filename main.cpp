@@ -12,6 +12,7 @@
 
 int main()
 {
+    pointer::derive_pointer();
     drive_safe_vector();
     drive_linear_algebra();
     containers::drive_string();
