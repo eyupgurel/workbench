@@ -30,6 +30,7 @@
 #include "functionobject/functionobject.h"
 #include "union/unionofclasses.h"
 #include "pointer/pointer.h"
+#include "cast/cast.h"
 
 
 

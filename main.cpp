@@ -1,17 +1,12 @@
 #include "main.h"
 
-
-
-
-
-
-
 //templates<typename T>  //It is not possible to (re)define an operator for a pair of built-in types, such as pointers
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
 
 int main()
 {
+    cast::drive_cast();
     pointer::derive_pointer();
     drive_safe_vector();
     drive_linear_algebra();

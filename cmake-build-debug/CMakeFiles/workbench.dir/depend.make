@@ -16,6 +16,9 @@ CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o: ../algorithms/shellsort.h
 CMakeFiles/workbench.dir/assert/assert.cpp.o: ../assert/assert.cpp
 CMakeFiles/workbench.dir/assert/assert.cpp.o: ../assert/assert.h
 
+CMakeFiles/workbench.dir/cast/cast.cpp.o: ../cast/cast.cpp
+CMakeFiles/workbench.dir/cast/cast.cpp.o: ../cast/cast.h
+
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.cpp
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.h
 
@@ -72,6 +75,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/shellsort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../assert/assert.h
+CMakeFiles/workbench.dir/main.cpp.o: ../cast/cast.h
 CMakeFiles/workbench.dir/main.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/main.cpp.o: ../common.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/_string.h

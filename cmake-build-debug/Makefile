@@ -258,6 +258,33 @@ assert/assert.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/assert/assert.cpp.s
 .PHONY : assert/assert.cpp.s
 
+cast/cast.o: cast/cast.cpp.o
+
+.PHONY : cast/cast.o
+
+# target to build an object file
+cast/cast.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/cast/cast.cpp.o
+.PHONY : cast/cast.cpp.o
+
+cast/cast.i: cast/cast.cpp.i
+
+.PHONY : cast/cast.i
+
+# target to preprocess a source file
+cast/cast.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/cast/cast.cpp.i
+.PHONY : cast/cast.cpp.i
+
+cast/cast.s: cast/cast.cpp.s
+
+.PHONY : cast/cast.s
+
+# target to generate assembly for a file
+cast/cast.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/cast/cast.cpp.s
+.PHONY : cast/cast.cpp.s
+
 chrono/chrono.o: chrono/chrono.cpp.o
 
 .PHONY : chrono/chrono.o
@@ -930,6 +957,9 @@ help:
 	@echo "... assert/assert.o"
 	@echo "... assert/assert.i"
 	@echo "... assert/assert.s"
+	@echo "... cast/cast.o"
+	@echo "... cast/cast.i"
+	@echo "... cast/cast.s"
 	@echo "... chrono/chrono.o"
 	@echo "... chrono/chrono.i"
 	@echo "... chrono/chrono.s"

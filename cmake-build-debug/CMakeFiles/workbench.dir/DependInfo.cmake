@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/algorithms/mergesort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/algorithms/shellsort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/algorithms/shellsort.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/assert/assert.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/assert/assert.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/cast/cast.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/cast/cast.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/chrono/chrono.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/chrono/chrono.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/_string.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/_string.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/list_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/list_container.cpp.o"

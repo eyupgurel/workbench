@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/pointer/pointer.cpp
-pointer.h
-/home/egl/Documents/sc/C++/workbench/pointer/pointer.h
+/home/egl/Documents/sc/C++/workbench/cast/cast.cpp
+cast.h
+/home/egl/Documents/sc/C++/workbench/cast/cast.h
 
-/home/egl/Documents/sc/C++/workbench/pointer/pointer.h
-iostream
+/home/egl/Documents/sc/C++/workbench/cast/cast.h
+string
 -
 
