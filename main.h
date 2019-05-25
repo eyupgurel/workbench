@@ -31,7 +31,8 @@
 #include "union/unionofclasses.h"
 #include "pointer/pointer.h"
 #include "cast/cast.h"
-
+#include "typeid/typeid.h"
+#include "membertemplates/membertemplates.h"
 
 
 using namespace algorithms;

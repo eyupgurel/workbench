@@ -133,6 +133,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_string.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_tstring.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/container.h">
 			<Option target="workbench"/>
 		</Unit>
@@ -226,6 +232,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/math/_complex.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/memory/move.h">
 			<Option target="workbench"/>
 		</Unit>
@@ -257,6 +269,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/typeid/typeid.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/union/Entry.cpp">

@@ -25,6 +25,9 @@ CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.cpp
 CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.h
 
+CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.cpp
+CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.h
+
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
@@ -94,16 +97,21 @@ CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
+CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
+CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/unionofclasses.h
 
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.cpp
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
+
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.cpp
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.h
 
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.cpp
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.h
@@ -119,6 +127,9 @@ CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h
 
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h
+
+CMakeFiles/workbench.dir/typeid/typeid.cpp.o: ../typeid/typeid.cpp
+CMakeFiles/workbench.dir/typeid/typeid.cpp.o: ../typeid/typeid.h
 
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.cpp
 CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.h

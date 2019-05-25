@@ -6,11 +6,13 @@
 
 int main()
 {
+    membertemplates::drive_membertemplates();
+    typeid_::drive_typeid();
     cast::drive_cast();
     pointer::derive_pointer();
     drive_safe_vector();
     drive_linear_algebra();
-    containers::drive_string();
+
     unions::drive_union_of_classes();
     functionobject::drive_function_object();
     operators::drive_assoc();
@@ -49,6 +51,7 @@ int main()
     test_vector();
     test_merge_sort();
     move_hanoi_towers();
+    containers::drive_string();
     return 0;
 }
 

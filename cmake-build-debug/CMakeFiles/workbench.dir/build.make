@@ -447,6 +447,45 @@ CMakeFiles/workbench.dir/cast/cast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/cast/cast.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/cast/cast.cpp -o CMakeFiles/workbench.dir/cast/cast.cpp.s
 
+CMakeFiles/workbench.dir/typeid/typeid.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/typeid/typeid.cpp.o: ../typeid/typeid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/workbench.dir/typeid/typeid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/typeid/typeid.cpp.o -c /home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp
+
+CMakeFiles/workbench.dir/typeid/typeid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/typeid/typeid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp > CMakeFiles/workbench.dir/typeid/typeid.cpp.i
+
+CMakeFiles/workbench.dir/typeid/typeid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/typeid/typeid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp -o CMakeFiles/workbench.dir/typeid/typeid.cpp.s
+
+CMakeFiles/workbench.dir/containers/_tstring.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/workbench.dir/containers/_tstring.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/_tstring.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp
+
+CMakeFiles/workbench.dir/containers/_tstring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/_tstring.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp > CMakeFiles/workbench.dir/containers/_tstring.cpp.i
+
+CMakeFiles/workbench.dir/containers/_tstring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/_tstring.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp -o CMakeFiles/workbench.dir/containers/_tstring.cpp.s
+
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o -c /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp
+
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp > CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.i
+
+CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp -o CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -478,7 +517,10 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o" \
 "CMakeFiles/workbench.dir/inheritance/Vector.cpp.o" \
 "CMakeFiles/workbench.dir/pointer/pointer.cpp.o" \
-"CMakeFiles/workbench.dir/cast/cast.cpp.o"
+"CMakeFiles/workbench.dir/cast/cast.cpp.o" \
+"CMakeFiles/workbench.dir/typeid/typeid.cpp.o" \
+"CMakeFiles/workbench.dir/containers/_tstring.cpp.o" \
+"CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -513,9 +555,12 @@ workbench: CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o
 workbench: CMakeFiles/workbench.dir/inheritance/Vector.cpp.o
 workbench: CMakeFiles/workbench.dir/pointer/pointer.cpp.o
 workbench: CMakeFiles/workbench.dir/cast/cast.cpp.o
+workbench: CMakeFiles/workbench.dir/typeid/typeid.cpp.o
+workbench: CMakeFiles/workbench.dir/containers/_tstring.cpp.o
+workbench: CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

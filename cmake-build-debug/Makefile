@@ -339,6 +339,33 @@ containers/_string.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_string.cpp.s
 .PHONY : containers/_string.cpp.s
 
+containers/_tstring.o: containers/_tstring.cpp.o
+
+.PHONY : containers/_tstring.o
+
+# target to build an object file
+containers/_tstring.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tstring.cpp.o
+.PHONY : containers/_tstring.cpp.o
+
+containers/_tstring.i: containers/_tstring.cpp.i
+
+.PHONY : containers/_tstring.i
+
+# target to preprocess a source file
+containers/_tstring.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tstring.cpp.i
+.PHONY : containers/_tstring.cpp.i
+
+containers/_tstring.s: containers/_tstring.cpp.s
+
+.PHONY : containers/_tstring.s
+
+# target to generate assembly for a file
+containers/_tstring.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tstring.cpp.s
+.PHONY : containers/_tstring.cpp.s
+
 containers/list_container.o: containers/list_container.cpp.o
 
 .PHONY : containers/list_container.o
@@ -744,6 +771,33 @@ math/_complex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/math/_complex.cpp.s
 .PHONY : math/_complex.cpp.s
 
+membertemplates/membertemplates.o: membertemplates/membertemplates.cpp.o
+
+.PHONY : membertemplates/membertemplates.o
+
+# target to build an object file
+membertemplates/membertemplates.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o
+.PHONY : membertemplates/membertemplates.cpp.o
+
+membertemplates/membertemplates.i: membertemplates/membertemplates.cpp.i
+
+.PHONY : membertemplates/membertemplates.i
+
+# target to preprocess a source file
+membertemplates/membertemplates.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.i
+.PHONY : membertemplates/membertemplates.cpp.i
+
+membertemplates/membertemplates.s: membertemplates/membertemplates.cpp.s
+
+.PHONY : membertemplates/membertemplates.s
+
+# target to generate assembly for a file
+membertemplates/membertemplates.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s
+.PHONY : membertemplates/membertemplates.cpp.s
+
 operators/base3.o: operators/base3.cpp.o
 
 .PHONY : operators/base3.o
@@ -879,6 +933,33 @@ typeconversion/tiny.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeconversion/tiny.cpp.s
 .PHONY : typeconversion/tiny.cpp.s
 
+typeid/typeid.o: typeid/typeid.cpp.o
+
+.PHONY : typeid/typeid.o
+
+# target to build an object file
+typeid/typeid.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeid/typeid.cpp.o
+.PHONY : typeid/typeid.cpp.o
+
+typeid/typeid.i: typeid/typeid.cpp.i
+
+.PHONY : typeid/typeid.i
+
+# target to preprocess a source file
+typeid/typeid.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeid/typeid.cpp.i
+.PHONY : typeid/typeid.cpp.i
+
+typeid/typeid.s: typeid/typeid.cpp.s
+
+.PHONY : typeid/typeid.s
+
+# target to generate assembly for a file
+typeid/typeid.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/typeid/typeid.cpp.s
+.PHONY : typeid/typeid.cpp.s
+
 union/Entry.o: union/Entry.cpp.o
 
 .PHONY : union/Entry.o
@@ -966,6 +1047,9 @@ help:
 	@echo "... containers/_string.o"
 	@echo "... containers/_string.i"
 	@echo "... containers/_string.s"
+	@echo "... containers/_tstring.o"
+	@echo "... containers/_tstring.i"
+	@echo "... containers/_tstring.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
@@ -1011,6 +1095,9 @@ help:
 	@echo "... math/_complex.o"
 	@echo "... math/_complex.i"
 	@echo "... math/_complex.s"
+	@echo "... membertemplates/membertemplates.o"
+	@echo "... membertemplates/membertemplates.i"
+	@echo "... membertemplates/membertemplates.s"
 	@echo "... operators/base3.o"
 	@echo "... operators/base3.i"
 	@echo "... operators/base3.s"
@@ -1026,6 +1113,9 @@ help:
 	@echo "... typeconversion/tiny.o"
 	@echo "... typeconversion/tiny.i"
 	@echo "... typeconversion/tiny.s"
+	@echo "... typeid/typeid.o"
+	@echo "... typeid/typeid.i"
+	@echo "... typeid/typeid.s"
 	@echo "... union/Entry.o"
 	@echo "... union/Entry.i"
 	@echo "... union/Entry.s"

@@ -18,6 +18,10 @@ void g(Radio& r)
 
     Storable* ps = &r;// Storable is a virtual base of Radio
     //Radio* prscc = static_cast<Radio*>(ps);// error : cannot cast from virtual base
+    Radio* prscc = static_cast<Radio*>((void*)ps); // dangerous: can not cast from virtual base but
+                                                   // if the virtual base is the root class we can first
+                                                   // cast to void then static?cast
+
     Radio* prdc3 = dynamic_cast<Radio*>(ps);// OK, run-time checked
 
     Receiver * prec2 = dynamic_cast<Receiver*>(pt);
