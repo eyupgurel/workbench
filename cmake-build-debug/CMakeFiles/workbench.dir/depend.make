@@ -102,6 +102,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
+CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencededuction.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
@@ -124,6 +125,11 @@ CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.h
 
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.cpp
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h
+
+CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../forward/forward.h
+CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../memory/move.h
+CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../templates/referencededuction/referencededuction.cpp
+CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../templates/referencededuction/referencededuction.h
 
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h

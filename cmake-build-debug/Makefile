@@ -906,6 +906,33 @@ templates/array/array.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.s
 .PHONY : templates/array/array.cpp.s
 
+templates/referencededuction/referencededuction.o: templates/referencededuction/referencededuction.cpp.o
+
+.PHONY : templates/referencededuction/referencededuction.o
+
+# target to build an object file
+templates/referencededuction/referencededuction.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
+.PHONY : templates/referencededuction/referencededuction.cpp.o
+
+templates/referencededuction/referencededuction.i: templates/referencededuction/referencededuction.cpp.i
+
+.PHONY : templates/referencededuction/referencededuction.i
+
+# target to preprocess a source file
+templates/referencededuction/referencededuction.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.i
+.PHONY : templates/referencededuction/referencededuction.cpp.i
+
+templates/referencededuction/referencededuction.s: templates/referencededuction/referencededuction.cpp.s
+
+.PHONY : templates/referencededuction/referencededuction.s
+
+# target to generate assembly for a file
+templates/referencededuction/referencededuction.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.s
+.PHONY : templates/referencededuction/referencededuction.cpp.s
+
 typeconversion/tiny.o: typeconversion/tiny.cpp.o
 
 .PHONY : typeconversion/tiny.o
@@ -1110,6 +1137,9 @@ help:
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"
+	@echo "... templates/referencededuction/referencededuction.o"
+	@echo "... templates/referencededuction/referencededuction.i"
+	@echo "... templates/referencededuction/referencededuction.s"
 	@echo "... typeconversion/tiny.o"
 	@echo "... typeconversion/tiny.i"
 	@echo "... typeconversion/tiny.s"

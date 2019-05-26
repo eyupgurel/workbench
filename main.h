@@ -33,6 +33,7 @@
 #include "cast/cast.h"
 #include "typeid/typeid.h"
 #include "membertemplates/membertemplates.h"
+#include "templates/referencededuction/referencededuction.h"
 
 
 using namespace algorithms;

@@ -32,6 +32,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/typeid/typeid.cpp.o"
   "CMakeFiles/workbench.dir/containers/_tstring.cpp.o"
   "CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o"
+  "CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o"
   "workbench.pdb"
   "workbench"
 )

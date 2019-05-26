@@ -6,6 +6,7 @@
 
 int main()
 {
+    templates::drive_Xref();
     membertemplates::drive_membertemplates();
     typeid_::drive_typeid();
     cast::drive_cast();

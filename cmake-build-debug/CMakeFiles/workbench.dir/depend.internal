@@ -103,6 +103,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/operators/operators.h
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
+ /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
  /home/egl/Documents/sc/C++/workbench/typeid/typeid.h
  /home/egl/Documents/sc/C++/workbench/union/Entry.h
@@ -125,6 +126,11 @@ CMakeFiles/workbench.dir/pointer/pointer.cpp.o
 CMakeFiles/workbench.dir/templates/array/array.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/array/array.cpp
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
+CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
+ /home/egl/Documents/sc/C++/workbench/forward/forward.h
+ /home/egl/Documents/sc/C++/workbench/memory/move.h
+ /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
