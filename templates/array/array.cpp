@@ -11,4 +11,7 @@ void templates::test_template_array() {
     for(auto i=0; i<array_size(keys);++i){
         values[i]=keys[i]*keys[i];
     }
+
+
+
 }

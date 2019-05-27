@@ -17,13 +17,14 @@ namespace forward{
     struct A {
         A(int&& n) {
             std::cout << "rvalue overload, n=" << n << "\n";
-            std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
-            &n << endl;
+            //std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
+            //&n << endl;
         }
         A(int& n)  { std::cout << "lvalue overload, n=" << n << "\n"; }
         A(string&& s) { std::cout << "rvalue overload, s=" << s  << "\n";
-            std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
-                      &s << endl;}
+            //std::cout << "you can take the address of this rvalue there for in fact it is a lvalue. Address:=" <<
+            //          &s << endl;
+        }
         A(const string& s)  { std::cout << "lvalue overload, s=" << s << "\n"; }
 
       //  A(const string&& s) { std::cout << "const rvalue overload, s=" << s  << "\n";

@@ -32,6 +32,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/operators/base3.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/operators/base3.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/operators/operators.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/operators/operators.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/pointer/pointer.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/pointer/pointer.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"

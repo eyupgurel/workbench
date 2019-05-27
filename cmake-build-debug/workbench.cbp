@@ -259,6 +259,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/pointer/pointer.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp">
 			<Option target="workbench"/>
 		</Unit>

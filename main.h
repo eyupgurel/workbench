@@ -34,6 +34,7 @@
 #include "typeid/typeid.h"
 #include "membertemplates/membertemplates.h"
 #include "templates/referencededuction/referencededuction.h"
+#include "templates/algorithms/algorithms.h"
 
 
 using namespace algorithms;

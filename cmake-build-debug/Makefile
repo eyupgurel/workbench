@@ -879,6 +879,33 @@ pointer/pointer.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/pointer/pointer.cpp.s
 .PHONY : pointer/pointer.cpp.s
 
+templates/algorithms/algorithms.o: templates/algorithms/algorithms.cpp.o
+
+.PHONY : templates/algorithms/algorithms.o
+
+# target to build an object file
+templates/algorithms/algorithms.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o
+.PHONY : templates/algorithms/algorithms.cpp.o
+
+templates/algorithms/algorithms.i: templates/algorithms/algorithms.cpp.i
+
+.PHONY : templates/algorithms/algorithms.i
+
+# target to preprocess a source file
+templates/algorithms/algorithms.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.i
+.PHONY : templates/algorithms/algorithms.cpp.i
+
+templates/algorithms/algorithms.s: templates/algorithms/algorithms.cpp.s
+
+.PHONY : templates/algorithms/algorithms.s
+
+# target to generate assembly for a file
+templates/algorithms/algorithms.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.s
+.PHONY : templates/algorithms/algorithms.cpp.s
+
 templates/array/array.o: templates/array/array.cpp.o
 
 .PHONY : templates/array/array.o
@@ -1134,6 +1161,9 @@ help:
 	@echo "... pointer/pointer.o"
 	@echo "... pointer/pointer.i"
 	@echo "... pointer/pointer.s"
+	@echo "... templates/algorithms/algorithms.o"
+	@echo "... templates/algorithms/algorithms.i"
+	@echo "... templates/algorithms/algorithms.s"
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"

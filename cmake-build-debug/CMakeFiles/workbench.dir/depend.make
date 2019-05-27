@@ -101,6 +101,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
+CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencededuction.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
@@ -122,6 +123,9 @@ CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.h
 
 CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.cpp
 CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.h
+
+CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.cpp
+CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.h
 
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.cpp
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h

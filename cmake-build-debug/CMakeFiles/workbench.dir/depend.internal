@@ -102,6 +102,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/memory/move.h
  /home/egl/Documents/sc/C++/workbench/operators/operators.h
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
+ /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
  /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
@@ -123,6 +124,9 @@ CMakeFiles/workbench.dir/operators/operators.cpp.o
 CMakeFiles/workbench.dir/pointer/pointer.cpp.o
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.cpp
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
+CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/templates/array/array.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/array/array.cpp
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
