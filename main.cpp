@@ -6,6 +6,7 @@
 
 int main()
 {
+    templates::drive_specializaton_cases();
     templates::drive_template_algorithms();
     templates::drive_Xref();
     membertemplates::drive_membertemplates();

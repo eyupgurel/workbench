@@ -512,6 +512,32 @@ CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp -o CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.s
 
+CMakeFiles/workbench.dir/concepts/concepts.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/concepts/concepts.cpp.o: ../concepts/concepts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/workbench.dir/concepts/concepts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/concepts/concepts.cpp.o -c /home/egl/Documents/sc/C++/workbench/concepts/concepts.cpp
+
+CMakeFiles/workbench.dir/concepts/concepts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/concepts/concepts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/concepts/concepts.cpp > CMakeFiles/workbench.dir/concepts/concepts.cpp.i
+
+CMakeFiles/workbench.dir/concepts/concepts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/concepts/concepts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/concepts/concepts.cpp -o CMakeFiles/workbench.dir/concepts/concepts.cpp.s
+
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templates/specialization/specialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp
+
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp > CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.i
+
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp -o CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -548,7 +574,9 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/containers/_tstring.cpp.o" \
 "CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o" \
 "CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o" \
-"CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o"
+"CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o" \
+"CMakeFiles/workbench.dir/concepts/concepts.cpp.o" \
+"CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -588,9 +616,11 @@ workbench: CMakeFiles/workbench.dir/containers/_tstring.cpp.o
 workbench: CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o
 workbench: CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
 workbench: CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o
+workbench: CMakeFiles/workbench.dir/concepts/concepts.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

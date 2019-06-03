@@ -22,6 +22,9 @@ CMakeFiles/workbench.dir/cast/cast.cpp.o
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o
  /home/egl/Documents/sc/C++/workbench/chrono/chrono.cpp
  /home/egl/Documents/sc/C++/workbench/chrono/chrono.h
+CMakeFiles/workbench.dir/concepts/concepts.cpp.o
+ /home/egl/Documents/sc/C++/workbench/concepts/concepts.cpp
+ /home/egl/Documents/sc/C++/workbench/concepts/concepts.h
 CMakeFiles/workbench.dir/containers/_string.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/_string.cpp
  /home/egl/Documents/sc/C++/workbench/containers/_string.h
@@ -105,6 +108,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
  /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
+ /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
  /home/egl/Documents/sc/C++/workbench/typeid/typeid.h
  /home/egl/Documents/sc/C++/workbench/union/Entry.h
@@ -135,6 +139,9 @@ CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
  /home/egl/Documents/sc/C++/workbench/memory/move.h
  /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.cpp
  /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h

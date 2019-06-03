@@ -127,6 +127,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/common.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/concepts/concepts.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/concepts/concepts.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_string.cpp">
 			<Option target="workbench"/>
 		</Unit>
@@ -275,6 +281,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp">

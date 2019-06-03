@@ -22,6 +22,9 @@ CMakeFiles/workbench.dir/cast/cast.cpp.o: ../cast/cast.h
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.cpp
 CMakeFiles/workbench.dir/chrono/chrono.cpp.o: ../chrono/chrono.h
 
+CMakeFiles/workbench.dir/concepts/concepts.cpp.o: ../concepts/concepts.cpp
+CMakeFiles/workbench.dir/concepts/concepts.cpp.o: ../concepts/concepts.h
+
 CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.cpp
 CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.h
 
@@ -104,6 +107,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencededuction.h
+CMakeFiles/workbench.dir/main.cpp.o: ../templates/specialization/specialization.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
@@ -134,6 +138,9 @@ CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: 
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../templates/referencededuction/referencededuction.cpp
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../templates/referencededuction/referencededuction.h
+
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templates/specialization/specialization.cpp
+CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templates/specialization/specialization.h
 
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h

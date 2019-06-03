@@ -35,6 +35,7 @@
 #include "membertemplates/membertemplates.h"
 #include "templates/referencededuction/referencededuction.h"
 #include "templates/algorithms/algorithms.h"
+#include "templates/specialization/specialization.h"
 
 
 using namespace algorithms;

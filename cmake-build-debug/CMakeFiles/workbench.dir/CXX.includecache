@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp
-algorithms.h
-/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
+/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp
+specialization.h
+/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
 
-/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
-functional
+/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
+iostream
 -
 
