@@ -36,6 +36,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o"
   "CMakeFiles/workbench.dir/concepts/concepts.cpp.o"
   "CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o"
+  "CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o"
+  "CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o"
+  "CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o"
   "workbench.pdb"
   "workbench"
 )

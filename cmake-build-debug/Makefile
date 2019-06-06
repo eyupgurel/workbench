@@ -960,6 +960,60 @@ templates/array/array.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/array/array.cpp.s
 .PHONY : templates/array/array.cpp.s
 
+templates/conversions/conversions.o: templates/conversions/conversions.cpp.o
+
+.PHONY : templates/conversions/conversions.o
+
+# target to build an object file
+templates/conversions/conversions.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o
+.PHONY : templates/conversions/conversions.cpp.o
+
+templates/conversions/conversions.i: templates/conversions/conversions.cpp.i
+
+.PHONY : templates/conversions/conversions.i
+
+# target to preprocess a source file
+templates/conversions/conversions.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.i
+.PHONY : templates/conversions/conversions.cpp.i
+
+templates/conversions/conversions.s: templates/conversions/conversions.cpp.s
+
+.PHONY : templates/conversions/conversions.s
+
+# target to generate assembly for a file
+templates/conversions/conversions.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.s
+.PHONY : templates/conversions/conversions.cpp.s
+
+templates/namebinding/namebinding.o: templates/namebinding/namebinding.cpp.o
+
+.PHONY : templates/namebinding/namebinding.o
+
+# target to build an object file
+templates/namebinding/namebinding.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o
+.PHONY : templates/namebinding/namebinding.cpp.o
+
+templates/namebinding/namebinding.i: templates/namebinding/namebinding.cpp.i
+
+.PHONY : templates/namebinding/namebinding.i
+
+# target to preprocess a source file
+templates/namebinding/namebinding.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.i
+.PHONY : templates/namebinding/namebinding.cpp.i
+
+templates/namebinding/namebinding.s: templates/namebinding/namebinding.cpp.s
+
+.PHONY : templates/namebinding/namebinding.s
+
+# target to generate assembly for a file
+templates/namebinding/namebinding.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.s
+.PHONY : templates/namebinding/namebinding.cpp.s
+
 templates/referencededuction/referencededuction.o: templates/referencededuction/referencededuction.cpp.o
 
 .PHONY : templates/referencededuction/referencededuction.o
@@ -1013,6 +1067,33 @@ templates/specialization/specialization.s: templates/specialization/specializati
 templates/specialization/specialization.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.s
 .PHONY : templates/specialization/specialization.cpp.s
+
+templates/typererasure/typeerasure.o: templates/typererasure/typeerasure.cpp.o
+
+.PHONY : templates/typererasure/typeerasure.o
+
+# target to build an object file
+templates/typererasure/typeerasure.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o
+.PHONY : templates/typererasure/typeerasure.cpp.o
+
+templates/typererasure/typeerasure.i: templates/typererasure/typeerasure.cpp.i
+
+.PHONY : templates/typererasure/typeerasure.i
+
+# target to preprocess a source file
+templates/typererasure/typeerasure.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.i
+.PHONY : templates/typererasure/typeerasure.cpp.i
+
+templates/typererasure/typeerasure.s: templates/typererasure/typeerasure.cpp.s
+
+.PHONY : templates/typererasure/typeerasure.s
+
+# target to generate assembly for a file
+templates/typererasure/typeerasure.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.s
+.PHONY : templates/typererasure/typeerasure.cpp.s
 
 typeconversion/tiny.o: typeconversion/tiny.cpp.o
 
@@ -1224,12 +1305,21 @@ help:
 	@echo "... templates/array/array.o"
 	@echo "... templates/array/array.i"
 	@echo "... templates/array/array.s"
+	@echo "... templates/conversions/conversions.o"
+	@echo "... templates/conversions/conversions.i"
+	@echo "... templates/conversions/conversions.s"
+	@echo "... templates/namebinding/namebinding.o"
+	@echo "... templates/namebinding/namebinding.i"
+	@echo "... templates/namebinding/namebinding.s"
 	@echo "... templates/referencededuction/referencededuction.o"
 	@echo "... templates/referencededuction/referencededuction.i"
 	@echo "... templates/referencededuction/referencededuction.s"
 	@echo "... templates/specialization/specialization.o"
 	@echo "... templates/specialization/specialization.i"
 	@echo "... templates/specialization/specialization.s"
+	@echo "... templates/typererasure/typeerasure.o"
+	@echo "... templates/typererasure/typeerasure.i"
+	@echo "... templates/typererasure/typeerasure.s"
 	@echo "... typeconversion/tiny.o"
 	@echo "... typeconversion/tiny.i"
 	@echo "... typeconversion/tiny.s"

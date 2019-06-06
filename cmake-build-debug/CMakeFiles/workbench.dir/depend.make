@@ -106,8 +106,10 @@ CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
+CMakeFiles/workbench.dir/main.cpp.o: ../templates/conversions/conversions.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencededuction.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/specialization/specialization.h
+CMakeFiles/workbench.dir/main.cpp.o: ../templates/typererasure/typeerasure.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
@@ -134,6 +136,12 @@ CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/alg
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.cpp
 CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h
 
+CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o: ../templates/conversions/conversions.cpp
+CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o: ../templates/conversions/conversions.h
+
+CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.cpp
+CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.h
+
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../forward/forward.h
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: ../templates/referencededuction/referencededuction.cpp
@@ -141,6 +149,9 @@ CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o: 
 
 CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templates/specialization/specialization.cpp
 CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templates/specialization/specialization.h
+
+CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/typererasure/typeerasure.cpp
+CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/typererasure/typeerasure.h
 
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h

@@ -36,11 +36,14 @@
 #include "templates/referencededuction/referencededuction.h"
 #include "templates/algorithms/algorithms.h"
 #include "templates/specialization/specialization.h"
+#include "templates/typererasure/typeerasure.h"
+#include "templates/conversions/conversions.h"
+
 
 
 using namespace algorithms;
 using namespace containers;
-
+void drive_namebinding();
 void drive_safe_vector();
 void drive_linear_algebra();
 void test_merge_sort();

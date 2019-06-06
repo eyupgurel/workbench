@@ -107,8 +107,10 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
+ /home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.h
  /home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.h
  /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
+ /home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.h
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
  /home/egl/Documents/sc/C++/workbench/typeid/typeid.h
  /home/egl/Documents/sc/C++/workbench/union/Entry.h
@@ -134,6 +136,12 @@ CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o
 CMakeFiles/workbench.dir/templates/array/array.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/array/array.cpp
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
+CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.h
+CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/namebinding/namebinding.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/namebinding/namebinding.h
 CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
  /home/egl/Documents/sc/C++/workbench/forward/forward.h
  /home/egl/Documents/sc/C++/workbench/memory/move.h
@@ -142,6 +150,9 @@ CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o
 CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp
  /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
+CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.cpp
+ /home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.h
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h

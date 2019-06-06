@@ -6,6 +6,9 @@
 
 int main()
 {
+    templates::drive_template_conversions();
+    drive_namebinding();
+    templates::drive_var();
     templates::drive_specializaton_cases();
     templates::drive_template_algorithms();
     templates::drive_Xref();
