@@ -105,6 +105,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
+CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/tripledispatch/tripledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/visitor/visitor.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
@@ -134,6 +135,9 @@ CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.h
 
 CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: ../polymorphism/doubledispatch/doubledispatch.cpp
 CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
+
+CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o: ../polymorphism/tripledispatch/tripledispatch.cpp
+CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o: ../polymorphism/tripledispatch/tripledispatch.h
 
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.cpp
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.h

@@ -42,6 +42,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o"
   "CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
   "CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o"
+  "CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o"
   "workbench.pdb"
   "workbench"
 )

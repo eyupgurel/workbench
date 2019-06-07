@@ -6,8 +6,9 @@
 
 int main()
 {
-
+    polymorphism::tripledispatch::drive_tripledispatch();
     polymorphism::drive_doubledispatch();
+
     polymorphism::drive_visitor();
     templates::drive_template_conversions();
     drive_namebinding();

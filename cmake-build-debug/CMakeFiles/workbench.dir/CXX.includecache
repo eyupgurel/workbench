@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp
-visitor.h
-/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.cpp
+tripledispatch.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.h
 
-/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.h
 iostream
 -
 vector
+-
+tuple
 -
 

@@ -933,6 +933,33 @@ polymorphism/doubledispatch/doubledispatch.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s
 .PHONY : polymorphism/doubledispatch/doubledispatch.cpp.s
 
+polymorphism/tripledispatch/tripledispatch.o: polymorphism/tripledispatch/tripledispatch.cpp.o
+
+.PHONY : polymorphism/tripledispatch/tripledispatch.o
+
+# target to build an object file
+polymorphism/tripledispatch/tripledispatch.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o
+.PHONY : polymorphism/tripledispatch/tripledispatch.cpp.o
+
+polymorphism/tripledispatch/tripledispatch.i: polymorphism/tripledispatch/tripledispatch.cpp.i
+
+.PHONY : polymorphism/tripledispatch/tripledispatch.i
+
+# target to preprocess a source file
+polymorphism/tripledispatch/tripledispatch.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.i
+.PHONY : polymorphism/tripledispatch/tripledispatch.cpp.i
+
+polymorphism/tripledispatch/tripledispatch.s: polymorphism/tripledispatch/tripledispatch.cpp.s
+
+.PHONY : polymorphism/tripledispatch/tripledispatch.s
+
+# target to generate assembly for a file
+polymorphism/tripledispatch/tripledispatch.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.s
+.PHONY : polymorphism/tripledispatch/tripledispatch.cpp.s
+
 polymorphism/visitor/visitor.o: polymorphism/visitor/visitor.cpp.o
 
 .PHONY : polymorphism/visitor/visitor.o
@@ -1383,6 +1410,9 @@ help:
 	@echo "... polymorphism/doubledispatch/doubledispatch.o"
 	@echo "... polymorphism/doubledispatch/doubledispatch.i"
 	@echo "... polymorphism/doubledispatch/doubledispatch.s"
+	@echo "... polymorphism/tripledispatch/tripledispatch.o"
+	@echo "... polymorphism/tripledispatch/tripledispatch.i"
+	@echo "... polymorphism/tripledispatch/tripledispatch.s"
 	@echo "... polymorphism/visitor/visitor.o"
 	@echo "... polymorphism/visitor/visitor.i"
 	@echo "... polymorphism/visitor/visitor.s"
