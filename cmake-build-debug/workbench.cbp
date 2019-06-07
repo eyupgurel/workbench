@@ -271,6 +271,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp">
 			<Option target="workbench"/>
 		</Unit>

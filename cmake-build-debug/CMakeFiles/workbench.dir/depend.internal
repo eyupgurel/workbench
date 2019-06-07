@@ -106,6 +106,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/operators/operators.h
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
  /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
+ /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
  /home/egl/Documents/sc/C++/workbench/templates/array/array.h
  /home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.h
@@ -134,6 +135,9 @@ CMakeFiles/workbench.dir/pointer/pointer.cpp.o
 CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o
  /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp
  /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
+CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o
+ /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp
+ /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
 CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h

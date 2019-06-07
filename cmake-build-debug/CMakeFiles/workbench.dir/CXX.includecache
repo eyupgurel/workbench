@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp
-doubledispatch.h
-/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp
+visitor.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
 
-/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
+/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
 iostream
 -
 vector

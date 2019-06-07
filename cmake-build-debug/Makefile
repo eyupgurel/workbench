@@ -933,6 +933,33 @@ polymorphism/doubledispatch/doubledispatch.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s
 .PHONY : polymorphism/doubledispatch/doubledispatch.cpp.s
 
+polymorphism/visitor/visitor.o: polymorphism/visitor/visitor.cpp.o
+
+.PHONY : polymorphism/visitor/visitor.o
+
+# target to build an object file
+polymorphism/visitor/visitor.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o
+.PHONY : polymorphism/visitor/visitor.cpp.o
+
+polymorphism/visitor/visitor.i: polymorphism/visitor/visitor.cpp.i
+
+.PHONY : polymorphism/visitor/visitor.i
+
+# target to preprocess a source file
+polymorphism/visitor/visitor.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.i
+.PHONY : polymorphism/visitor/visitor.cpp.i
+
+polymorphism/visitor/visitor.s: polymorphism/visitor/visitor.cpp.s
+
+.PHONY : polymorphism/visitor/visitor.s
+
+# target to generate assembly for a file
+polymorphism/visitor/visitor.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.s
+.PHONY : polymorphism/visitor/visitor.cpp.s
+
 templates/algorithms/algorithms.o: templates/algorithms/algorithms.cpp.o
 
 .PHONY : templates/algorithms/algorithms.o
@@ -1356,6 +1383,9 @@ help:
 	@echo "... polymorphism/doubledispatch/doubledispatch.o"
 	@echo "... polymorphism/doubledispatch/doubledispatch.i"
 	@echo "... polymorphism/doubledispatch/doubledispatch.s"
+	@echo "... polymorphism/visitor/visitor.o"
+	@echo "... polymorphism/visitor/visitor.i"
+	@echo "... polymorphism/visitor/visitor.s"
 	@echo "... templates/algorithms/algorithms.o"
 	@echo "... templates/algorithms/algorithms.i"
 	@echo "... templates/algorithms/algorithms.s"
