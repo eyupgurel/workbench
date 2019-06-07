@@ -577,6 +577,32 @@ CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.cpp -o CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.s
 
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: ../templates/hiearchies/hiearchies.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.cpp
+
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.cpp > CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.i
+
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.cpp -o CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.s
+
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: ../polymorphism/doubledispatch/doubledispatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o -c /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp
+
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp > CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.i
+
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp -o CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -618,7 +644,9 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o" \
 "CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o" \
 "CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o" \
-"CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o"
+"CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o" \
+"CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o" \
+"CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -663,9 +691,11 @@ workbench: CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.
 workbench: CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o
 workbench: CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o
 workbench: CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o
+workbench: CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

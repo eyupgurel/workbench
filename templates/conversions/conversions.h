@@ -22,9 +22,6 @@ namespace templates {
         Ptr(T* pp):p{pp}{
             cout<< "Ptr(T* pp) for " << typeid(T).name() << endl;
         }
-        Ptr(const Ptr& r):p{&r}{
-            cout<< "Ptr(const Ptr& r) for " << typeid(T).name() << endl;
-        }
         template<typename T2>
         explicit operator Ptr<T2>(){  //type conversion operator
             return Ptr<T2>{p};

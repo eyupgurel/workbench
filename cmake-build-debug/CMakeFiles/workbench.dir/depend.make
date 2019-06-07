@@ -104,6 +104,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
+CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/conversions/conversions.h
@@ -130,6 +131,9 @@ CMakeFiles/workbench.dir/operators/operators.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.cpp
 CMakeFiles/workbench.dir/pointer/pointer.cpp.o: ../pointer/pointer.h
 
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: ../polymorphism/doubledispatch/doubledispatch.cpp
+CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
+
 CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.cpp
 CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.h
 
@@ -138,6 +142,9 @@ CMakeFiles/workbench.dir/templates/array/array.cpp.o: ../templates/array/array.h
 
 CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o: ../templates/conversions/conversions.cpp
 CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o: ../templates/conversions/conversions.h
+
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: ../templates/hiearchies/hiearchies.cpp
+CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: ../templates/hiearchies/hiearchies.h
 
 CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.cpp
 CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.h

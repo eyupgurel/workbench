@@ -38,6 +38,7 @@
 #include "templates/specialization/specialization.h"
 #include "templates/typererasure/typeerasure.h"
 #include "templates/conversions/conversions.h"
+#include "polymorphism/doubledispatch/doubledispatch.h"
 
 
 

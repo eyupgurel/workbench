@@ -265,6 +265,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/pointer/pointer.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp">
 			<Option target="workbench"/>
 		</Unit>
@@ -281,6 +287,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/namebinding/namebinding.cpp">

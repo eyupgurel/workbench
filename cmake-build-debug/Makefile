@@ -906,6 +906,33 @@ pointer/pointer.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/pointer/pointer.cpp.s
 .PHONY : pointer/pointer.cpp.s
 
+polymorphism/doubledispatch/doubledispatch.o: polymorphism/doubledispatch/doubledispatch.cpp.o
+
+.PHONY : polymorphism/doubledispatch/doubledispatch.o
+
+# target to build an object file
+polymorphism/doubledispatch/doubledispatch.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o
+.PHONY : polymorphism/doubledispatch/doubledispatch.cpp.o
+
+polymorphism/doubledispatch/doubledispatch.i: polymorphism/doubledispatch/doubledispatch.cpp.i
+
+.PHONY : polymorphism/doubledispatch/doubledispatch.i
+
+# target to preprocess a source file
+polymorphism/doubledispatch/doubledispatch.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.i
+.PHONY : polymorphism/doubledispatch/doubledispatch.cpp.i
+
+polymorphism/doubledispatch/doubledispatch.s: polymorphism/doubledispatch/doubledispatch.cpp.s
+
+.PHONY : polymorphism/doubledispatch/doubledispatch.s
+
+# target to generate assembly for a file
+polymorphism/doubledispatch/doubledispatch.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.s
+.PHONY : polymorphism/doubledispatch/doubledispatch.cpp.s
+
 templates/algorithms/algorithms.o: templates/algorithms/algorithms.cpp.o
 
 .PHONY : templates/algorithms/algorithms.o
@@ -986,6 +1013,33 @@ templates/conversions/conversions.s: templates/conversions/conversions.cpp.s
 templates/conversions/conversions.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.s
 .PHONY : templates/conversions/conversions.cpp.s
+
+templates/hiearchies/hiearchies.o: templates/hiearchies/hiearchies.cpp.o
+
+.PHONY : templates/hiearchies/hiearchies.o
+
+# target to build an object file
+templates/hiearchies/hiearchies.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o
+.PHONY : templates/hiearchies/hiearchies.cpp.o
+
+templates/hiearchies/hiearchies.i: templates/hiearchies/hiearchies.cpp.i
+
+.PHONY : templates/hiearchies/hiearchies.i
+
+# target to preprocess a source file
+templates/hiearchies/hiearchies.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.i
+.PHONY : templates/hiearchies/hiearchies.cpp.i
+
+templates/hiearchies/hiearchies.s: templates/hiearchies/hiearchies.cpp.s
+
+.PHONY : templates/hiearchies/hiearchies.s
+
+# target to generate assembly for a file
+templates/hiearchies/hiearchies.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.s
+.PHONY : templates/hiearchies/hiearchies.cpp.s
 
 templates/namebinding/namebinding.o: templates/namebinding/namebinding.cpp.o
 
@@ -1299,6 +1353,9 @@ help:
 	@echo "... pointer/pointer.o"
 	@echo "... pointer/pointer.i"
 	@echo "... pointer/pointer.s"
+	@echo "... polymorphism/doubledispatch/doubledispatch.o"
+	@echo "... polymorphism/doubledispatch/doubledispatch.i"
+	@echo "... polymorphism/doubledispatch/doubledispatch.s"
 	@echo "... templates/algorithms/algorithms.o"
 	@echo "... templates/algorithms/algorithms.i"
 	@echo "... templates/algorithms/algorithms.s"
@@ -1308,6 +1365,9 @@ help:
 	@echo "... templates/conversions/conversions.o"
 	@echo "... templates/conversions/conversions.i"
 	@echo "... templates/conversions/conversions.s"
+	@echo "... templates/hiearchies/hiearchies.o"
+	@echo "... templates/hiearchies/hiearchies.i"
+	@echo "... templates/hiearchies/hiearchies.s"
 	@echo "... templates/namebinding/namebinding.o"
 	@echo "... templates/namebinding/namebinding.i"
 	@echo "... templates/namebinding/namebinding.s"

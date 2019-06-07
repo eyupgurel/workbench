@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o"
   "CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o"
   "CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o"
+  "CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o"
+  "CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
   "workbench.pdb"
   "workbench"
 )
