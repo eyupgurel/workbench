@@ -154,6 +154,31 @@ CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o: ../templates/c
 CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: ../templates/hiearchies/hiearchies.cpp
 CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o: ../templates/hiearchies/hiearchies.h
 
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/include/ipr/impl.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/include/ipr/interface.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/include/ipr/io.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/include/ipr/traversal.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/include/ipr/utility.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/src/impl.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o: ../templates/ipr/include/ipr/interface.h
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o: ../templates/ipr/include/ipr/utility.h
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o: ../templates/ipr/src/interface.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/include/ipr/interface.h
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/include/ipr/io.h
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/include/ipr/traversal.h
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/include/ipr/utility.h
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/src/io.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: ../templates/ipr/include/ipr/interface.h
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: ../templates/ipr/include/ipr/traversal.h
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: ../templates/ipr/include/ipr/utility.h
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: ../templates/ipr/src/traversal.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o: ../templates/ipr/include/ipr/utility.h
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o: ../templates/ipr/src/utility.cpp
+
 CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.cpp
 CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o: ../templates/namebinding/namebinding.h
 

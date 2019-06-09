@@ -43,6 +43,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
   "CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o"
   "CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o"
+  "CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o"
+  "CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o"
+  "CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o"
+  "CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o"
+  "CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o"
   "workbench.pdb"
   "workbench"
 )

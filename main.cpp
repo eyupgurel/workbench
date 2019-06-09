@@ -4,7 +4,7 @@
 //vector<T> operator+(vector<T>* v1, vector<T>* v2){
 //}
 
-int main()
+int main_()
 {
     polymorphism::tripledispatch::drive_tripledispatch();
     polymorphism::drive_doubledispatch();

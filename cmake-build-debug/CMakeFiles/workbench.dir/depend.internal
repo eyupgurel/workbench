@@ -154,6 +154,31 @@ CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o
 CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.cpp
  /home/egl/Documents/sc/C++/workbench/templates/hiearchies/hiearchies.h
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/impl.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/interface.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/io.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/traversal.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/utility.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/src/impl.cpp
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/interface.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/utility.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/src/interface.cpp
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/interface.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/io.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/traversal.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/utility.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/src/io.cpp
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/interface.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/traversal.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/utility.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/src/traversal.cpp
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/include/ipr/utility.h
+ /home/egl/Documents/sc/C++/workbench/templates/ipr/src/utility.cpp
 CMakeFiles/workbench.dir/templates/namebinding/namebinding.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/namebinding/namebinding.cpp
  /home/egl/Documents/sc/C++/workbench/templates/namebinding/namebinding.h

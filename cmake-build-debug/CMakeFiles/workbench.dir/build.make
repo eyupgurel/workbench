@@ -629,6 +629,71 @@ CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.cpp -o CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.s
 
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o: ../templates/ipr/src/impl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/ipr/src/impl.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/ipr/src/impl.cpp > CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.i
+
+CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/ipr/src/impl.cpp -o CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.s
+
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o: ../templates/ipr/src/interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/ipr/src/interface.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/ipr/src/interface.cpp > CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.i
+
+CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/ipr/src/interface.cpp -o CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.s
+
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o: ../templates/ipr/src/io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/ipr/src/io.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/ipr/src/io.cpp > CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.i
+
+CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/ipr/src/io.cpp -o CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.s
+
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o: ../templates/ipr/src/traversal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/ipr/src/traversal.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/ipr/src/traversal.cpp > CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.i
+
+CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/ipr/src/traversal.cpp -o CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.s
+
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o: ../templates/ipr/src/utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o -c /home/egl/Documents/sc/C++/workbench/templates/ipr/src/utility.cpp
+
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/templates/ipr/src/utility.cpp > CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.i
+
+CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/templates/ipr/src/utility.cpp -o CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -674,7 +739,12 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o" \
 "CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o" \
 "CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o" \
-"CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o"
+"CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o" \
+"CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o" \
+"CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o" \
+"CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o" \
+"CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o" \
+"CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -723,9 +793,14 @@ workbench: CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.o
 workbench: CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o
 workbench: CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o
 workbench: CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o
+workbench: CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1095,6 +1095,141 @@ templates/hiearchies/hiearchies.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/hiearchies/hiearchies.cpp.s
 .PHONY : templates/hiearchies/hiearchies.cpp.s
 
+templates/ipr/src/impl.o: templates/ipr/src/impl.cpp.o
+
+.PHONY : templates/ipr/src/impl.o
+
+# target to build an object file
+templates/ipr/src/impl.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.o
+.PHONY : templates/ipr/src/impl.cpp.o
+
+templates/ipr/src/impl.i: templates/ipr/src/impl.cpp.i
+
+.PHONY : templates/ipr/src/impl.i
+
+# target to preprocess a source file
+templates/ipr/src/impl.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.i
+.PHONY : templates/ipr/src/impl.cpp.i
+
+templates/ipr/src/impl.s: templates/ipr/src/impl.cpp.s
+
+.PHONY : templates/ipr/src/impl.s
+
+# target to generate assembly for a file
+templates/ipr/src/impl.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/impl.cpp.s
+.PHONY : templates/ipr/src/impl.cpp.s
+
+templates/ipr/src/interface.o: templates/ipr/src/interface.cpp.o
+
+.PHONY : templates/ipr/src/interface.o
+
+# target to build an object file
+templates/ipr/src/interface.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.o
+.PHONY : templates/ipr/src/interface.cpp.o
+
+templates/ipr/src/interface.i: templates/ipr/src/interface.cpp.i
+
+.PHONY : templates/ipr/src/interface.i
+
+# target to preprocess a source file
+templates/ipr/src/interface.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.i
+.PHONY : templates/ipr/src/interface.cpp.i
+
+templates/ipr/src/interface.s: templates/ipr/src/interface.cpp.s
+
+.PHONY : templates/ipr/src/interface.s
+
+# target to generate assembly for a file
+templates/ipr/src/interface.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/interface.cpp.s
+.PHONY : templates/ipr/src/interface.cpp.s
+
+templates/ipr/src/io.o: templates/ipr/src/io.cpp.o
+
+.PHONY : templates/ipr/src/io.o
+
+# target to build an object file
+templates/ipr/src/io.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.o
+.PHONY : templates/ipr/src/io.cpp.o
+
+templates/ipr/src/io.i: templates/ipr/src/io.cpp.i
+
+.PHONY : templates/ipr/src/io.i
+
+# target to preprocess a source file
+templates/ipr/src/io.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.i
+.PHONY : templates/ipr/src/io.cpp.i
+
+templates/ipr/src/io.s: templates/ipr/src/io.cpp.s
+
+.PHONY : templates/ipr/src/io.s
+
+# target to generate assembly for a file
+templates/ipr/src/io.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/io.cpp.s
+.PHONY : templates/ipr/src/io.cpp.s
+
+templates/ipr/src/traversal.o: templates/ipr/src/traversal.cpp.o
+
+.PHONY : templates/ipr/src/traversal.o
+
+# target to build an object file
+templates/ipr/src/traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o
+.PHONY : templates/ipr/src/traversal.cpp.o
+
+templates/ipr/src/traversal.i: templates/ipr/src/traversal.cpp.i
+
+.PHONY : templates/ipr/src/traversal.i
+
+# target to preprocess a source file
+templates/ipr/src/traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.i
+.PHONY : templates/ipr/src/traversal.cpp.i
+
+templates/ipr/src/traversal.s: templates/ipr/src/traversal.cpp.s
+
+.PHONY : templates/ipr/src/traversal.s
+
+# target to generate assembly for a file
+templates/ipr/src/traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.s
+.PHONY : templates/ipr/src/traversal.cpp.s
+
+templates/ipr/src/utility.o: templates/ipr/src/utility.cpp.o
+
+.PHONY : templates/ipr/src/utility.o
+
+# target to build an object file
+templates/ipr/src/utility.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o
+.PHONY : templates/ipr/src/utility.cpp.o
+
+templates/ipr/src/utility.i: templates/ipr/src/utility.cpp.i
+
+.PHONY : templates/ipr/src/utility.i
+
+# target to preprocess a source file
+templates/ipr/src/utility.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.i
+.PHONY : templates/ipr/src/utility.cpp.i
+
+templates/ipr/src/utility.s: templates/ipr/src/utility.cpp.s
+
+.PHONY : templates/ipr/src/utility.s
+
+# target to generate assembly for a file
+templates/ipr/src/utility.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.s
+.PHONY : templates/ipr/src/utility.cpp.s
+
 templates/namebinding/namebinding.o: templates/namebinding/namebinding.cpp.o
 
 .PHONY : templates/namebinding/namebinding.o
@@ -1428,6 +1563,21 @@ help:
 	@echo "... templates/hiearchies/hiearchies.o"
 	@echo "... templates/hiearchies/hiearchies.i"
 	@echo "... templates/hiearchies/hiearchies.s"
+	@echo "... templates/ipr/src/impl.o"
+	@echo "... templates/ipr/src/impl.i"
+	@echo "... templates/ipr/src/impl.s"
+	@echo "... templates/ipr/src/interface.o"
+	@echo "... templates/ipr/src/interface.i"
+	@echo "... templates/ipr/src/interface.s"
+	@echo "... templates/ipr/src/io.o"
+	@echo "... templates/ipr/src/io.i"
+	@echo "... templates/ipr/src/io.s"
+	@echo "... templates/ipr/src/traversal.o"
+	@echo "... templates/ipr/src/traversal.i"
+	@echo "... templates/ipr/src/traversal.s"
+	@echo "... templates/ipr/src/utility.o"
+	@echo "... templates/ipr/src/utility.i"
+	@echo "... templates/ipr/src/utility.s"
 	@echo "... templates/namebinding/namebinding.o"
 	@echo "... templates/namebinding/namebinding.i"
 	@echo "... templates/namebinding/namebinding.s"
