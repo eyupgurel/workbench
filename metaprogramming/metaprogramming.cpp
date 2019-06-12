@@ -15,7 +15,7 @@ void metaprogramming::f(double y){
     cout << "f(double y) called with y:"  << y << endl;
 }
 
-void if_f_callable_with_T_run_function(){
+void if_f_callable_with_T_define_and_run_function(){
     X<int>xi;
     xi.use_f(3);
     X<double>xd;
@@ -81,7 +81,7 @@ void selecting_function(){
 
 
 void metaprogramming::drive_metaprogramming() {
-    if_f_callable_with_T_run_function();
+    if_f_callable_with_T_define_and_run_function();
     test_fac();
     test_tuple();
     select_int_type();
