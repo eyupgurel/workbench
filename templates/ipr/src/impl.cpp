@@ -2289,7 +2289,7 @@ namespace ipr {
 #include "../include/ipr/io.h"
 #include <iostream>
 
-int main()
+int _main()
 {
    using namespace ipr;
    impl::Lexicon lexicon { };
@@ -2311,6 +2311,8 @@ int main()
    Printer pp { std::cout };
    pp << unit;
    std::cout << std::endl;
+
+   return 0;
 
 }
 

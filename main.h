@@ -41,6 +41,7 @@
 #include "polymorphism/doubledispatch/doubledispatch.h"
 #include "polymorphism/tripledispatch/tripledispatch.h"
 #include "polymorphism/visitor/visitor.h"
+#include "metaprogramming/metaprogramming.h"
 
 
 

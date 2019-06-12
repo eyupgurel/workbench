@@ -102,6 +102,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
+CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/metaprogramming.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
@@ -123,6 +124,9 @@ CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
 
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.cpp
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.h
+
+CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.cpp
+CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.h
 
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.cpp
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.h

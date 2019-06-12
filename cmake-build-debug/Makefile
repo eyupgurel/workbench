@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/egl/Documents/sc/C++/workbench/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -825,6 +825,33 @@ membertemplates/membertemplates.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s
 .PHONY : membertemplates/membertemplates.cpp.s
 
+metaprogramming/metaprogramming.o: metaprogramming/metaprogramming.cpp.o
+
+.PHONY : metaprogramming/metaprogramming.o
+
+# target to build an object file
+metaprogramming/metaprogramming.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o
+.PHONY : metaprogramming/metaprogramming.cpp.o
+
+metaprogramming/metaprogramming.i: metaprogramming/metaprogramming.cpp.i
+
+.PHONY : metaprogramming/metaprogramming.i
+
+# target to preprocess a source file
+metaprogramming/metaprogramming.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.i
+.PHONY : metaprogramming/metaprogramming.cpp.i
+
+metaprogramming/metaprogramming.s: metaprogramming/metaprogramming.cpp.s
+
+.PHONY : metaprogramming/metaprogramming.s
+
+# target to generate assembly for a file
+metaprogramming/metaprogramming.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.s
+.PHONY : metaprogramming/metaprogramming.cpp.s
+
 operators/base3.o: operators/base3.cpp.o
 
 .PHONY : operators/base3.o
@@ -1533,6 +1560,9 @@ help:
 	@echo "... membertemplates/membertemplates.o"
 	@echo "... membertemplates/membertemplates.i"
 	@echo "... membertemplates/membertemplates.s"
+	@echo "... metaprogramming/metaprogramming.o"
+	@echo "... metaprogramming/metaprogramming.i"
+	@echo "... metaprogramming/metaprogramming.s"
 	@echo "... operators/base3.o"
 	@echo "... operators/base3.i"
 	@echo "... operators/base3.s"

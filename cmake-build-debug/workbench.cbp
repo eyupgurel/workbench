@@ -247,6 +247,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/memory/move.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/operators/base3.cpp">
 			<Option target="workbench"/>
 		</Unit>

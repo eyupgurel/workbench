@@ -30,6 +30,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/main.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/main.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/math/_complex.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/math/_complex.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/operators/base3.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/operators/base3.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/operators/operators.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/operators/operators.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/pointer/pointer.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/pointer/pointer.cpp.o"
