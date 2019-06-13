@@ -145,6 +145,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_tstring.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_tuple.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/_tuple.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/container.h">
 			<Option target="workbench"/>
 		</Unit>
@@ -245,6 +251,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/memory/move.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/metaprogramming/declval.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/metaprogramming/declval.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp">

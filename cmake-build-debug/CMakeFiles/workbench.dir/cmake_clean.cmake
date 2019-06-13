@@ -49,6 +49,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/templates/ipr/src/traversal.cpp.o"
   "CMakeFiles/workbench.dir/templates/ipr/src/utility.cpp.o"
   "CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o"
+  "CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o"
+  "CMakeFiles/workbench.dir/containers/_tuple.cpp.o"
   "workbench.pdb"
   "workbench"
 )

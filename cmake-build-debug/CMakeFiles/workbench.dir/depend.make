@@ -31,6 +31,9 @@ CMakeFiles/workbench.dir/containers/_string.cpp.o: ../containers/_string.h
 CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.cpp
 CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.h
 
+CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.cpp
+CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.h
+
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
@@ -85,6 +88,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../cast/cast.h
 CMakeFiles/workbench.dir/main.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/main.cpp.o: ../common.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/_string.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/_tuple.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/myarray.h
@@ -102,6 +106,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
+CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/declval.h
 CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/metaprogramming.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
@@ -124,6 +129,9 @@ CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
 
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.cpp
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.h
+
+CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o: ../metaprogramming/declval.cpp
+CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o: ../metaprogramming/declval.h
 
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.cpp
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.h

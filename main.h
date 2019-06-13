@@ -17,6 +17,7 @@
 #include "containers/myarray.h"
 #include "containers/simplematrix.h"
 #include "containers/_string.h"
+#include "containers/_tuple.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
 #include "chrono/chrono.h"
@@ -42,6 +43,7 @@
 #include "polymorphism/tripledispatch/tripledispatch.h"
 #include "polymorphism/visitor/visitor.h"
 #include "metaprogramming/metaprogramming.h"
+#include "metaprogramming/declval.h"
 
 
 

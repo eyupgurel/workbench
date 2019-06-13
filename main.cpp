@@ -6,7 +6,9 @@
 
 int main()
 {
+    containers::drive_tuple();
     metaprogramming::drive_metaprogramming();
+    metaprogramming::drive_declval();
     polymorphism::tripledispatch::drive_tripledispatch();
     polymorphism::drive_doubledispatch();
 

@@ -393,6 +393,33 @@ containers/_tstring.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tstring.cpp.s
 .PHONY : containers/_tstring.cpp.s
 
+containers/_tuple.o: containers/_tuple.cpp.o
+
+.PHONY : containers/_tuple.o
+
+# target to build an object file
+containers/_tuple.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tuple.cpp.o
+.PHONY : containers/_tuple.cpp.o
+
+containers/_tuple.i: containers/_tuple.cpp.i
+
+.PHONY : containers/_tuple.i
+
+# target to preprocess a source file
+containers/_tuple.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tuple.cpp.i
+.PHONY : containers/_tuple.cpp.i
+
+containers/_tuple.s: containers/_tuple.cpp.s
+
+.PHONY : containers/_tuple.s
+
+# target to generate assembly for a file
+containers/_tuple.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tuple.cpp.s
+.PHONY : containers/_tuple.cpp.s
+
 containers/list_container.o: containers/list_container.cpp.o
 
 .PHONY : containers/list_container.o
@@ -824,6 +851,33 @@ membertemplates/membertemplates.s: membertemplates/membertemplates.cpp.s
 membertemplates/membertemplates.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s
 .PHONY : membertemplates/membertemplates.cpp.s
+
+metaprogramming/declval.o: metaprogramming/declval.cpp.o
+
+.PHONY : metaprogramming/declval.o
+
+# target to build an object file
+metaprogramming/declval.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o
+.PHONY : metaprogramming/declval.cpp.o
+
+metaprogramming/declval.i: metaprogramming/declval.cpp.i
+
+.PHONY : metaprogramming/declval.i
+
+# target to preprocess a source file
+metaprogramming/declval.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/declval.cpp.i
+.PHONY : metaprogramming/declval.cpp.i
+
+metaprogramming/declval.s: metaprogramming/declval.cpp.s
+
+.PHONY : metaprogramming/declval.s
+
+# target to generate assembly for a file
+metaprogramming/declval.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/declval.cpp.s
+.PHONY : metaprogramming/declval.cpp.s
 
 metaprogramming/metaprogramming.o: metaprogramming/metaprogramming.cpp.o
 
@@ -1512,6 +1566,9 @@ help:
 	@echo "... containers/_tstring.o"
 	@echo "... containers/_tstring.i"
 	@echo "... containers/_tstring.s"
+	@echo "... containers/_tuple.o"
+	@echo "... containers/_tuple.i"
+	@echo "... containers/_tuple.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
@@ -1560,6 +1617,9 @@ help:
 	@echo "... membertemplates/membertemplates.o"
 	@echo "... membertemplates/membertemplates.i"
 	@echo "... membertemplates/membertemplates.s"
+	@echo "... metaprogramming/declval.o"
+	@echo "... metaprogramming/declval.i"
+	@echo "... metaprogramming/declval.s"
 	@echo "... metaprogramming/metaprogramming.o"
 	@echo "... metaprogramming/metaprogramming.i"
 	@echo "... metaprogramming/metaprogramming.s"

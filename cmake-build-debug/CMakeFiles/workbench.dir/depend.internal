@@ -31,6 +31,9 @@ CMakeFiles/workbench.dir/containers/_string.cpp.o
 CMakeFiles/workbench.dir/containers/_tstring.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp
  /home/egl/Documents/sc/C++/workbench/containers/_tstring.h
+CMakeFiles/workbench.dir/containers/_tuple.cpp.o
+ /home/egl/Documents/sc/C++/workbench/containers/_tuple.cpp
+ /home/egl/Documents/sc/C++/workbench/containers/_tuple.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/list_container.cpp
@@ -86,6 +89,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/chrono/chrono.h
  /home/egl/Documents/sc/C++/workbench/common.h
  /home/egl/Documents/sc/C++/workbench/containers/_string.h
+ /home/egl/Documents/sc/C++/workbench/containers/_tuple.h
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/list_container.h
  /home/egl/Documents/sc/C++/workbench/containers/myarray.h
@@ -103,6 +107,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/math/_complex.h
  /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.h
  /home/egl/Documents/sc/C++/workbench/memory/move.h
+ /home/egl/Documents/sc/C++/workbench/metaprogramming/declval.h
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
  /home/egl/Documents/sc/C++/workbench/operators/operators.h
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
@@ -125,6 +130,9 @@ CMakeFiles/workbench.dir/math/_complex.cpp.o
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o
  /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp
  /home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.h
+CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o
+ /home/egl/Documents/sc/C++/workbench/metaprogramming/declval.cpp
+ /home/egl/Documents/sc/C++/workbench/metaprogramming/declval.h
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
