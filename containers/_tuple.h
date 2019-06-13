@@ -5,7 +5,9 @@
 #ifndef WORKBENCH__TUPLE_H
 #define WORKBENCH__TUPLE_H
 #include <iostream>
+#include "../metaprogramming/metaprogramming.h"
 using namespace std;
+using namespace metaprogramming;
 namespace containers{
 
     class Nil{};
@@ -50,6 +52,45 @@ namespace containers{
         const Base* base()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1,const T2& t2,const T3& t3):Base{t2,t3},elem{t1}{}
     };
+
+    template<typename Ret, int N>
+    struct getNth{
+        template<typename T>
+        static Ret& get(T&t){
+            return getNth<Ret,N-1>::get(*t.base());
+        }
+
+        template<typename T>
+        static const Ret& get(const T&t){
+            return getNth<Ret,N-1>::get(*t.base());
+        }
+    };
+
+    template<typename Ret>
+    struct getNth<Ret,0>{
+        template<typename T>
+        static Ret& get(T&t){
+            return t.elem;
+        }
+
+        template<typename T>
+        static const Ret& get(const T&t){
+            return t.elem;
+        }
+    };
+
+    template<int N, typename T1, typename T2, typename T3, typename T4>
+    Select<N, T1, T2, T3, T4>& get(Tuple<T1, T2, T3, T4>& t)
+    {
+        return getNth<Select<N, T1, T2, T3, T4>,N>::get(t);
+    }
+
+    template<int N, typename T1, typename T2, typename T3, typename T4>
+    const Select<N, T1, T2, T3, T4>& get(const Tuple<T1, T2, T3, T4>& t)
+    {
+        return getNth<Select<N, T1, T2, T3, T4>,N>::get(t);
+    }
+
 
     template<typename T1, typename T2, typename T3, typename T4>
     void print_elements(ostream& os, const Tuple<T1,T2,T3,T4>& t)

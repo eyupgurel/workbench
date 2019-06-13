@@ -717,6 +717,33 @@ inheritance/Vector.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/inheritance/Vector.cpp.s
 .PHONY : inheritance/Vector.cpp.s
 
+io/printf.o: io/printf.cpp.o
+
+.PHONY : io/printf.o
+
+# target to build an object file
+io/printf.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/io/printf.cpp.o
+.PHONY : io/printf.cpp.o
+
+io/printf.i: io/printf.cpp.i
+
+.PHONY : io/printf.i
+
+# target to preprocess a source file
+io/printf.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/io/printf.cpp.i
+.PHONY : io/printf.cpp.i
+
+io/printf.s: io/printf.cpp.s
+
+.PHONY : io/printf.s
+
+# target to generate assembly for a file
+io/printf.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/io/printf.cpp.s
+.PHONY : io/printf.cpp.s
+
 lifetime/lifetime.o: lifetime/lifetime.cpp.o
 
 .PHONY : lifetime/lifetime.o
@@ -1602,6 +1629,9 @@ help:
 	@echo "... inheritance/Vector.o"
 	@echo "... inheritance/Vector.i"
 	@echo "... inheritance/Vector.s"
+	@echo "... io/printf.o"
+	@echo "... io/printf.i"
+	@echo "... io/printf.s"
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"

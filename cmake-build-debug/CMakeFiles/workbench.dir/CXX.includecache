@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/containers/_tuple.cpp
-_tuple.h
-/home/egl/Documents/sc/C++/workbench/containers/_tuple.h
+/home/egl/Documents/sc/C++/workbench/io/printf.cpp
+printf.h
+/home/egl/Documents/sc/C++/workbench/io/printf.h
 
-/home/egl/Documents/sc/C++/workbench/containers/_tuple.h
+/home/egl/Documents/sc/C++/workbench/io/printf.h
+stdexcept
+-
 iostream
 -
 

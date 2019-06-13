@@ -51,6 +51,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o"
   "CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o"
   "CMakeFiles/workbench.dir/containers/_tuple.cpp.o"
+  "CMakeFiles/workbench.dir/io/printf.cpp.o"
   "workbench.pdb"
   "workbench"
 )

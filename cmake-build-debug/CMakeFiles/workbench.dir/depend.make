@@ -33,6 +33,7 @@ CMakeFiles/workbench.dir/containers/_tstring.cpp.o: ../containers/_tstring.h
 
 CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.cpp
 CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.h
+CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../metaprogramming/metaprogramming.h
 
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
@@ -73,6 +74,9 @@ CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/
 
 CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.cpp
 CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.h
+
+CMakeFiles/workbench.dir/io/printf.cpp.o: ../io/printf.cpp
+CMakeFiles/workbench.dir/io/printf.cpp.o: ../io/printf.h
 
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h
