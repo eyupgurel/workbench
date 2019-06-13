@@ -4,7 +4,8 @@
 
 #ifndef WORKBENCH__TUPLE_H
 #define WORKBENCH__TUPLE_H
-
+#include <iostream>
+using namespace std;
 namespace containers{
 
     class Nil{};
@@ -18,13 +19,18 @@ namespace containers{
         Tuple(const T1& t1,const T2& t2,const T3& t3,const T4& t4):Base{t2,t3,t4},elem{t1}{}
     };
 
-    template<typename T1,typename T2,typename T3>
-    struct Tuple<T1,T2,T3>:Tuple<T2,T3>{
+    template<>
+    struct Tuple<>{
+        Tuple(){}
+    };
+
+    template<typename T1>
+    struct Tuple<T1>:Tuple<>{
         T1 elem;
-        using Base=Tuple<T2,T3>;
+        using Base=Tuple<>;
         Base* base(){return static_cast<Base*>(this);}
         const Base* base()const{return static_cast<const Base*>(this);}
-        Tuple(const T1& t1,const T2& t2,const T3& t3):Base{t2,t3},elem{t1}{}
+        Tuple(const T1& t1):Base{},elem{t1}{}
     };
 
     template<typename T1,typename T2>
@@ -35,19 +41,55 @@ namespace containers{
         const Base* base()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1,const T2& t2):Base{t2},elem{t1}{}
     };
-    template<>
-    struct Tuple<>{
-        Tuple(){}
-    };
-    template<typename T1>
-    struct Tuple<T1>:Tuple<>{
+
+    template<typename T1,typename T2,typename T3>
+    struct Tuple<T1,T2,T3>:Tuple<T2,T3>{
         T1 elem;
-        using Base=Tuple<>;
+        using Base=Tuple<T2,T3>;
         Base* base(){return static_cast<Base*>(this);}
         const Base* base()const{return static_cast<const Base*>(this);}
-        Tuple(const T1& t1):Base{},elem{t1}{}
+        Tuple(const T1& t1,const T2& t2,const T3& t3):Base{t2,t3},elem{t1}{}
     };
 
-    void drive_tuple();
+    template<typename T1, typename T2, typename T3, typename T4>
+    void print_elements(ostream& os, const Tuple<T1,T2,T3,T4>& t)
+    {
+        os << t.elem << ", ";
+        print_elements(os,*t.base());
+    }
+    template<typename T1, typename T2, typename T3>
+    void print_elements(ostream& os, const Tuple<T1,T2,T3>& t)
+    {
+        os << t.elem << ", ";
+        print_elements(os,*t.base());
+    }
+    template<typename T1, typename T2>
+    void print_elements(ostream& os, const Tuple<T1,T2>& t)
+    {
+        os << t.elem << ", ";
+        print_elements(os,*t.base());
+    }
+    template<typename T1>
+    void print_elements(ostream& os, const Tuple<T1>& t)
+    {
+        os << t.elem;
+        print_elements(os,*t.base());
+    }
+    template<>
+    void print_elements(ostream& os, const Tuple<>& t)
+    {
+        os << "";
+    }
+
+    template<typename T1, typename T2, typename T3, typename T4>
+    ostream& operator<<(ostream& os, const Tuple<T1,T2,T3,T4>& t)
+    {
+        os << "{ ";
+        print_elements(os,t);
+        os << " }";
+        return os;
+    }
+
+
 }
 #endif //WORKBENCH__TUPLE_H
