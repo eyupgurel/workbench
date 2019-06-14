@@ -14,6 +14,10 @@ void drive_tuple() {
     vector<int> vec{1,2,3};
     _tuple<vector<int>,int,double, int, char,const char*,string,std::vector<int>> t3 {vector<int>{1,2,3}, i,1.1, 42, 'a',"ass","am",vec};
 
+    auto _tt = containers::__make_tuple(vector<int>{1,2,3}, i,1.1, 42, 'a',"ass","am",vec);
+
+
+
     string s = "Hello";
     vector<int> v = {1,22,3,4,5};
     auto x = make_tuple(s,v,1.2);

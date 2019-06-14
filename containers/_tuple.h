@@ -67,27 +67,8 @@ namespace containers{
     {
         typedef _tuple<typename __decay_and_strip<_Elements>::__type...>
                 __result_type;
-        return __result_type(std::forward<_Elements>(__args)...);
+        return __result_type{std::forward<_Elements>(__args)...};
     }
-
-    template<typename... Types>
-    _tuple<Types...>_make_tuple(Types&&... t){
-        return _tuple<Types...>{t...};
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     class Nil{};
