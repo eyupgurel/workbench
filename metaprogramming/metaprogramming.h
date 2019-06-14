@@ -14,6 +14,17 @@
 
 using namespace std;
 namespace metaprogramming{
+
+    template<typename T>
+    using Add_const=typename add_const<T>::type;
+
+    template<typename T>
+    using Add_lvalue_reference=typename add_lvalue_reference<T>::type;
+
+    template<typename T>
+    using Add_const_reference=Add_const<Add_lvalue_reference<T>>;
+
+
     template<typename T>
     struct On_Heap{
       On_Heap():p{new T}{}; //allocate

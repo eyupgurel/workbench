@@ -6,6 +6,12 @@
 using namespace containers;
 
 void drive_tuple() {
+    int i =1;
+    int j=2;
+    double d=1.2;
+   // _tuple<int,int,double> _t1{i,j,d};
+    _tuple<string,std::vector<int>,double> _t2{"hello",{1,2,3,4},1.2};
+
 
     Tuple<double , int, char> t1 {1.1, 42, 'a'};
     cout << t1 << "\n";

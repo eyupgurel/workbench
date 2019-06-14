@@ -5,10 +5,67 @@
 #ifndef WORKBENCH__TUPLE_H
 #define WORKBENCH__TUPLE_H
 #include <iostream>
+#include <vector>
+#include <string>
 #include "../metaprogramming/metaprogramming.h"
 using namespace std;
 using namespace metaprogramming;
 namespace containers{
+
+    template<typename... Tail> class _tuple;
+    template<> class _tuple<>{};
+    template<typename Head, typename... Tail>
+    class _tuple<Head, Tail...>:private _tuple<Tail...>{
+        /*
+        Basically, a tuple stores its head (first (type,value) pairs)
+        and derives from the tuple of its tail (the rest of the (type/value) pairs).
+        Note that the type is encoded in the type, not stored as data
+        */
+        using inherited = _tuple<Tail...>;
+    public:
+        constexpr _tuple(){}//default:the empty tuple
+        // Construct tuple from separate arguments:
+
+        _tuple(typename add_rvalue_reference<Head>::type head,
+               typename add_rvalue_reference<Tail>::type... tail):
+        m_head{std::forward<Head>(head)},inherited{std::forward<Tail>(tail)...}{
+        }
+        // Construct tuple from another tuple:
+        template<typename... Values>
+        _tuple(const _tuple<Values...>& other):m_head{other.head()},inherited{other.tail()}{}
+        template<typename... Values>
+        _tuple& operator=(const _tuple<Values...>& other){
+            m_head=other.head();
+            tail()=other.tail();
+            return *this;
+        }
+    protected:
+        Head m_head;
+    private:
+        Add_lvalue_reference<Head> head(){return m_head;}
+        Add_const_reference<Head> head()const{return m_head;}
+        inherited& tail(){return *this;}
+        const inherited& tail()const{return *this;}
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     class Nil{};
 
