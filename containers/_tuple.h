@@ -27,7 +27,7 @@ namespace containers{
         constexpr _tuple(){}//default:the empty tuple
         // Construct tuple from separate arguments:
 
-        _tuple(Add_const_reference<Head> head,
+   /*     _tuple(Add_const_reference<Head> head,
                Add_const_reference <Tail>... tail):
         m_head{head},inherited{tail...}{
         }
@@ -35,6 +35,12 @@ namespace containers{
         _tuple(Add_rvalue_reference<Head> head,
                Add_rvalue_reference <Tail>... tail):
                 m_head{std::move(head)},inherited{std::move(tail)...}{
+        }
+    */
+        template <typename _Head, typename... _Tail>
+        _tuple(_Head&& head,_Tail&&... tail):m_head{forward<_Head>(head)},
+                                            inherited{forward<_Tail>(tail)...}{
+
         }
 
         // Construct tuple from another tuple:
@@ -55,9 +61,19 @@ namespace containers{
         const inherited& tail()const{return *this;}
     };
 
+    template<typename... _Elements>
+    constexpr _tuple<typename __decay_and_strip<_Elements>::__type...>
+    __make_tuple(_Elements&&... __args)
+    {
+        typedef _tuple<typename __decay_and_strip<_Elements>::__type...>
+                __result_type;
+        return __result_type(std::forward<_Elements>(__args)...);
+    }
 
-
-
+    template<typename... Types>
+    _tuple<Types...>_make_tuple(Types&&... t){
+        return _tuple<Types...>{t...};
+    }
 
 
 

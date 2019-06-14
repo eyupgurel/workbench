@@ -10,8 +10,13 @@ void drive_tuple() {
     int j=2;
     double d=1.2;
     _tuple<int,int,double> _t1{i,j,d};
-    _tuple<string,std::vector<int>,double> _t2{"hello",{1,2,3,4},1.2};
+    _tuple<int,int,double> _t12{1,1,1.2};
+    vector<int> vec{1,2,3};
+    _tuple<vector<int>,int,double, int, char,const char*,string,std::vector<int>> t3 {vector<int>{1,2,3}, i,1.1, 42, 'a',"ass","am",vec};
 
+    string s = "Hello";
+    vector<int> v = {1,22,3,4,5};
+    auto x = make_tuple(s,v,1.2);
 
     Tuple<double , int, char> t1 {1.1, 42, 'a'};
     cout << t1 << "\n";
