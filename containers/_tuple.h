@@ -22,14 +22,21 @@ namespace containers{
         Note that the type is encoded in the type, not stored as data
         */
         using inherited = _tuple<Tail...>;
+
     public:
         constexpr _tuple(){}//default:the empty tuple
         // Construct tuple from separate arguments:
 
-        _tuple(typename add_rvalue_reference<Head>::type head,
-               typename add_rvalue_reference<Tail>::type... tail):
-        m_head{std::forward<Head>(head)},inherited{std::forward<Tail>(tail)...}{
+        _tuple(Add_const_reference<Head> head,
+               Add_const_reference <Tail>... tail):
+        m_head{head},inherited{tail...}{
         }
+
+        _tuple(Add_rvalue_reference<Head> head,
+               Add_rvalue_reference <Tail>... tail):
+                m_head{std::move(head)},inherited{std::move(tail)...}{
+        }
+
         // Construct tuple from another tuple:
         template<typename... Values>
         _tuple(const _tuple<Values...>& other):m_head{other.head()},inherited{other.tail()}{}

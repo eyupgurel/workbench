@@ -20,7 +20,8 @@ namespace metaprogramming{
 
     template<typename T>
     using Add_lvalue_reference=typename add_lvalue_reference<T>::type;
-
+    template<typename T>
+    using Add_rvalue_reference=typename add_rvalue_reference<T>::type;
     template<typename T>
     using Add_const_reference=Add_const<Add_lvalue_reference<T>>;
 
