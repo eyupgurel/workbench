@@ -57,8 +57,8 @@ namespace containers{
     private:
         Add_lvalue_reference<Head> head(){return m_head;}
         Add_const_reference<Head> head()const{return m_head;}
-        inherited& tail(){return *this;}
-        const inherited& tail()const{return *this;}
+        inherited& tail(){return static_cast<inherited&>(*this);}
+        const inherited& tail()const{return static_cast<const inherited&>(this);}
     };
 
     template<typename... _Elements>
@@ -77,8 +77,8 @@ namespace containers{
     struct Tuple:Tuple<T2,T3,T4>{
         T1 elem;
         using Base=Tuple<T2,T3,T4>;
-        Base* base(){return static_cast<Base*>(this);}
-        const Base* base()const{return static_cast<const Base*>(this);}
+        Base* tail(){return static_cast<Base*>(this);}
+        const Base* tail()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1,const T2& t2,const T3& t3,const T4& t4):Base{t2,t3,t4},elem{t1}{}
     };
 
@@ -91,8 +91,8 @@ namespace containers{
     struct Tuple<T1>:Tuple<>{
         T1 elem;
         using Base=Tuple<>;
-        Base* base(){return static_cast<Base*>(this);}
-        const Base* base()const{return static_cast<const Base*>(this);}
+        Base* tail(){return static_cast<Base*>(this);}
+        const Base* tail()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1):Base{},elem{t1}{}
     };
 
@@ -100,8 +100,8 @@ namespace containers{
     struct Tuple<T1,T2>:Tuple<T2>{
         T1 elem;
         using Base=Tuple<T2>;
-        Base* base(){return static_cast<Base*>(this);}
-        const Base* base()const{return static_cast<const Base*>(this);}
+        Base* tail(){return static_cast<Base*>(this);}
+        const Base* tail()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1,const T2& t2):Base{t2},elem{t1}{}
     };
 
@@ -109,8 +109,8 @@ namespace containers{
     struct Tuple<T1,T2,T3>:Tuple<T2,T3>{
         T1 elem;
         using Base=Tuple<T2,T3>;
-        Base* base(){return static_cast<Base*>(this);}
-        const Base* base()const{return static_cast<const Base*>(this);}
+        Base* tail(){return static_cast<Base*>(this);}
+        const Base* tail()const{return static_cast<const Base*>(this);}
         Tuple(const T1& t1,const T2& t2,const T3& t3):Base{t2,t3},elem{t1}{}
     };
 
@@ -118,12 +118,12 @@ namespace containers{
     struct getNth{
         template<typename T>
         static Ret& get(T&t){
-            return getNth<Ret,N-1>::get(*t.base());
+            return getNth<Ret,N-1>::get(*t.tail());
         }
 
         template<typename T>
         static const Ret& get(const T&t){
-            return getNth<Ret,N-1>::get(*t.base());
+            return getNth<Ret,N-1>::get(*t.tail());
         }
     };
 
@@ -157,25 +157,25 @@ namespace containers{
     void print_elements(ostream& os, const Tuple<T1,T2,T3,T4>& t)
     {
         os << t.elem << ", ";
-        print_elements(os,*t.base());
+        print_elements(os,*t.tail());
     }
     template<typename T1, typename T2, typename T3>
     void print_elements(ostream& os, const Tuple<T1,T2,T3>& t)
     {
         os << t.elem << ", ";
-        print_elements(os,*t.base());
+        print_elements(os,*t.tail());
     }
     template<typename T1, typename T2>
     void print_elements(ostream& os, const Tuple<T1,T2>& t)
     {
         os << t.elem << ", ";
-        print_elements(os,*t.base());
+        print_elements(os,*t.tail());
     }
     template<typename T1>
     void print_elements(ostream& os, const Tuple<T1>& t)
     {
         os << t.elem;
-        print_elements(os,*t.base());
+        print_elements(os,*t.tail());
     }
     template<>
     void print_elements(ostream& os, const Tuple<>& t)
