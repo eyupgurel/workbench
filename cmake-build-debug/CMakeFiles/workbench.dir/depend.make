@@ -39,12 +39,19 @@ CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/containe
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
 
+CMakeFiles/workbench.dir/containers/matrix.cpp.o: ../containers/matrix.cpp
+CMakeFiles/workbench.dir/containers/matrix.cpp.o: ../containers/matrix.h
+CMakeFiles/workbench.dir/containers/matrix.cpp.o: ../metaprogramming/metaprogramming.h
+
 CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../common.h
 CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../containers/myarray.cpp
 CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../containers/myarray.h
 
 CMakeFiles/workbench.dir/containers/simplematrix.cpp.o: ../containers/simplematrix.cpp
 CMakeFiles/workbench.dir/containers/simplematrix.cpp.o: ../containers/simplematrix.h
+
+CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.cpp
+CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.h
 
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.cpp
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.h
@@ -96,6 +103,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/myarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/simplematrix.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/valarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
@@ -219,4 +227,7 @@ CMakeFiles/workbench.dir/union/Entry.cpp.o: ../union/Entry.h
 
 CMakeFiles/workbench.dir/union/unionofclasses.cpp.o: ../union/unionofclasses.cpp
 CMakeFiles/workbench.dir/union/unionofclasses.cpp.o: ../union/unionofclasses.h
+
+CMakeFiles/workbench.dir/unit/unit.cpp.o: ../unit/unit.cpp
+CMakeFiles/workbench.dir/unit/unit.cpp.o: ../unit/unit.h
 

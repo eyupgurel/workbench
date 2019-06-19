@@ -52,6 +52,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o"
   "CMakeFiles/workbench.dir/containers/_tuple.cpp.o"
   "CMakeFiles/workbench.dir/io/printf.cpp.o"
+  "CMakeFiles/workbench.dir/unit/unit.cpp.o"
+  "CMakeFiles/workbench.dir/containers/matrix.cpp.o"
+  "CMakeFiles/workbench.dir/containers/valarray.cpp.o"
   "workbench.pdb"
   "workbench"
 )

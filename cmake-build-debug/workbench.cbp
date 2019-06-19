@@ -160,6 +160,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/list_container.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/matrix.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/matrix.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/myarray.cpp">
 			<Option target="workbench"/>
 		</Unit>
@@ -170,6 +176,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/simplematrix.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/valarray.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/valarray.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vector.cpp">
@@ -413,6 +425,12 @@
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/union/unionofclasses.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/unit/unit.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/unit/unit.h">
 			<Option target="workbench"/>
 		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/CMakeLists.txt">

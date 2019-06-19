@@ -746,6 +746,45 @@ CMakeFiles/workbench.dir/io/printf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/io/printf.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/io/printf.cpp -o CMakeFiles/workbench.dir/io/printf.cpp.s
 
+CMakeFiles/workbench.dir/unit/unit.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/unit/unit.cpp.o: ../unit/unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/workbench.dir/unit/unit.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/unit/unit.cpp.o -c /home/egl/Documents/sc/C++/workbench/unit/unit.cpp
+
+CMakeFiles/workbench.dir/unit/unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/unit/unit.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/unit/unit.cpp > CMakeFiles/workbench.dir/unit/unit.cpp.i
+
+CMakeFiles/workbench.dir/unit/unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/unit/unit.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/unit/unit.cpp -o CMakeFiles/workbench.dir/unit/unit.cpp.s
+
+CMakeFiles/workbench.dir/containers/matrix.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/containers/matrix.cpp.o: ../containers/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/workbench.dir/containers/matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/matrix.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/matrix.cpp
+
+CMakeFiles/workbench.dir/containers/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/matrix.cpp > CMakeFiles/workbench.dir/containers/matrix.cpp.i
+
+CMakeFiles/workbench.dir/containers/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/matrix.cpp -o CMakeFiles/workbench.dir/containers/matrix.cpp.s
+
+CMakeFiles/workbench.dir/containers/valarray.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/workbench.dir/containers/valarray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/valarray.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp
+
+CMakeFiles/workbench.dir/containers/valarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/valarray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp > CMakeFiles/workbench.dir/containers/valarray.cpp.i
+
+CMakeFiles/workbench.dir/containers/valarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/valarray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp -o CMakeFiles/workbench.dir/containers/valarray.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -800,7 +839,10 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o" \
 "CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o" \
 "CMakeFiles/workbench.dir/containers/_tuple.cpp.o" \
-"CMakeFiles/workbench.dir/io/printf.cpp.o"
+"CMakeFiles/workbench.dir/io/printf.cpp.o" \
+"CMakeFiles/workbench.dir/unit/unit.cpp.o" \
+"CMakeFiles/workbench.dir/containers/matrix.cpp.o" \
+"CMakeFiles/workbench.dir/containers/valarray.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -858,9 +900,12 @@ workbench: CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o
 workbench: CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/_tuple.cpp.o
 workbench: CMakeFiles/workbench.dir/io/printf.cpp.o
+workbench: CMakeFiles/workbench.dir/unit/unit.cpp.o
+workbench: CMakeFiles/workbench.dir/containers/matrix.cpp.o
+workbench: CMakeFiles/workbench.dir/containers/valarray.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

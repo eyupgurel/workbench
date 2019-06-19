@@ -16,8 +16,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/containers/_tstring.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/_tstring.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/_tuple.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/_tuple.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/list_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/list_container.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/containers/matrix.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/matrix.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/myarray.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/myarray.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/simplematrix.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/simplematrix.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/containers/valarray.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/valarray.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vector.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vector_base.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector_base.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vector_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
@@ -57,6 +59,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeid/typeid.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/unionofclasses.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/unionofclasses.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/unit/unit.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/unit/unit.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

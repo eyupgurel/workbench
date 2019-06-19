@@ -39,6 +39,10 @@ CMakeFiles/workbench.dir/containers/list_container.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/container.h
  /home/egl/Documents/sc/C++/workbench/containers/list_container.cpp
  /home/egl/Documents/sc/C++/workbench/containers/list_container.h
+CMakeFiles/workbench.dir/containers/matrix.cpp.o
+ /home/egl/Documents/sc/C++/workbench/containers/matrix.cpp
+ /home/egl/Documents/sc/C++/workbench/containers/matrix.h
+ /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
 CMakeFiles/workbench.dir/containers/myarray.cpp.o
  /home/egl/Documents/sc/C++/workbench/common.h
  /home/egl/Documents/sc/C++/workbench/containers/myarray.cpp
@@ -46,6 +50,9 @@ CMakeFiles/workbench.dir/containers/myarray.cpp.o
 CMakeFiles/workbench.dir/containers/simplematrix.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/simplematrix.cpp
  /home/egl/Documents/sc/C++/workbench/containers/simplematrix.h
+CMakeFiles/workbench.dir/containers/valarray.cpp.o
+ /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp
+ /home/egl/Documents/sc/C++/workbench/containers/valarray.h
 CMakeFiles/workbench.dir/containers/vector.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/vector.cpp
  /home/egl/Documents/sc/C++/workbench/containers/vector.h
@@ -97,6 +104,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/list_container.h
  /home/egl/Documents/sc/C++/workbench/containers/myarray.h
  /home/egl/Documents/sc/C++/workbench/containers/simplematrix.h
+ /home/egl/Documents/sc/C++/workbench/containers/valarray.h
  /home/egl/Documents/sc/C++/workbench/containers/vector.h
  /home/egl/Documents/sc/C++/workbench/containers/vector_base.h
  /home/egl/Documents/sc/C++/workbench/containers/vector_container.h
@@ -220,3 +228,6 @@ CMakeFiles/workbench.dir/union/Entry.cpp.o
 CMakeFiles/workbench.dir/union/unionofclasses.cpp.o
  /home/egl/Documents/sc/C++/workbench/union/unionofclasses.cpp
  /home/egl/Documents/sc/C++/workbench/union/unionofclasses.h
+CMakeFiles/workbench.dir/unit/unit.cpp.o
+ /home/egl/Documents/sc/C++/workbench/unit/unit.cpp
+ /home/egl/Documents/sc/C++/workbench/unit/unit.h

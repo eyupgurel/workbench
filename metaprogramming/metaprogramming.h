@@ -15,6 +15,10 @@
 using namespace std;
 namespace metaprogramming{
 
+    template<typename T1, typename T2>
+    using Common_type = typename common_type<T1,T2>::type;
+
+
     template<typename T>
     using Add_const=typename add_const<T>::type;
 
@@ -228,6 +232,20 @@ namespace metaprogramming{
             f(t);
         }
     };
+
+    template <typename From, typename To>
+    constexpr bool Convertible(){
+        return is_convertible<From,To>::value;
+    }
+
+
+    template<typename T, typename U>
+    constexpr bool Is_same(){
+        return is_same<T,U>::value;
+    }
+
+
+
 
     void drive_metaprogramming();
 }

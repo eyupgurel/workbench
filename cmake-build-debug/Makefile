@@ -447,6 +447,33 @@ containers/list_container.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/list_container.cpp.s
 .PHONY : containers/list_container.cpp.s
 
+containers/matrix.o: containers/matrix.cpp.o
+
+.PHONY : containers/matrix.o
+
+# target to build an object file
+containers/matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/matrix.cpp.o
+.PHONY : containers/matrix.cpp.o
+
+containers/matrix.i: containers/matrix.cpp.i
+
+.PHONY : containers/matrix.i
+
+# target to preprocess a source file
+containers/matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/matrix.cpp.i
+.PHONY : containers/matrix.cpp.i
+
+containers/matrix.s: containers/matrix.cpp.s
+
+.PHONY : containers/matrix.s
+
+# target to generate assembly for a file
+containers/matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/matrix.cpp.s
+.PHONY : containers/matrix.cpp.s
+
 containers/myarray.o: containers/myarray.cpp.o
 
 .PHONY : containers/myarray.o
@@ -500,6 +527,33 @@ containers/simplematrix.s: containers/simplematrix.cpp.s
 containers/simplematrix.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/simplematrix.cpp.s
 .PHONY : containers/simplematrix.cpp.s
+
+containers/valarray.o: containers/valarray.cpp.o
+
+.PHONY : containers/valarray.o
+
+# target to build an object file
+containers/valarray.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.o
+.PHONY : containers/valarray.cpp.o
+
+containers/valarray.i: containers/valarray.cpp.i
+
+.PHONY : containers/valarray.i
+
+# target to preprocess a source file
+containers/valarray.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.i
+.PHONY : containers/valarray.cpp.i
+
+containers/valarray.s: containers/valarray.cpp.s
+
+.PHONY : containers/valarray.s
+
+# target to generate assembly for a file
+containers/valarray.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.s
+.PHONY : containers/valarray.cpp.s
 
 containers/vector.o: containers/vector.cpp.o
 
@@ -1554,6 +1608,33 @@ union/unionofclasses.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/union/unionofclasses.cpp.s
 .PHONY : union/unionofclasses.cpp.s
 
+unit/unit.o: unit/unit.cpp.o
+
+.PHONY : unit/unit.o
+
+# target to build an object file
+unit/unit.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/unit/unit.cpp.o
+.PHONY : unit/unit.cpp.o
+
+unit/unit.i: unit/unit.cpp.i
+
+.PHONY : unit/unit.i
+
+# target to preprocess a source file
+unit/unit.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/unit/unit.cpp.i
+.PHONY : unit/unit.cpp.i
+
+unit/unit.s: unit/unit.cpp.s
+
+.PHONY : unit/unit.s
+
+# target to generate assembly for a file
+unit/unit.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/unit/unit.cpp.s
+.PHONY : unit/unit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1599,12 +1680,18 @@ help:
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
+	@echo "... containers/matrix.o"
+	@echo "... containers/matrix.i"
+	@echo "... containers/matrix.s"
 	@echo "... containers/myarray.o"
 	@echo "... containers/myarray.i"
 	@echo "... containers/myarray.s"
 	@echo "... containers/simplematrix.o"
 	@echo "... containers/simplematrix.i"
 	@echo "... containers/simplematrix.s"
+	@echo "... containers/valarray.o"
+	@echo "... containers/valarray.i"
+	@echo "... containers/valarray.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"
@@ -1722,6 +1809,9 @@ help:
 	@echo "... union/unionofclasses.o"
 	@echo "... union/unionofclasses.i"
 	@echo "... union/unionofclasses.s"
+	@echo "... unit/unit.o"
+	@echo "... unit/unit.i"
+	@echo "... unit/unit.s"
 .PHONY : help
 
 

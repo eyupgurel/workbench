@@ -17,6 +17,7 @@
 #include "containers/myarray.h"
 #include "containers/simplematrix.h"
 #include "containers/_string.h"
+#include "containers/valarray.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
 #include "chrono/chrono.h"
@@ -54,6 +55,7 @@ void drive_linear_algebra();
 void test_merge_sort();
 void move_hanoi_towers();
 void drive_tuple();
+void drive_si_unit();
 
 
 template<typename T>
