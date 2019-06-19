@@ -17,7 +17,7 @@
 #include "containers/myarray.h"
 #include "containers/simplematrix.h"
 #include "containers/_string.h"
-#include "containers/valarray.h"
+#include "containers/_valarray.h"
 #include "union/Entry.h"
 #include "assert/assert.h"
 #include "chrono/chrono.h"

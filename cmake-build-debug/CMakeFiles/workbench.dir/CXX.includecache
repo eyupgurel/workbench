@@ -6,13 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/containers/valarray.cpp
-valarray.h
-/home/egl/Documents/sc/C++/workbench/containers/valarray.h
-
-/home/egl/Documents/sc/C++/workbench/containers/valarray.h
-iostream
+/home/egl/Documents/sc/C++/workbench/containers/matrix.cpp
+numeric
 -
-valarray
+matrix.h
+/home/egl/Documents/sc/C++/workbench/containers/matrix.h
+
+/home/egl/Documents/sc/C++/workbench/containers/matrix.h
+vector
+-
+assert.h
+-
+../metaprogramming/metaprogramming.h
+/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
+
+/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
+type_traits
+-
+string
+-
+vector
+-
+array
+-
+tuple
+-
+iostream
 -
 

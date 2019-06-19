@@ -420,6 +420,33 @@ containers/_tuple.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_tuple.cpp.s
 .PHONY : containers/_tuple.cpp.s
 
+containers/_valarray.o: containers/_valarray.cpp.o
+
+.PHONY : containers/_valarray.o
+
+# target to build an object file
+containers/_valarray.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_valarray.cpp.o
+.PHONY : containers/_valarray.cpp.o
+
+containers/_valarray.i: containers/_valarray.cpp.i
+
+.PHONY : containers/_valarray.i
+
+# target to preprocess a source file
+containers/_valarray.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_valarray.cpp.i
+.PHONY : containers/_valarray.cpp.i
+
+containers/_valarray.s: containers/_valarray.cpp.s
+
+.PHONY : containers/_valarray.s
+
+# target to generate assembly for a file
+containers/_valarray.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/_valarray.cpp.s
+.PHONY : containers/_valarray.cpp.s
+
 containers/list_container.o: containers/list_container.cpp.o
 
 .PHONY : containers/list_container.o
@@ -527,33 +554,6 @@ containers/simplematrix.s: containers/simplematrix.cpp.s
 containers/simplematrix.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/simplematrix.cpp.s
 .PHONY : containers/simplematrix.cpp.s
-
-containers/valarray.o: containers/valarray.cpp.o
-
-.PHONY : containers/valarray.o
-
-# target to build an object file
-containers/valarray.cpp.o:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.o
-.PHONY : containers/valarray.cpp.o
-
-containers/valarray.i: containers/valarray.cpp.i
-
-.PHONY : containers/valarray.i
-
-# target to preprocess a source file
-containers/valarray.cpp.i:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.i
-.PHONY : containers/valarray.cpp.i
-
-containers/valarray.s: containers/valarray.cpp.s
-
-.PHONY : containers/valarray.s
-
-# target to generate assembly for a file
-containers/valarray.cpp.s:
-	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/valarray.cpp.s
-.PHONY : containers/valarray.cpp.s
 
 containers/vector.o: containers/vector.cpp.o
 
@@ -1677,6 +1677,9 @@ help:
 	@echo "... containers/_tuple.o"
 	@echo "... containers/_tuple.i"
 	@echo "... containers/_tuple.s"
+	@echo "... containers/_valarray.o"
+	@echo "... containers/_valarray.i"
+	@echo "... containers/_valarray.s"
 	@echo "... containers/list_container.o"
 	@echo "... containers/list_container.i"
 	@echo "... containers/list_container.s"
@@ -1689,9 +1692,6 @@ help:
 	@echo "... containers/simplematrix.o"
 	@echo "... containers/simplematrix.i"
 	@echo "... containers/simplematrix.s"
-	@echo "... containers/valarray.o"
-	@echo "... containers/valarray.i"
-	@echo "... containers/valarray.s"
 	@echo "... containers/vector.o"
 	@echo "... containers/vector.i"
 	@echo "... containers/vector.s"

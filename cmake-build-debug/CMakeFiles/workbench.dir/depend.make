@@ -35,6 +35,9 @@ CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.cpp
 CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../containers/_tuple.h
 CMakeFiles/workbench.dir/containers/_tuple.cpp.o: ../metaprogramming/metaprogramming.h
 
+CMakeFiles/workbench.dir/containers/_valarray.cpp.o: ../containers/_valarray.cpp
+CMakeFiles/workbench.dir/containers/_valarray.cpp.o: ../containers/_valarray.h
+
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.cpp
 CMakeFiles/workbench.dir/containers/list_container.cpp.o: ../containers/list_container.h
@@ -49,9 +52,6 @@ CMakeFiles/workbench.dir/containers/myarray.cpp.o: ../containers/myarray.h
 
 CMakeFiles/workbench.dir/containers/simplematrix.cpp.o: ../containers/simplematrix.cpp
 CMakeFiles/workbench.dir/containers/simplematrix.cpp.o: ../containers/simplematrix.h
-
-CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.cpp
-CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.h
 
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.cpp
 CMakeFiles/workbench.dir/containers/vector.cpp.o: ../containers/vector.h
@@ -99,11 +99,11 @@ CMakeFiles/workbench.dir/main.cpp.o: ../cast/cast.h
 CMakeFiles/workbench.dir/main.cpp.o: ../chrono/chrono.h
 CMakeFiles/workbench.dir/main.cpp.o: ../common.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/_string.h
+CMakeFiles/workbench.dir/main.cpp.o: ../containers/_valarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/list_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/myarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/simplematrix.h
-CMakeFiles/workbench.dir/main.cpp.o: ../containers/valarray.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h

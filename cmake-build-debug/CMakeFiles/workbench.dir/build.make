@@ -772,18 +772,18 @@ CMakeFiles/workbench.dir/containers/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/matrix.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/matrix.cpp -o CMakeFiles/workbench.dir/containers/matrix.cpp.s
 
-CMakeFiles/workbench.dir/containers/valarray.cpp.o: CMakeFiles/workbench.dir/flags.make
-CMakeFiles/workbench.dir/containers/valarray.cpp.o: ../containers/valarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/workbench.dir/containers/valarray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/valarray.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp
+CMakeFiles/workbench.dir/containers/_valarray.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/containers/_valarray.cpp.o: ../containers/_valarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/workbench.dir/containers/_valarray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/containers/_valarray.cpp.o -c /home/egl/Documents/sc/C++/workbench/containers/_valarray.cpp
 
-CMakeFiles/workbench.dir/containers/valarray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/valarray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp > CMakeFiles/workbench.dir/containers/valarray.cpp.i
+CMakeFiles/workbench.dir/containers/_valarray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/containers/_valarray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/containers/_valarray.cpp > CMakeFiles/workbench.dir/containers/_valarray.cpp.i
 
-CMakeFiles/workbench.dir/containers/valarray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/valarray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/valarray.cpp -o CMakeFiles/workbench.dir/containers/valarray.cpp.s
+CMakeFiles/workbench.dir/containers/_valarray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/_valarray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/_valarray.cpp -o CMakeFiles/workbench.dir/containers/_valarray.cpp.s
 
 # Object files for target workbench
 workbench_OBJECTS = \
@@ -842,7 +842,7 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/io/printf.cpp.o" \
 "CMakeFiles/workbench.dir/unit/unit.cpp.o" \
 "CMakeFiles/workbench.dir/containers/matrix.cpp.o" \
-"CMakeFiles/workbench.dir/containers/valarray.cpp.o"
+"CMakeFiles/workbench.dir/containers/_valarray.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -902,7 +902,7 @@ workbench: CMakeFiles/workbench.dir/containers/_tuple.cpp.o
 workbench: CMakeFiles/workbench.dir/io/printf.cpp.o
 workbench: CMakeFiles/workbench.dir/unit/unit.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/matrix.cpp.o
-workbench: CMakeFiles/workbench.dir/containers/valarray.cpp.o
+workbench: CMakeFiles/workbench.dir/containers/_valarray.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable workbench"

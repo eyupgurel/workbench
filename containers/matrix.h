@@ -1,11 +1,11 @@
 //
 // Created by egl on 6/17/19.
 //
-/*
+
 #ifndef WORKBENCH_MATRIX_H
 #define WORKBENCH_MATRIX_H
 
-#include <cstddef>
+
 #include <vector>
 #include <assert.h>
 #include "../metaprogramming/metaprogramming.h"
@@ -17,6 +17,91 @@ namespace containers{
     template<typename M>
     using Value_type=typename M::value_type;
 
+    template<typename T, size_t N>
+    struct Matrix_init {
+        using type = initializer_list<typename Matrix_init<T,N-1>::type>;
+    };
+
+    template<typename T>
+    struct Matrix_init<T,1> {
+        using type = initializer_list<T>;
+    };
+
+    template<typename T>
+    struct Matrix_init<T,0>; // undefined on purpose
+
+    template<typename T, size_t N>
+    using Matrix_initializer = typename Matrix_init<T, N>::type;
+
+
+    struct slice {
+        slice() :start(-1), length(-1), stride(1) { }
+        explicit slice(size_t s) :start(s), length(-1), stride(1) { }
+        slice(size_t s, size_t l, size_t n = 1) :start(s), length(l), stride(n) { }
+        size_t operator()(size_t i) const { return start+i*stride; }
+        static slice all;
+        size_t start;// first index
+        size_t length;// number of indices included (can be used for range checking)
+        size_t stride;// distance between elements in sequence
+    };
+
+    template<size_t N>
+    struct Matrix_slice {
+        Matrix_slice() = default;// an empty matrix: no elements
+
+        Matrix_slice(size_t s, initializer_list<size_t> exts); // extents
+        Matrix_slice(size_t s, initializer_list<size_t> exts, initializer_list<size_t> strs);// extents and strides
+        template<typename... Dims>// N extents
+        Matrix_slice(Dims... dims){
+
+        };
+
+        template<typename... Dims,
+                typename = Enable_if<All(Convertible<Dims,size_t>()...)>>
+        size_t operator()(Dims... dims) const{// calculate index from a set of subscripts
+            static_assert(sizeof...(Dims)==N,"Error in dimension!");
+            size_t args[N]{sizeof(Dims)...}; //copy argument into an array
+            return inner_product(args,args+N,strides.begin(),size_t{0});
+        };
+
+        size_t size;    // total number of elements
+        size_t start;   // starting offset
+        array<size_t,N> extents;    // number of elements in each dimension
+        array<size_t,N> strides;    // offsets between elements in each dimension
+    };
+
+    template<typename T, size_t N>
+    class Matrix_ref {
+    public:
+        Matrix_ref(const Matrix_slice<N>& s, T* p) :desc{s}, ptr{p} {}
+// ... mostly like Matr ix ...
+    private:
+        Matrix_slice<N> desc;
+        T* ptr;
+    };
+
+
+    constexpr bool All() { return true; }
+
+    template<typename... Args>
+    constexpr bool All(bool b, Args... args)
+    {
+        return b && All(args...);
+    }
+
+    template<typename... Args>
+    constexpr bool Requesting_element()
+    {
+        return All(Convertible<Args,size_t>()...);
+    }
+
+
+    template<typename... Args>
+    constexpr bool Requesting_slice()
+    {
+        return All((Convertible<Args,size_t>() || Is_same<Args,slice>())...)
+        && Some(Is_same<Args,slice>()...);
+    }
 
     template<typename T, size_t N>
     class Matrix {
@@ -47,9 +132,9 @@ namespace containers{
         desc{exts...},// copy extents
         elems(desc.size){};// allocate desc.size elements and default initialize them
         Matrix(Matrix_initializer<T,N> init){// initialize from list
-            Matrix_impl::derive_extents(init,desc.extents);// deduce extents from initializer list (§29.4.4)
+            derive_extents(init,desc.extents);// deduce extents from initializer list (§29.4.4)
             elems.reserve(desc.size);// make room for slices
-            Matrix_impl::insert_flat(init,elems);// initialize from initializer list (§29.4.4)
+            insert_flat(init,elems);// initialize from initializer list (§29.4.4)
             assert(elems.size() == desc.size);
         }
         Matrix& operator=(Matrix_initializer<T,N> init){// assign from list
@@ -61,7 +146,7 @@ namespace containers{
         template<typename U>
         Matrix& operator=(initializer_list<U>) = delete;
 
-        static constexpr size_t order() { return N; }// number of dimensions
+        //static constexpr size_t order() { return N; }// number of dimensions
         size_t extent(size_t n) const { return desc.extents[n]; }// #elements in the nth dimension
         size_t size() const { return elems.size(); }// total number of elements
         const Matrix_slice<N>& descriptor() const { return desc; } // the slice defining subscripting
@@ -73,16 +158,16 @@ namespace containers{
 
 
         template<typename... Args> // m(i,j,k) subscripting with integers
-        Enable_if<Matrix_impl::Requesting_element<Args...>(), T&>
+        Enable_if<Requesting_element<Args...>(), T&>
         operator()(Args... args);
         template<typename... Args>
-        Enable_if<Matrix_impl::Requesting_element<Args...>(), const T&>
+        Enable_if<Requesting_element<Args...>(), const T&>
         operator()(Args... args) const;
         template<typename... Args> // m(s1,s2,s3) subscripting with slices
-        Enable_if<Matrix_impl::Requesting_slice<Args...>(), Matrix_ref<T, N>>
+        Enable_if<Requesting_slice<Args...>(), Matrix_ref<T, N>>
         operator()(const Args&... args);
         template<typename... Args>
-        Enable_if<Matrix_impl::Requesting_slice<Args...>(), Matrix_ref<const T,N>>
+        Enable_if<Requesting_slice<Args...>(), Matrix_ref<const T,N>>
         operator()(const Args&... args) const;
 
         Matrix_ref<T,N-1> operator[](size_t i) { return row(i); } // m[i] row access
@@ -153,6 +238,7 @@ namespace containers{
 
 
 
+
     template<typename T,size_t N>
     Matrix<T,N> operator+(const Matrix<T,N>& m,const T& val);
     template<typename T,size_t N>
@@ -189,4 +275,3 @@ namespace containers{
 
 
 #endif //WORKBENCH_MATRIX_H
-*/

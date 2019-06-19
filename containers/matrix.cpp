@@ -1,40 +1,11 @@
 //
 // Created by egl on 6/17/19.
 //
-/*
+
+#include <numeric>
 #include "matrix.h"
 using namespace containers;
 
-struct slice {
-    slice() :start(-1), length(-1), stride(1) { }
-    explicit slice(size_t s) :start(s), length(-1), stride(1) { }
-    slice(size_t s, size_t l, size_t n = 1) :start(s), length(l), stride(n) { }
-    size_t operator()(size_t i) const { return start+i*stride; }
-    static slice all;
-    size_t start;// first index
-    size_t length;// number of indices included (can be used for range checking)
-    size_t stride;// distance between elements in sequence
-};
-
-template<size_t N>
-struct Matrix_slice {
-    Matrix_slice() = default;// an empty matrix: no elements
-
-    Matrix_slice(size_t s, initializer_list<size_t> exts); // extents
-    Matrix_slice(size_t s, initializer_list<size_t> exts, initializer_list<size_t> strs);// extents and strides
-    template<typename... Dims>// N extents
-    Matrix_slice(Dims... dims);
-
-    template<typename... Dims,
-            typename = Enable_if<All(Convertible<Dims,size_t>()...)>>
-    size_t operator()(Dims... dims) const;// calculate index from a set of subscripts
-
-    size_t size;    // total number of elements
-    size_t start;   // starting offset
-    array<size_t,N> extents;    // number of elements in each dimension
-    array<size_t,N> strides;    // offsets between elements in each dimension
-tü
-};
 
 
 template<typename T,size_t N>
@@ -127,4 +98,3 @@ Matrix<T,2> containers::operator*(const Matrix<T,2>&u, const Matrix<T,2>&v){
                 res(i,j)+=u(i,k)*v(k,j);
     return res;
 }
- */
