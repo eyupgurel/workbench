@@ -64,7 +64,9 @@ namespace containers{
             return inner_product(args,args+N,strides.begin(),size_t{0});
         };
 
-        size_t size;    // total number of elements
+        size_t size(){return std::accumulate(extents.begin(),extents.end(),1,std::multiplies());};
+
+        //size_t sz;    // total number of elements
         size_t start;   // starting offset
         array<size_t,N> extents;    // number of elements in each dimension
         array<size_t,N> strides;    // offsets between elements in each dimension
@@ -186,9 +188,9 @@ namespace containers{
         elems(desc.size){};// allocate desc.size elements and default initialize them
         Matrix(Matrix_initializer<T,N> init){// initialize from list
             desc.extents = derive_extents<N>(init);// deduce extents from initializer list (§29.4.4)
-            elems.reserve(desc.size);// make room for slices
+            elems.reserve(desc.size());// make room for slices
             insert_flat(init,elems);// initialize from initializer list (§29.4.4)
-            assert(elems.size() == desc.size);
+            assert(elems.size() == desc.size());
         }
         Matrix& operator=(Matrix_initializer<T,N> init){// assign from list
 
