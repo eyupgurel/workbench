@@ -49,6 +49,7 @@
 
 using namespace algorithms;
 using namespace containers;
+void drive_matrix();
 void drive_namebinding();
 void drive_safe_vector();
 void drive_linear_algebra();

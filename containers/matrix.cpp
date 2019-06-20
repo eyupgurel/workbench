@@ -98,3 +98,10 @@ Matrix<T,2> containers::operator*(const Matrix<T,2>&u, const Matrix<T,2>&v){
                 res(i,j)+=u(i,k)*v(k,j);
     return res;
 }
+
+void drive_matrix(){
+    Matrix<int,2> m2 {
+            {1,2,3},
+            {11,12,13}
+    };
+}
