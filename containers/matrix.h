@@ -113,6 +113,11 @@ namespace containers{
         return true;
     }
 
+    template<size_t N, typename I, typename List>
+    Enable_if<(N==1),void> add_extents(I& first, const List& list)
+    {
+        *first++ = list.size(); // we reached the deepest nesting
+    }
 
     template<size_t N, typename I, typename List>
     Enable_if<(N>1),void> add_extents(I& first, const List& list)
@@ -122,11 +127,6 @@ namespace containers{
         add_extents<N-1>(++first,*list.begin());
     }
 
-    template<size_t N, typename I, typename List>
-    Enable_if<(N==1),void> add_extents(I& first, const List& list)
-    {
-        *first++ = list.size(); // we reached the deepest nesting
-    }
 
     template<size_t N, typename List>
     array<size_t, N> derive_extents(const List& list)
@@ -185,7 +185,7 @@ namespace containers{
         desc{exts...},// copy extents
         elems(desc.size){};// allocate desc.size elements and default initialize them
         Matrix(Matrix_initializer<T,N> init){// initialize from list
-            desc.extents = derive_extents<T,N>(init);// deduce extents from initializer list (§29.4.4)
+            desc.extents = derive_extents<N>(init);// deduce extents from initializer list (§29.4.4)
             elems.reserve(desc.size);// make room for slices
             insert_flat(init,elems);// initialize from initializer list (§29.4.4)
             assert(elems.size() == desc.size);
