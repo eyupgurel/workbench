@@ -79,6 +79,86 @@ CMakeFiles/workbench.dir/forward/forward.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/functionobject.cpp
 CMakeFiles/workbench.dir/functionobject/functionobject.cpp.o: ../functionobject/functionobject.h
 
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/examples/01_basic_matrix_uses.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/examples/02_construction_and_assignment.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/examples/03_subscripting_and_slicing.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/cblas.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/blas/axpy.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/examples/05_solving_linear_equations.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix.cpp
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/traits.h
+
 CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.cpp
 CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.h
 

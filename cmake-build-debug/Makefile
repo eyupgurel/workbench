@@ -744,6 +744,168 @@ functionobject/functionobject.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functionobject/functionobject.cpp.s
 .PHONY : functionobject/functionobject.cpp.s
 
+include/slab/matrix/examples/01_basic_matrix_uses.o: include/slab/matrix/examples/01_basic_matrix_uses.cpp.o
+
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.o
+
+# target to build an object file
+include/slab/matrix/examples/01_basic_matrix_uses.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.cpp.o
+
+include/slab/matrix/examples/01_basic_matrix_uses.i: include/slab/matrix/examples/01_basic_matrix_uses.cpp.i
+
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.i
+
+# target to preprocess a source file
+include/slab/matrix/examples/01_basic_matrix_uses.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.i
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.cpp.i
+
+include/slab/matrix/examples/01_basic_matrix_uses.s: include/slab/matrix/examples/01_basic_matrix_uses.cpp.s
+
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.s
+
+# target to generate assembly for a file
+include/slab/matrix/examples/01_basic_matrix_uses.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.s
+.PHONY : include/slab/matrix/examples/01_basic_matrix_uses.cpp.s
+
+include/slab/matrix/examples/02_construction_and_assignment.o: include/slab/matrix/examples/02_construction_and_assignment.cpp.o
+
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.o
+
+# target to build an object file
+include/slab/matrix/examples/02_construction_and_assignment.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.cpp.o
+
+include/slab/matrix/examples/02_construction_and_assignment.i: include/slab/matrix/examples/02_construction_and_assignment.cpp.i
+
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.i
+
+# target to preprocess a source file
+include/slab/matrix/examples/02_construction_and_assignment.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.i
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.cpp.i
+
+include/slab/matrix/examples/02_construction_and_assignment.s: include/slab/matrix/examples/02_construction_and_assignment.cpp.s
+
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.s
+
+# target to generate assembly for a file
+include/slab/matrix/examples/02_construction_and_assignment.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.s
+.PHONY : include/slab/matrix/examples/02_construction_and_assignment.cpp.s
+
+include/slab/matrix/examples/03_subscripting_and_slicing.o: include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o
+
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.o
+
+# target to build an object file
+include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o
+
+include/slab/matrix/examples/03_subscripting_and_slicing.i: include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i
+
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.i
+
+# target to preprocess a source file
+include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i
+
+include/slab/matrix/examples/03_subscripting_and_slicing.s: include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s
+
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.s
+
+# target to generate assembly for a file
+include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s
+.PHONY : include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s
+
+include/slab/matrix/examples/04_matrix_arithmetric_operations.o: include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
+
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.o
+
+# target to build an object file
+include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
+
+include/slab/matrix/examples/04_matrix_arithmetric_operations.i: include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i
+
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.i
+
+# target to preprocess a source file
+include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i
+
+include/slab/matrix/examples/04_matrix_arithmetric_operations.s: include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s
+
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.s
+
+# target to generate assembly for a file
+include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s
+.PHONY : include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s
+
+include/slab/matrix/examples/05_solving_linear_equations.o: include/slab/matrix/examples/05_solving_linear_equations.cpp.o
+
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.o
+
+# target to build an object file
+include/slab/matrix/examples/05_solving_linear_equations.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.cpp.o
+
+include/slab/matrix/examples/05_solving_linear_equations.i: include/slab/matrix/examples/05_solving_linear_equations.cpp.i
+
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.i
+
+# target to preprocess a source file
+include/slab/matrix/examples/05_solving_linear_equations.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.i
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.cpp.i
+
+include/slab/matrix/examples/05_solving_linear_equations.s: include/slab/matrix/examples/05_solving_linear_equations.cpp.s
+
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.s
+
+# target to generate assembly for a file
+include/slab/matrix/examples/05_solving_linear_equations.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s
+.PHONY : include/slab/matrix/examples/05_solving_linear_equations.cpp.s
+
+include/slab/matrix/matrix.o: include/slab/matrix/matrix.cpp.o
+
+.PHONY : include/slab/matrix/matrix.o
+
+# target to build an object file
+include/slab/matrix/matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o
+.PHONY : include/slab/matrix/matrix.cpp.o
+
+include/slab/matrix/matrix.i: include/slab/matrix/matrix.cpp.i
+
+.PHONY : include/slab/matrix/matrix.i
+
+# target to preprocess a source file
+include/slab/matrix/matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.i
+.PHONY : include/slab/matrix/matrix.cpp.i
+
+include/slab/matrix/matrix.s: include/slab/matrix/matrix.cpp.s
+
+.PHONY : include/slab/matrix/matrix.s
+
+# target to generate assembly for a file
+include/slab/matrix/matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.s
+.PHONY : include/slab/matrix/matrix.cpp.s
+
 inheritance/Vector.o: inheritance/Vector.cpp.o
 
 .PHONY : inheritance/Vector.o
@@ -1713,6 +1875,24 @@ help:
 	@echo "... functionobject/functionobject.o"
 	@echo "... functionobject/functionobject.i"
 	@echo "... functionobject/functionobject.s"
+	@echo "... include/slab/matrix/examples/01_basic_matrix_uses.o"
+	@echo "... include/slab/matrix/examples/01_basic_matrix_uses.i"
+	@echo "... include/slab/matrix/examples/01_basic_matrix_uses.s"
+	@echo "... include/slab/matrix/examples/02_construction_and_assignment.o"
+	@echo "... include/slab/matrix/examples/02_construction_and_assignment.i"
+	@echo "... include/slab/matrix/examples/02_construction_and_assignment.s"
+	@echo "... include/slab/matrix/examples/03_subscripting_and_slicing.o"
+	@echo "... include/slab/matrix/examples/03_subscripting_and_slicing.i"
+	@echo "... include/slab/matrix/examples/03_subscripting_and_slicing.s"
+	@echo "... include/slab/matrix/examples/04_matrix_arithmetric_operations.o"
+	@echo "... include/slab/matrix/examples/04_matrix_arithmetric_operations.i"
+	@echo "... include/slab/matrix/examples/04_matrix_arithmetric_operations.s"
+	@echo "... include/slab/matrix/examples/05_solving_linear_equations.o"
+	@echo "... include/slab/matrix/examples/05_solving_linear_equations.i"
+	@echo "... include/slab/matrix/examples/05_solving_linear_equations.s"
+	@echo "... include/slab/matrix/matrix.o"
+	@echo "... include/slab/matrix/matrix.i"
+	@echo "... include/slab/matrix/matrix.s"
 	@echo "... inheritance/Vector.o"
 	@echo "... inheritance/Vector.i"
 	@echo "... inheritance/Vector.s"

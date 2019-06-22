@@ -6,6 +6,7 @@
 
 int main()
 {
+    drive_slab_matrix();
     drive_matrix();
     containers::drive_gslice_sample();
     drive_si_unit();

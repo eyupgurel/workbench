@@ -785,6 +785,84 @@ CMakeFiles/workbench.dir/containers/_valarray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/containers/_valarray.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/containers/_valarray.cpp -o CMakeFiles/workbench.dir/containers/_valarray.cpp.s
 
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o: ../include/slab/matrix/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.cpp > CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.s
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o: ../include/slab/matrix/examples/01_basic_matrix_uses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/01_basic_matrix_uses.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/01_basic_matrix_uses.cpp > CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/01_basic_matrix_uses.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.s
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o: ../include/slab/matrix/examples/02_construction_and_assignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/02_construction_and_assignment.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/02_construction_and_assignment.cpp > CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/02_construction_and_assignment.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.s
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/examples/03_subscripting_and_slicing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/03_subscripting_and_slicing.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/03_subscripting_and_slicing.cpp > CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/03_subscripting_and_slicing.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.s
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp > CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.s
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o: ../include/slab/matrix/examples/05_solving_linear_equations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o -c /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/05_solving_linear_equations.cpp
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/05_solving_linear_equations.cpp > CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.i
+
+CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/05_solving_linear_equations.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -842,7 +920,13 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/io/printf.cpp.o" \
 "CMakeFiles/workbench.dir/unit/unit.cpp.o" \
 "CMakeFiles/workbench.dir/containers/matrix.cpp.o" \
-"CMakeFiles/workbench.dir/containers/_valarray.cpp.o"
+"CMakeFiles/workbench.dir/containers/_valarray.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o" \
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -903,9 +987,15 @@ workbench: CMakeFiles/workbench.dir/io/printf.cpp.o
 workbench: CMakeFiles/workbench.dir/unit/unit.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/matrix.cpp.o
 workbench: CMakeFiles/workbench.dir/containers/_valarray.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
+workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

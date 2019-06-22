@@ -55,6 +55,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/unit/unit.cpp.o"
   "CMakeFiles/workbench.dir/containers/matrix.cpp.o"
   "CMakeFiles/workbench.dir/containers/_valarray.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/matrix.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/examples/01_basic_matrix_uses.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o"
+  "CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
   "workbench.pdb"
   "workbench"
 )
