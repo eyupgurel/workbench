@@ -54,12 +54,8 @@ struct MatrixSlice {
     template <typename... Dims>
     MatrixSlice(Dims... dims);  // N extents
 
-    template <typename... Dims, typename = Enable_if<matrix_impl::Requesting_element<Dims...>()>>
-    std::size_t operator()(Dims... dims) const{
-        static_assert(sizeof...(Dims) == N, "MatrixSlice<N>::operator(): dimension mismatch");
-        std::size_t args[N]{std::size_t(dims)...};  // copy arguments into an array
-        return start + std::inner_product(args, args + N, strides.begin(), std::size_t{0});
-    };  // calculate index from a set of subscripts
+    template <typename... Dims>
+    Enable_if<matrix_impl::Requesting_element<Dims...>(),std::size_t> operator()(Dims... dims) const;
 
     std::size_t offset(const std::array<std::size_t, N> &pos) const;
 
@@ -114,6 +110,16 @@ MatrixSlice<N>::MatrixSlice(Dims... dims) : start{0} {
     std::copy(std::begin(args), std::end(args), extents.begin());
     size = matrix_impl::compute_strides(extents, strides);
 }
+
+
+template <std::size_t N>
+template <typename... Dims>
+Enable_if<matrix_impl::Requesting_element<Dims...>(),std::size_t> MatrixSlice<N>::operator()(Dims... dims) const{
+    static_assert(sizeof...(Dims) == N, "MatrixSlice<N>::operator(): dimension mismatch");
+    std::size_t args[N]{std::size_t(dims)...};  // copy arguments into an array
+    return start + std::inner_product(args, args + N, strides.begin(), std::size_t{0});
+};  // calculate index from a set of subscripts
+
 
 template <std::size_t N>
 std::size_t MatrixSlice<N>::offset(
