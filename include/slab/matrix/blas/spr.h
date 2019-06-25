@@ -20,7 +20,7 @@
 #ifndef _SLAB_MATRIX_BLAS_SPR_H
 #define _SLAB_MATRIX_BLAS_SPR_H
 
-_SLAB_BEGIN_NAMESPACE
+namespace slab{
 
 /// @addtogroup blas_interface BLAS Interface
 /// @{

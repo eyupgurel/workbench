@@ -20,7 +20,7 @@
 #ifndef _SLAB_MATRIX_BLAS_SDOT_H
 #define _SLAB_MATRIX_BLAS_SDOT_H
 
-_SLAB_BEGIN_NAMESPACE
+namespace slab{
 
 #ifndef _SLAB_USE_R_BLAS
 

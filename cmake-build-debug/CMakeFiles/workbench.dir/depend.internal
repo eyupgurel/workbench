@@ -119,12 +119,15 @@ CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicin
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/support.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/traits.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
+ /home/egl/Documents/sc/C++/workbench/include/cblas.h
  /home/egl/Documents/sc/C++/workbench/include/slab/__config.h
  /home/egl/Documents/sc/C++/workbench/include/slab/__error.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/blas/gemv.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_base.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_fwd.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_ops.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_ref.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_slice.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/packed_matrix.h

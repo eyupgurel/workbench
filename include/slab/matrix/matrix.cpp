@@ -7,7 +7,7 @@
 void drive_basic_matrix_uses();
 void drive_construction_and_assignment();
 void drive_subscripting_and_slicing();
-void drive_matrix_arithmetric_operations();
+//void drive_matrix_arithmetric_operations();
 void drive_solving_linear_equations();
 void drive_slab_matrix(){
     drive_basic_matrix_uses();

@@ -20,7 +20,7 @@
 #ifndef _SLAB_MATRIX_LAPACK_POTRF_H
 #define _SLAB_MATRIX_LAPACK_POTRF_H
 
-_SLAB_BEGIN_NAMESPACE
+namespace slab{
 
 /// @addtogroup lapack_interface LAPACK INTERFACE
 /// @{

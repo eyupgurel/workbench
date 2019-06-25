@@ -118,12 +118,15 @@ CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicin
 CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/support.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o: ../include/slab/matrix/traits.h
 
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/cblas.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/__config.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/blas/gemv.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_base.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_ops.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_ref.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/matrix_slice.h
 CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o: ../include/slab/matrix/packed_matrix.h

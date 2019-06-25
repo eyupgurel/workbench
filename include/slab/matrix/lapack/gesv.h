@@ -21,7 +21,7 @@
 #ifndef _SLAB_MATRIX_LAPACK_GESV_H
 #define _SLAB_MATRIX_LAPACK_GESV_H
 
-_SLAB_BEGIN_NAMESPACE
+namespace slab{
 
 /// @addtogroup lapack_interface LAPACK INTERFACE
 /// @{

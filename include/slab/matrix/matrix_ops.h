@@ -31,6 +31,7 @@
 #include "matrix_base.h"
 #include "matrix_ref.h"
 #include "support.h"
+#include "../../cblas.h"
 
 
 namespace slab{

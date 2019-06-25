@@ -101,6 +101,10 @@ void drive_basic_matrix_uses() {
 
     cout << "\nm = " << m << endl;
 
+    auto row0 = m.row(0);
+    auto col0 = m.col(0);
+
+
     Matrix<double, 1> v = m[1];
     cout << "\nv = " << v << endl;
 

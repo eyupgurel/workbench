@@ -20,6 +20,7 @@ using namespace std;
 using namespace slab;
 
 void drive_subscripting_and_slicing() {
+
     Matrix<int, 2> m{{01, 02, 03}, {11, 12, 13}};
 
     cout << "m = " << m << endl;

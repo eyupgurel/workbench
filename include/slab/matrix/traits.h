@@ -22,6 +22,7 @@
 
 #include <complex>
 #include <type_traits>  // std::enable_if/is_convertible
+#include "../matrix/matrix.h"
 
 namespace slab{
 
