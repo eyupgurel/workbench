@@ -54,7 +54,7 @@ struct MatrixSlice {
     template <typename... Dims>
     MatrixSlice(Dims... dims);  // N extents
 
-    template <typename... Dims,typename = Enable_if<All(Convertible<Dims,size_t>()...)>>
+    template <typename... Dims, typename = Enable_if<matrix_impl::Requesting_element<Dims...>()>>
     std::size_t operator()(Dims... dims) const{
         static_assert(sizeof...(Dims) == N, "MatrixSlice<N>::operator(): dimension mismatch");
         std::size_t args[N]{std::size_t(dims)...};  // copy arguments into an array
