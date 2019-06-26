@@ -178,7 +178,7 @@ namespace matrix_impl {
     }
 
     template <std::size_t N, typename... Dims>
-    bool check_bounds(const MatrixSlice<N> &ms, Dims... dims) {
+    constexpr bool check_bounds(const MatrixSlice<N> &ms, Dims... dims) {
         std::size_t indexes[N]{std::size_t(dims)...};
         return std::equal(indexes, indexes + N, ms.extents.begin(),
                           std::less<std::size_t>{});

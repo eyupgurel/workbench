@@ -25,7 +25,7 @@ void drive_subscripting_and_slicing() {
 
     cout << "m = " << m << endl;
 
-    m(1, 2) = 99;  // overwrite the element in row 1 column 2; that is 13
+    m(1,2) = 99;  // overwrite the element in row 1 column 2; that is 13
 
     //  auto d1 = m(1);      // error: too few subscripts
     //  auto d2 = m(1,2,3);  // error: too many subscripts
