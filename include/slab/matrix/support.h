@@ -65,9 +65,20 @@ namespace matrix_impl {
         *first = list.size();
     }
 
+    template<typename List>
+    constexpr bool check_non_jagged(const List& list)
+    {
+        auto i = list.begin();
+        for (auto j = i+1; j!=list.end(); ++j)
+            if (i->size()!=j->size())
+                return false;
+        return true;
+    }
+
+
     template <std::size_t N, typename I, typename List>
     Enable_if<(N > 1), void> add_extents(I &first, const List &list) {
-        assert(check_non_jagged<N>(list));
+        assert(check_non_jagged(list));
         *first++ = list.size();
         add_extents<N - 1>(first, *list.begin());
     }
@@ -94,6 +105,9 @@ namespace matrix_impl {
         }
         return true;
     }
+
+
+
 
     template <std::size_t N>
     std::size_t compute_strides(const std::array<std::size_t, N> &exts,
