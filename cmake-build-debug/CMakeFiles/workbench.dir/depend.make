@@ -207,6 +207,8 @@ CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/tripledispatch/tripledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/visitor/visitor.h
+CMakeFiles/workbench.dir/main.cpp.o: ../stl/sort/sort.h
+CMakeFiles/workbench.dir/main.cpp.o: ../stl/vectorsamples/vectorsamples.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/algorithms/algorithms.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/array/array.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/conversions/conversions.h
@@ -247,6 +249,12 @@ CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o: ../po
 
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.cpp
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.h
+
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.o: ../stl/sort/sort.cpp
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.o: ../stl/sort/sort.h
+
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o: ../stl/vectorsamples/vectorsamples.cpp
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o: ../stl/vectorsamples/vectorsamples.h
 
 CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.cpp
 CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o: ../templates/algorithms/algorithms.h

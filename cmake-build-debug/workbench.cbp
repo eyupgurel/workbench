@@ -379,6 +379,18 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/stl/sort/sort.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp">
 			<Option target="workbench"/>
 		</Unit>

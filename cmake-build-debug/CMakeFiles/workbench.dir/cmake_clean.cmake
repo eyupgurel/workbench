@@ -61,6 +61,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o"
   "CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o"
   "CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
+  "CMakeFiles/workbench.dir/stl/sort/sort.cpp.o"
+  "CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
   "workbench.pdb"
   "workbench"
 )

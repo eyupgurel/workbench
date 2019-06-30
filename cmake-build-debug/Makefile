@@ -1311,6 +1311,60 @@ polymorphism/visitor/visitor.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.s
 .PHONY : polymorphism/visitor/visitor.cpp.s
 
+stl/sort/sort.o: stl/sort/sort.cpp.o
+
+.PHONY : stl/sort/sort.o
+
+# target to build an object file
+stl/sort/sort.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/sort/sort.cpp.o
+.PHONY : stl/sort/sort.cpp.o
+
+stl/sort/sort.i: stl/sort/sort.cpp.i
+
+.PHONY : stl/sort/sort.i
+
+# target to preprocess a source file
+stl/sort/sort.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/sort/sort.cpp.i
+.PHONY : stl/sort/sort.cpp.i
+
+stl/sort/sort.s: stl/sort/sort.cpp.s
+
+.PHONY : stl/sort/sort.s
+
+# target to generate assembly for a file
+stl/sort/sort.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/sort/sort.cpp.s
+.PHONY : stl/sort/sort.cpp.s
+
+stl/vectorsamples/vectorsamples.o: stl/vectorsamples/vectorsamples.cpp.o
+
+.PHONY : stl/vectorsamples/vectorsamples.o
+
+# target to build an object file
+stl/vectorsamples/vectorsamples.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o
+.PHONY : stl/vectorsamples/vectorsamples.cpp.o
+
+stl/vectorsamples/vectorsamples.i: stl/vectorsamples/vectorsamples.cpp.i
+
+.PHONY : stl/vectorsamples/vectorsamples.i
+
+# target to preprocess a source file
+stl/vectorsamples/vectorsamples.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.i
+.PHONY : stl/vectorsamples/vectorsamples.cpp.i
+
+stl/vectorsamples/vectorsamples.s: stl/vectorsamples/vectorsamples.cpp.s
+
+.PHONY : stl/vectorsamples/vectorsamples.s
+
+# target to generate assembly for a file
+stl/vectorsamples/vectorsamples.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.s
+.PHONY : stl/vectorsamples/vectorsamples.cpp.s
+
 templates/algorithms/algorithms.o: templates/algorithms/algorithms.cpp.o
 
 .PHONY : templates/algorithms/algorithms.o
@@ -1938,6 +1992,12 @@ help:
 	@echo "... polymorphism/visitor/visitor.o"
 	@echo "... polymorphism/visitor/visitor.i"
 	@echo "... polymorphism/visitor/visitor.s"
+	@echo "... stl/sort/sort.o"
+	@echo "... stl/sort/sort.i"
+	@echo "... stl/sort/sort.s"
+	@echo "... stl/vectorsamples/vectorsamples.o"
+	@echo "... stl/vectorsamples/vectorsamples.i"
+	@echo "... stl/vectorsamples/vectorsamples.s"
 	@echo "... templates/algorithms/algorithms.o"
 	@echo "... templates/algorithms/algorithms.i"
 	@echo "... templates/algorithms/algorithms.s"

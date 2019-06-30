@@ -863,6 +863,32 @@ CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equation
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/include/slab/matrix/examples/05_solving_linear_equations.cpp -o CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.s
 
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.o: ../stl/sort/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/workbench.dir/stl/sort/sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/stl/sort/sort.cpp.o -c /home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp
+
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/stl/sort/sort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp > CMakeFiles/workbench.dir/stl/sort/sort.cpp.i
+
+CMakeFiles/workbench.dir/stl/sort/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/stl/sort/sort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp -o CMakeFiles/workbench.dir/stl/sort/sort.cpp.s
+
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o: ../stl/vectorsamples/vectorsamples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o -c /home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.cpp
+
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.cpp > CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.i
+
+CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.cpp -o CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -926,7 +952,9 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction_and_assignment.cpp.o" \
 "CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o" \
 "CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o" \
-"CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
+"CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o" \
+"CMakeFiles/workbench.dir/stl/sort/sort.cpp.o" \
+"CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -993,9 +1021,11 @@ workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/02_construction
 workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/03_subscripting_and_slicing.cpp.o
 workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/04_matrix_arithmetric_operations.cpp.o
 workbench: CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o
+workbench: CMakeFiles/workbench.dir/stl/sort/sort.cpp.o
+workbench: CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

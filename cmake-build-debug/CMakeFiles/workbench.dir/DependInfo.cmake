@@ -48,6 +48,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/polymorphism/doubledispatch/doubledispatch.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/stl/sort/sort.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/algorithms/algorithms.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/array/array.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/array/array.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/conversions/conversions.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/conversions/conversions.cpp.o"

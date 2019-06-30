@@ -44,7 +44,8 @@
 #include "polymorphism/visitor/visitor.h"
 #include "metaprogramming/metaprogramming.h"
 #include "metaprogramming/declval.h"
-
+#include "stl/sort/sort.h"
+#include "stl/vectorsamples/vectorsamples.h"
 
 
 using namespace algorithms;
