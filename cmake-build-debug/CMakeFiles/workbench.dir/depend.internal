@@ -208,6 +208,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
  /home/egl/Documents/sc/C++/workbench/polymorphism/tripledispatch/tripledispatch.h
  /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
+ /home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.h
  /home/egl/Documents/sc/C++/workbench/stl/sort/sort.h
  /home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.h
  /home/egl/Documents/sc/C++/workbench/templates/algorithms/algorithms.h
@@ -250,6 +251,9 @@ CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o
  /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.cpp
  /home/egl/Documents/sc/C++/workbench/polymorphism/visitor/visitor.h
+CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o
+ /home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.cpp
+ /home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.h
 CMakeFiles/workbench.dir/stl/sort/sort.cpp.o
  /home/egl/Documents/sc/C++/workbench/stl/sort/sort.cpp
  /home/egl/Documents/sc/C++/workbench/stl/sort/sort.h

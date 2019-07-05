@@ -7,6 +7,7 @@
 int main()
 {
 
+    stl::mapsamples::drive_map_samples();
     stl::vectorsamples::reading_letters_into_buff_keeping_track_of_word_boundaries();
     stl::sort::drive_stl_sort();
     drive_slab_matrix();

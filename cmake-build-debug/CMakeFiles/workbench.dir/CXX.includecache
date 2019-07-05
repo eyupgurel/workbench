@@ -241,6 +241,8 @@ stl/sort/sort.h
 /home/egl/Documents/sc/C++/workbench/stl/sort/sort.h
 stl/vectorsamples/vectorsamples.h
 /home/egl/Documents/sc/C++/workbench/stl/vectorsamples/vectorsamples.h
+stl/mapsamples/mapsamples.h
+/home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.h
 
 /home/egl/Documents/sc/C++/workbench/math/_complex.h
 
@@ -302,6 +304,20 @@ tuple
 iostream
 -
 vector
+-
+
+/home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.cpp
+mapsamples.h
+/home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.h
+
+/home/egl/Documents/sc/C++/workbench/stl/mapsamples/mapsamples.h
+string
+-
+map
+-
+unordered_set
+-
+iostream
 -
 
 /home/egl/Documents/sc/C++/workbench/stl/sort/sort.h

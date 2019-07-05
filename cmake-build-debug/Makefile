@@ -1311,6 +1311,33 @@ polymorphism/visitor/visitor.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.s
 .PHONY : polymorphism/visitor/visitor.cpp.s
 
+stl/mapsamples/mapsamples.o: stl/mapsamples/mapsamples.cpp.o
+
+.PHONY : stl/mapsamples/mapsamples.o
+
+# target to build an object file
+stl/mapsamples/mapsamples.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o
+.PHONY : stl/mapsamples/mapsamples.cpp.o
+
+stl/mapsamples/mapsamples.i: stl/mapsamples/mapsamples.cpp.i
+
+.PHONY : stl/mapsamples/mapsamples.i
+
+# target to preprocess a source file
+stl/mapsamples/mapsamples.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.i
+.PHONY : stl/mapsamples/mapsamples.cpp.i
+
+stl/mapsamples/mapsamples.s: stl/mapsamples/mapsamples.cpp.s
+
+.PHONY : stl/mapsamples/mapsamples.s
+
+# target to generate assembly for a file
+stl/mapsamples/mapsamples.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.s
+.PHONY : stl/mapsamples/mapsamples.cpp.s
+
 stl/sort/sort.o: stl/sort/sort.cpp.o
 
 .PHONY : stl/sort/sort.o
@@ -1992,6 +2019,9 @@ help:
 	@echo "... polymorphism/visitor/visitor.o"
 	@echo "... polymorphism/visitor/visitor.i"
 	@echo "... polymorphism/visitor/visitor.s"
+	@echo "... stl/mapsamples/mapsamples.o"
+	@echo "... stl/mapsamples/mapsamples.i"
+	@echo "... stl/mapsamples/mapsamples.s"
 	@echo "... stl/sort/sort.o"
 	@echo "... stl/sort/sort.i"
 	@echo "... stl/sort/sort.s"

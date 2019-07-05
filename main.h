@@ -46,6 +46,7 @@
 #include "metaprogramming/declval.h"
 #include "stl/sort/sort.h"
 #include "stl/vectorsamples/vectorsamples.h"
+#include "stl/mapsamples/mapsamples.h"
 
 
 using namespace algorithms;

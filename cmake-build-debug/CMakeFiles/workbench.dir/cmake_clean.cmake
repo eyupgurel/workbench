@@ -63,6 +63,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/include/slab/matrix/examples/05_solving_linear_equations.cpp.o"
   "CMakeFiles/workbench.dir/stl/sort/sort.cpp.o"
   "CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
+  "CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o"
   "workbench.pdb"
   "workbench"
 )
