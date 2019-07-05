@@ -9,7 +9,11 @@
 #include <map>
 #include <unordered_set>
 #include <iostream>
+#include <functional>
 using namespace std;
+
+
+
 namespace stl::mapsamples {
     struct Record {
         string name;
@@ -42,5 +46,21 @@ namespace stl::mapsamples {
     void drive_map_samples();
 }
 
+namespace std {
+    template<>
+    struct hash<stl::mapsamples::Record>{
+        size_t operator()(const stl::mapsamples::Record &r) const
+        {
+            return hash<string>{}(r.name)^hash<int>{}(r.val);
+        }
+    };
+    template<>
+    struct equal_to<stl::mapsamples::Record> {
+        bool operator()(const stl::mapsamples::Record& r, const stl::mapsamples::Record& r2) const
+        {
+            return r.name==r2.name && r.val==r2.val;
+        }
+    };
+}
 
 #endif //WORKBENCH_MAPSAMPLES_H

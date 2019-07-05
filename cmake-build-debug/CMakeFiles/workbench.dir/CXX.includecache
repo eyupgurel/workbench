@@ -319,6 +319,8 @@ unordered_set
 -
 iostream
 -
+functional
+-
 
 /home/egl/Documents/sc/C++/workbench/stl/sort/sort.h
 string
