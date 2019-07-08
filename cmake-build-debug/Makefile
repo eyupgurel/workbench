@@ -177,6 +177,33 @@ algorithms/hanoitower.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.s
 .PHONY : algorithms/hanoitower.cpp.s
 
+algorithms/heapsort.o: algorithms/heapsort.cpp.o
+
+.PHONY : algorithms/heapsort.o
+
+# target to build an object file
+algorithms/heapsort.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/heapsort.cpp.o
+.PHONY : algorithms/heapsort.cpp.o
+
+algorithms/heapsort.i: algorithms/heapsort.cpp.i
+
+.PHONY : algorithms/heapsort.i
+
+# target to preprocess a source file
+algorithms/heapsort.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/heapsort.cpp.i
+.PHONY : algorithms/heapsort.cpp.i
+
+algorithms/heapsort.s: algorithms/heapsort.cpp.s
+
+.PHONY : algorithms/heapsort.s
+
+# target to generate assembly for a file
+algorithms/heapsort.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/algorithms/heapsort.cpp.s
+.PHONY : algorithms/heapsort.cpp.s
+
 algorithms/mergesort.o: algorithms/mergesort.cpp.o
 
 .PHONY : algorithms/mergesort.o
@@ -1893,6 +1920,9 @@ help:
 	@echo "... algorithms/hanoitower.o"
 	@echo "... algorithms/hanoitower.i"
 	@echo "... algorithms/hanoitower.s"
+	@echo "... algorithms/heapsort.o"
+	@echo "... algorithms/heapsort.i"
+	@echo "... algorithms/heapsort.s"
 	@echo "... algorithms/mergesort.o"
 	@echo "... algorithms/mergesort.i"
 	@echo "... algorithms/mergesort.s"

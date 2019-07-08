@@ -64,6 +64,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/stl/sort/sort.cpp.o"
   "CMakeFiles/workbench.dir/stl/vectorsamples/vectorsamples.cpp.o"
   "CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o"
+  "CMakeFiles/workbench.dir/algorithms/heapsort.cpp.o"
   "workbench.pdb"
   "workbench"
 )

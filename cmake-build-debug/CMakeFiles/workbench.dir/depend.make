@@ -7,6 +7,9 @@ CMakeFiles/workbench.dir/SFINAE/SFINAE.cpp.o: ../SFINAE/SFINAE.h
 CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o: ../algorithms/hanoitower.cpp
 CMakeFiles/workbench.dir/algorithms/hanoitower.cpp.o: ../algorithms/hanoitower.h
 
+CMakeFiles/workbench.dir/algorithms/heapsort.cpp.o: ../algorithms/heapsort.cpp
+CMakeFiles/workbench.dir/algorithms/heapsort.cpp.o: ../algorithms/heapsort.h
+
 CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o: ../algorithms/mergesort.cpp
 CMakeFiles/workbench.dir/algorithms/mergesort.cpp.o: ../algorithms/mergesort.h
 
@@ -175,6 +178,7 @@ CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o: ../linearalgebra/lin
 CMakeFiles/workbench.dir/linearalgebra/linearalgebra.cpp.o: ../linearalgebra/linearalgebra.h
 
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/hanoitower.h
+CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/heapsort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/mergesort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../algorithms/shellsort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../assert/assert.h

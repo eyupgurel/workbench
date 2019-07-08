@@ -9,6 +9,7 @@
 #include "algorithms/mergesort.h"
 #include "algorithms/hanoitower.h"
 #include "algorithms/shellsort.h"
+#include "algorithms/heapsort.h"
 #include "containers/vector.h"
 #include "containers/vectorex.h"
 #include "containers/container.h"
