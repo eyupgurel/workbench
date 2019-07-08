@@ -59,39 +59,19 @@ void algorithms::drive_heap_sort() {
     cout << "Sorted array is \n";
     printArray(arr, n);
 
-    std::vector<int> series{12,11,13,5,6,7};
-    for(auto i: series) cout << i << ' ';
-    cout << endl;
+    //stl samples
+    string s = "herewego";
+    make_heap(s.begin(),s.end()); //worheege
+    pop_heap(s.begin(),s.end()); // rogheeew
+    pop_heap(s.begin(),s.end()-1);// ohgeeerw
+    pop_heap(s.begin(),s.end()-2);// hegeeorw
+    *(s.end()-3)='f';
+    push_heap(s.begin(),s.end()-2);// hegeefrw
+    *(s.end()-2)='x';
+    push_heap(s.begin(),s.end()-1);// xeheefge
+    *(s.end()-1)='y';
+    push_heap(s.begin(),s.end());// yxheefge
+    sort_heap(s.begin(),s.end());// eeefghxy
+    reverse(s.begin(),s.end());// yxhgfeee
 
-
-    for(auto i: series) cout << i << ' ';
-    cout << endl;
-
-    std::vector<int> v { 3, 1, 4, 1, 5, 9 };
-
-    std::cout << "initially, v: ";
-    for (auto i : v) std::cout << i << ' ';
-    std::cout << '\n';
-
-    std::make_heap(v.begin(), v.end());
-
-    std::cout << "after make_heap, v: ";
-    for (auto i : v) std::cout << i << ' ';
-    std::cout << '\n';
-
-    std::pop_heap(v.begin(), v.end());
-    auto largest = v.back();
-    v.pop_back();
-    std::cout << "largest element: " << largest << '\n';
-
-    std::cout << "after removing the largest element, v: ";
-    for (auto i : v) std::cout << i << ' ';
-    std::cout << '\n';
-
-    std::vector<int> vx { 12, 11, 13, 5, 6, 7};
-    make_heap(vx.begin(),vx.end());
-    sort_heap(vx.begin(),vx.end());
-
-    for (auto i : vx) std::cout << i << ' ';
-    std::cout << '\n';
 }
