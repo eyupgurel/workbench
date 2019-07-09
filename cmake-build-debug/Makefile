@@ -744,6 +744,33 @@ forward/forward.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/forward/forward.cpp.s
 .PHONY : forward/forward.cpp.s
 
+functional/bind/bind.o: functional/bind/bind.cpp.o
+
+.PHONY : functional/bind/bind.o
+
+# target to build an object file
+functional/bind/bind.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functional/bind/bind.cpp.o
+.PHONY : functional/bind/bind.cpp.o
+
+functional/bind/bind.i: functional/bind/bind.cpp.i
+
+.PHONY : functional/bind/bind.i
+
+# target to preprocess a source file
+functional/bind/bind.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functional/bind/bind.cpp.i
+.PHONY : functional/bind/bind.cpp.i
+
+functional/bind/bind.s: functional/bind/bind.cpp.s
+
+.PHONY : functional/bind/bind.s
+
+# target to generate assembly for a file
+functional/bind/bind.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/functional/bind/bind.cpp.s
+.PHONY : functional/bind/bind.cpp.s
+
 functionobject/functionobject.o: functionobject/functionobject.cpp.o
 
 .PHONY : functionobject/functionobject.o
@@ -1983,6 +2010,9 @@ help:
 	@echo "... forward/forward.o"
 	@echo "... forward/forward.i"
 	@echo "... forward/forward.s"
+	@echo "... functional/bind/bind.o"
+	@echo "... functional/bind/bind.i"
+	@echo "... functional/bind/bind.s"
 	@echo "... functionobject/functionobject.o"
 	@echo "... functionobject/functionobject.i"
 	@echo "... functionobject/functionobject.s"

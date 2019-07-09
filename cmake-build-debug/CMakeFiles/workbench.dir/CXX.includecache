@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/algorithms/heapsort.cpp
-heapsort.h
-/home/egl/Documents/sc/C++/workbench/algorithms/heapsort.h
+/home/egl/Documents/sc/C++/workbench/functional/bind/bind.cpp
+bind.h
+/home/egl/Documents/sc/C++/workbench/functional/bind/bind.h
 
-/home/egl/Documents/sc/C++/workbench/algorithms/heapsort.h
+/home/egl/Documents/sc/C++/workbench/functional/bind/bind.h
+random
+-
 iostream
 -
-vector
+memory
 -
-algorithm
+functional
 -
 

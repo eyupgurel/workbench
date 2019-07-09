@@ -48,6 +48,7 @@
 #include "stl/sort/sort.h"
 #include "stl/vectorsamples/vectorsamples.h"
 #include "stl/mapsamples/mapsamples.h"
+#include "functional/bind/bind.h"
 
 
 using namespace algorithms;

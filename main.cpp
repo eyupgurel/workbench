@@ -6,6 +6,7 @@
 
 int main()
 {
+    functional::bind::drive_bind_samples();
 
     algorithms::drive_heap_sort();
     stl::mapsamples::drive_map_samples();

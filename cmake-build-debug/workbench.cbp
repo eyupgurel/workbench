@@ -226,6 +226,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/forward.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/functional/bind/bind.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/functional/bind/bind.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/functionobject/functionobject.cpp">
 			<Option target="workbench"/>
 		</Unit>
