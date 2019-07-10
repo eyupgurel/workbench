@@ -49,6 +49,7 @@
 #include "stl/vectorsamples/vectorsamples.h"
 #include "stl/mapsamples/mapsamples.h"
 #include "functional/bind/bind.h"
+#include "wrappers/reference_wrapper_.h"
 
 
 using namespace algorithms;

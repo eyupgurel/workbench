@@ -6,16 +6,22 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/functional/bind/bind.cpp
-bind.h
-/home/egl/Documents/sc/C++/workbench/functional/bind/bind.h
+/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.cpp
+reference_wrapper_.h
+/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h
 
-/home/egl/Documents/sc/C++/workbench/functional/bind/bind.h
-random
+/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h
+algorithm
+-
+list
+-
+vector
 -
 iostream
 -
-memory
+numeric
+-
+random
 -
 functional
 -

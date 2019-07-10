@@ -523,6 +523,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/unit/unit.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

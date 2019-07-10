@@ -71,6 +71,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/unionofclasses.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/unionofclasses.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/unit/unit.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/unit/unit.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

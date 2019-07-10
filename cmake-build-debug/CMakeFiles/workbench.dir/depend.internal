@@ -229,6 +229,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/typeid/typeid.h
  /home/egl/Documents/sc/C++/workbench/union/Entry.h
  /home/egl/Documents/sc/C++/workbench/union/unionofclasses.h
+ /home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h
 CMakeFiles/workbench.dir/math/_complex.cpp.o
  /home/egl/Documents/sc/C++/workbench/math/_complex.cpp
  /home/egl/Documents/sc/C++/workbench/math/_complex.h
@@ -334,3 +335,6 @@ CMakeFiles/workbench.dir/union/unionofclasses.cpp.o
 CMakeFiles/workbench.dir/unit/unit.cpp.o
  /home/egl/Documents/sc/C++/workbench/unit/unit.cpp
  /home/egl/Documents/sc/C++/workbench/unit/unit.h
+CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o
+ /home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.cpp
+ /home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h

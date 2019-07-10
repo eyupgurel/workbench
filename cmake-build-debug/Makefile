@@ -1932,6 +1932,33 @@ unit/unit.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/unit/unit.cpp.s
 .PHONY : unit/unit.cpp.s
 
+wrappers/reference_wrapper_.o: wrappers/reference_wrapper_.cpp.o
+
+.PHONY : wrappers/reference_wrapper_.o
+
+# target to build an object file
+wrappers/reference_wrapper_.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o
+.PHONY : wrappers/reference_wrapper_.cpp.o
+
+wrappers/reference_wrapper_.i: wrappers/reference_wrapper_.cpp.i
+
+.PHONY : wrappers/reference_wrapper_.i
+
+# target to preprocess a source file
+wrappers/reference_wrapper_.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.i
+.PHONY : wrappers/reference_wrapper_.cpp.i
+
+wrappers/reference_wrapper_.s: wrappers/reference_wrapper_.cpp.s
+
+.PHONY : wrappers/reference_wrapper_.s
+
+# target to generate assembly for a file
+wrappers/reference_wrapper_.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.s
+.PHONY : wrappers/reference_wrapper_.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2142,6 +2169,9 @@ help:
 	@echo "... unit/unit.o"
 	@echo "... unit/unit.i"
 	@echo "... unit/unit.s"
+	@echo "... wrappers/reference_wrapper_.o"
+	@echo "... wrappers/reference_wrapper_.i"
+	@echo "... wrappers/reference_wrapper_.s"
 .PHONY : help
 
 

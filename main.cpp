@@ -6,6 +6,7 @@
 
 int main()
 {
+    wrappers::drive_reference_wrapper();
     functional::bind::drive_bind_samples();
 
     algorithms::drive_heap_sort();

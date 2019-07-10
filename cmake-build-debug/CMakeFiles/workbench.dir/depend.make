@@ -228,6 +228,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/unionofclasses.h
+CMakeFiles/workbench.dir/main.cpp.o: ../wrappers/reference_wrapper_.h
 
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.cpp
 CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
@@ -333,4 +334,7 @@ CMakeFiles/workbench.dir/union/unionofclasses.cpp.o: ../union/unionofclasses.h
 
 CMakeFiles/workbench.dir/unit/unit.cpp.o: ../unit/unit.cpp
 CMakeFiles/workbench.dir/unit/unit.cpp.o: ../unit/unit.h
+
+CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o: ../wrappers/reference_wrapper_.cpp
+CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o: ../wrappers/reference_wrapper_.h
 
