@@ -174,6 +174,9 @@ CMakeFiles/workbench.dir/inheritance/Vector.cpp.o
 CMakeFiles/workbench.dir/io/printf.cpp.o
  /home/egl/Documents/sc/C++/workbench/io/printf.cpp
  /home/egl/Documents/sc/C++/workbench/io/printf.h
+CMakeFiles/workbench.dir/lambda/lambda.cpp.o
+ /home/egl/Documents/sc/C++/workbench/lambda/lambda.cpp
+ /home/egl/Documents/sc/C++/workbench/lambda/lambda.h
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o
  /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.cpp
  /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.h
@@ -203,6 +206,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/forward/forward.h
  /home/egl/Documents/sc/C++/workbench/functional/bind/bind.h
  /home/egl/Documents/sc/C++/workbench/functionobject/functionobject.h
+ /home/egl/Documents/sc/C++/workbench/lambda/lambda.h
  /home/egl/Documents/sc/C++/workbench/lifetime/lifetime.h
  /home/egl/Documents/sc/C++/workbench/main.cpp
  /home/egl/Documents/sc/C++/workbench/main.h
@@ -211,6 +215,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/memory/move.h
  /home/egl/Documents/sc/C++/workbench/metaprogramming/declval.h
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
+ /home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
  /home/egl/Documents/sc/C++/workbench/operators/operators.h
  /home/egl/Documents/sc/C++/workbench/pointer/pointer.h
  /home/egl/Documents/sc/C++/workbench/polymorphism/doubledispatch/doubledispatch.h
@@ -242,6 +247,9 @@ CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp
  /home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.h
+CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o
+ /home/egl/Documents/sc/C++/workbench/movesamples/movesamples.cpp
+ /home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
 CMakeFiles/workbench.dir/operators/base3.cpp.o
  /home/egl/Documents/sc/C++/workbench/operators/base3.cpp
  /home/egl/Documents/sc/C++/workbench/operators/base3.h

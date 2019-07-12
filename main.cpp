@@ -6,6 +6,8 @@
 
 int main()
 {
+    movesamples::drive_move_samples();
+    lambda::drive_lambda_samples();
     wrappers::drive_reference_wrapper();
     functional::bind::drive_bind_samples();
 

@@ -174,6 +174,9 @@ CMakeFiles/workbench.dir/inheritance/Vector.cpp.o: ../inheritance/Vector.h
 CMakeFiles/workbench.dir/io/printf.cpp.o: ../io/printf.cpp
 CMakeFiles/workbench.dir/io/printf.cpp.o: ../io/printf.h
 
+CMakeFiles/workbench.dir/lambda/lambda.cpp.o: ../lambda/lambda.cpp
+CMakeFiles/workbench.dir/lambda/lambda.cpp.o: ../lambda/lambda.h
+
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.cpp
 CMakeFiles/workbench.dir/lifetime/lifetime.cpp.o: ../lifetime/lifetime.h
 
@@ -202,6 +205,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../forward/Xref.h
 CMakeFiles/workbench.dir/main.cpp.o: ../forward/forward.h
 CMakeFiles/workbench.dir/main.cpp.o: ../functional/bind/bind.h
 CMakeFiles/workbench.dir/main.cpp.o: ../functionobject/functionobject.h
+CMakeFiles/workbench.dir/main.cpp.o: ../lambda/lambda.h
 CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/workbench.dir/main.cpp.o: ../main.h
@@ -210,6 +214,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
 CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/declval.h
 CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/metaprogramming.h
+CMakeFiles/workbench.dir/main.cpp.o: ../movesamples/movesamples.h
 CMakeFiles/workbench.dir/main.cpp.o: ../operators/operators.h
 CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
@@ -241,6 +246,9 @@ CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o: ../metaprogramming/declv
 
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.cpp
 CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o: ../metaprogramming/metaprogramming.h
+
+CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o: ../movesamples/movesamples.cpp
+CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o: ../movesamples/movesamples.h
 
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.cpp
 CMakeFiles/workbench.dir/operators/base3.cpp.o: ../operators/base3.h

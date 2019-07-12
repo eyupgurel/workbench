@@ -1014,6 +1014,33 @@ io/printf.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/io/printf.cpp.s
 .PHONY : io/printf.cpp.s
 
+lambda/lambda.o: lambda/lambda.cpp.o
+
+.PHONY : lambda/lambda.o
+
+# target to build an object file
+lambda/lambda.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lambda/lambda.cpp.o
+.PHONY : lambda/lambda.cpp.o
+
+lambda/lambda.i: lambda/lambda.cpp.i
+
+.PHONY : lambda/lambda.i
+
+# target to preprocess a source file
+lambda/lambda.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lambda/lambda.cpp.i
+.PHONY : lambda/lambda.cpp.i
+
+lambda/lambda.s: lambda/lambda.cpp.s
+
+.PHONY : lambda/lambda.s
+
+# target to generate assembly for a file
+lambda/lambda.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/lambda/lambda.cpp.s
+.PHONY : lambda/lambda.cpp.s
+
 lifetime/lifetime.o: lifetime/lifetime.cpp.o
 
 .PHONY : lifetime/lifetime.o
@@ -1202,6 +1229,33 @@ metaprogramming/metaprogramming.s: metaprogramming/metaprogramming.cpp.s
 metaprogramming/metaprogramming.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.s
 .PHONY : metaprogramming/metaprogramming.cpp.s
+
+movesamples/movesamples.o: movesamples/movesamples.cpp.o
+
+.PHONY : movesamples/movesamples.o
+
+# target to build an object file
+movesamples/movesamples.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o
+.PHONY : movesamples/movesamples.cpp.o
+
+movesamples/movesamples.i: movesamples/movesamples.cpp.i
+
+.PHONY : movesamples/movesamples.i
+
+# target to preprocess a source file
+movesamples/movesamples.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/movesamples/movesamples.cpp.i
+.PHONY : movesamples/movesamples.cpp.i
+
+movesamples/movesamples.s: movesamples/movesamples.cpp.s
+
+.PHONY : movesamples/movesamples.s
+
+# target to generate assembly for a file
+movesamples/movesamples.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/movesamples/movesamples.cpp.s
+.PHONY : movesamples/movesamples.cpp.s
 
 operators/base3.o: operators/base3.cpp.o
 
@@ -2067,6 +2121,9 @@ help:
 	@echo "... io/printf.o"
 	@echo "... io/printf.i"
 	@echo "... io/printf.s"
+	@echo "... lambda/lambda.o"
+	@echo "... lambda/lambda.i"
+	@echo "... lambda/lambda.s"
 	@echo "... lifetime/lifetime.o"
 	@echo "... lifetime/lifetime.i"
 	@echo "... lifetime/lifetime.s"
@@ -2088,6 +2145,9 @@ help:
 	@echo "... metaprogramming/metaprogramming.o"
 	@echo "... metaprogramming/metaprogramming.i"
 	@echo "... metaprogramming/metaprogramming.s"
+	@echo "... movesamples/movesamples.o"
+	@echo "... movesamples/movesamples.i"
+	@echo "... movesamples/movesamples.s"
 	@echo "... operators/base3.o"
 	@echo "... operators/base3.i"
 	@echo "... operators/base3.s"

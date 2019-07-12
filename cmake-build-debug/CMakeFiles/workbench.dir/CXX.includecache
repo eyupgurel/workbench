@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.cpp
-reference_wrapper_.h
-/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h
+/home/egl/Documents/sc/C++/workbench/movesamples/movesamples.cpp
+movesamples.h
+/home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
 
-/home/egl/Documents/sc/C++/workbench/wrappers/reference_wrapper_.h
-algorithm
--
-list
--
-vector
+/home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
+string
 -
 iostream
 -
-numeric
--
-random
--
-functional
+memory
 -
 

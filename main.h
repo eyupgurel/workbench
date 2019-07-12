@@ -50,6 +50,8 @@
 #include "stl/mapsamples/mapsamples.h"
 #include "functional/bind/bind.h"
 #include "wrappers/reference_wrapper_.h"
+#include "lambda/lambda.h"
+#include "movesamples/movesamples.h"
 
 
 using namespace algorithms;
