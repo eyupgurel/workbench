@@ -20,15 +20,28 @@ movesamples::person&& reidentify_person2(movesamples::person&& p){
 }
 movesamples::person get_person(){
     person p{"Tony", "Montana"};
-    return p;
+    return p; // good practive RVO will be utilized
 }
+
+movesamples::person get_person2(){
+    person p{"Tony", "Montana"};
+    return std::move(p); //bad practice see get_person for correct action
+                         //never use std::move on a local variable in returning it will spoil RVO optimization
+}
+
 
 
 void movesamples::drive_move_samples() {
     person me1{get_person()}; //single construction inside get_person function
-                              // compiler does not use copy or move constructor whatsoever
+                              // compiler does not use copy or move constructor whatsoever RVO optimization in place
     person me2=get_person();  //single construction inside get_person function
-                              // compiler does not use copy or move constructor whatsoever
+                              // compiler does not use copy or move constructor whatsoever RVO optimization in place
+
+    person him1{get_person2()}; //single construction inside get_person function plus move constructor RVO optimization
+                                //is spoiled due to std::move scheme employed on return value
+
+    person him2=get_person2();  //single construction inside get_person function plus move constructor RVO optimization
+                                //is spoiled due to std::move scheme employed on return value
 
     person me3{me1}; //copy constructor
     person me4=me1; //copy constructor
