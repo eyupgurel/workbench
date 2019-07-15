@@ -48,6 +48,7 @@
 #include "stl/sort/sort.h"
 #include "stl/vectorsamples/vectorsamples.h"
 #include "stl/mapsamples/mapsamples.h"
+#include "stl/bitsetsamples/bitsetsamples.h"
 #include "functional/bind/bind.h"
 #include "wrappers/reference_wrapper_.h"
 #include "lambda/lambda.h"

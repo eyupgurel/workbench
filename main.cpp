@@ -6,6 +6,8 @@
 
 int main()
 {
+    bitsetsamples::drive_bitset_samples();
+    drive_tuple();
     movesamples::drive_move_samples();
     lambda::drive_lambda_samples();
     wrappers::drive_reference_wrapper();
@@ -19,7 +21,7 @@ int main()
     drive_matrix();
     containers::drive_gslice_sample();
     drive_si_unit();
-    drive_tuple();
+
     metaprogramming::drive_metaprogramming();
     metaprogramming::drive_declval();
     polymorphism::tripledispatch::drive_tripledispatch();

@@ -1419,6 +1419,33 @@ polymorphism/visitor/visitor.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.s
 .PHONY : polymorphism/visitor/visitor.cpp.s
 
+stl/bitsetsamples/bitsetsamples.o: stl/bitsetsamples/bitsetsamples.cpp.o
+
+.PHONY : stl/bitsetsamples/bitsetsamples.o
+
+# target to build an object file
+stl/bitsetsamples/bitsetsamples.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o
+.PHONY : stl/bitsetsamples/bitsetsamples.cpp.o
+
+stl/bitsetsamples/bitsetsamples.i: stl/bitsetsamples/bitsetsamples.cpp.i
+
+.PHONY : stl/bitsetsamples/bitsetsamples.i
+
+# target to preprocess a source file
+stl/bitsetsamples/bitsetsamples.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.i
+.PHONY : stl/bitsetsamples/bitsetsamples.cpp.i
+
+stl/bitsetsamples/bitsetsamples.s: stl/bitsetsamples/bitsetsamples.cpp.s
+
+.PHONY : stl/bitsetsamples/bitsetsamples.s
+
+# target to generate assembly for a file
+stl/bitsetsamples/bitsetsamples.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.s
+.PHONY : stl/bitsetsamples/bitsetsamples.cpp.s
+
 stl/mapsamples/mapsamples.o: stl/mapsamples/mapsamples.cpp.o
 
 .PHONY : stl/mapsamples/mapsamples.o
@@ -2166,6 +2193,9 @@ help:
 	@echo "... polymorphism/visitor/visitor.o"
 	@echo "... polymorphism/visitor/visitor.i"
 	@echo "... polymorphism/visitor/visitor.s"
+	@echo "... stl/bitsetsamples/bitsetsamples.o"
+	@echo "... stl/bitsetsamples/bitsetsamples.i"
+	@echo "... stl/bitsetsamples/bitsetsamples.s"
 	@echo "... stl/mapsamples/mapsamples.o"
 	@echo "... stl/mapsamples/mapsamples.i"
 	@echo "... stl/mapsamples/mapsamples.s"

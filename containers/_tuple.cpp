@@ -51,4 +51,15 @@ void drive_tuple() {
     char cc = get<2>(t2);
 
 
+    array<int,7>a={1,2,3,5,8,13,25};
+    auto x1=get<5>(a);// 13
+    auto x2 = a[5];// 13
+    auto sz = tuple_size<decltype(a)>::value;// 7
+    typename tuple_element<5,decltype(a)>::type x3 = 13;// x3 is an int
+
+
+
+
+
+
 }

@@ -220,6 +220,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../pointer/pointer.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/doubledispatch/doubledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/tripledispatch/tripledispatch.h
 CMakeFiles/workbench.dir/main.cpp.o: ../polymorphism/visitor/visitor.h
+CMakeFiles/workbench.dir/main.cpp.o: ../stl/bitsetsamples/bitsetsamples.h
 CMakeFiles/workbench.dir/main.cpp.o: ../stl/mapsamples/mapsamples.h
 CMakeFiles/workbench.dir/main.cpp.o: ../stl/sort/sort.h
 CMakeFiles/workbench.dir/main.cpp.o: ../stl/vectorsamples/vectorsamples.h
@@ -267,6 +268,9 @@ CMakeFiles/workbench.dir/polymorphism/tripledispatch/tripledispatch.cpp.o: ../po
 
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.cpp
 CMakeFiles/workbench.dir/polymorphism/visitor/visitor.cpp.o: ../polymorphism/visitor/visitor.h
+
+CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o: ../stl/bitsetsamples/bitsetsamples.cpp
+CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o: ../stl/bitsetsamples/bitsetsamples.h
 
 CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o: ../stl/mapsamples/mapsamples.cpp
 CMakeFiles/workbench.dir/stl/mapsamples/mapsamples.cpp.o: ../stl/mapsamples/mapsamples.h

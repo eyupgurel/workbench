@@ -69,6 +69,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/wrappers/reference_wrapper_.cpp.o"
   "CMakeFiles/workbench.dir/lambda/lambda.cpp.o"
   "CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o"
+  "CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o"
   "workbench.pdb"
   "workbench"
 )
