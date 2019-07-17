@@ -12,7 +12,7 @@ namespace type_erasure {
 
     namespace detail {
 
-        template<class T>
+        template<typename T>
         class Holder {
         public:
             using Data = T;
@@ -29,12 +29,12 @@ namespace type_erasure {
             T data_;
         };
 
-        template<class Concept_, template<class> class Model>
+        template<typename Concept_, template<typename> typename Model>
         class Container {
         public:
             using Concept = Concept_;
 
-            template<class T>
+            template<typename T>
             Container(T obj)
                     : self_(std::make_shared<Model<Holder<T>>>(std::move(obj))) {}
 
@@ -45,20 +45,20 @@ namespace type_erasure {
         };
 
 // Helpers for spec merging.
-        template<class Spec>
+        template<typename Spec>
         using ConceptOf = typename Spec::Concept;
-        template<class Spec, class Holder>
+        template<typename Spec, typename Holder>
         using ModelOf = typename Spec::template Model<Holder>;
-        template<class Spec, class Container>
+        template<typename Spec, typename Container>
         using ExternalInterfaceOf =
         typename Spec::template ExternalInterface<Container>;
-        template<class Spec>
+        template<typename Spec>
         using ContainerOf =
         detail::Container<typename Spec::Concept, Spec::template Model>;
 
     } // namspace detail
 
-    template<class Spec_>
+    template<typename Spec_>
     class TypeErasure
             : public detail::ExternalInterfaceOf<Spec_, detail::ContainerOf<Spec_>> {
         using Base =
@@ -69,13 +69,13 @@ namespace type_erasure {
         using Spec = Spec_;
     };
 
-    template<class SpecA, class SpecB>
+    template<typename SpecA, typename SpecB>
     struct MergeSpecs {
         struct Concept : public virtual detail::ConceptOf<SpecA>,
                          public virtual detail::ConceptOf<SpecB> {
         };
 
-        template<class Holder>
+        template<typename Holder>
         struct Model
                 : public detail::ModelOf<SpecA, detail::ModelOf<SpecB, Holder>>,
                   public virtual Concept {
@@ -83,7 +83,7 @@ namespace type_erasure {
             using Base::Base;
         };
 
-        template<class Container>
+        template<typename Container>
         struct ExternalInterface
                 : public detail::ExternalInterfaceOf<
                         SpecA, detail::ExternalInterfaceOf<SpecB, Container>> {
@@ -101,7 +101,7 @@ namespace type_erasure {
             virtual void greet(const std::string &name) const = 0;
         };
 
-        template<class Holder>
+        template<typename Holder>
         struct Model : public Holder, public virtual Concept {
             using Holder::Holder;
 
@@ -110,7 +110,7 @@ namespace type_erasure {
             }
         };
 
-        template<class Container>
+        template<typename Container>
         struct ExternalInterface : public Container {
             using Container::Container;
 
@@ -127,7 +127,7 @@ namespace type_erasure {
             virtual void open() const = 0;
         };
 
-        template<class Holder>
+        template<typename Holder>
         struct Model : public Holder, public virtual Concept {
             using Holder::Holder;
 
@@ -136,7 +136,7 @@ namespace type_erasure {
             }
         };
 
-        template<class Container>
+        template<typename Container>
         struct ExternalInterface : public Container {
             using Container::Container;
 
