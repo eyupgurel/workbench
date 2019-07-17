@@ -6,8 +6,9 @@
 
 int main()
 {
-    bitsetsamples::drive_bitset_samples();
+    type_erasure::drive_type_erasure();
     drive_tuple();
+    bitsetsamples::drive_bitset_samples();
     movesamples::drive_move_samples();
     lambda::drive_lambda_samples();
     wrappers::drive_reference_wrapper();

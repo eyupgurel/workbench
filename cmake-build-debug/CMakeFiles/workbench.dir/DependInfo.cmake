@@ -69,6 +69,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/templates/referencededuction/referencededuction.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/referencededuction/referencededuction.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/typeid/typeid.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeid/typeid.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/union/Entry.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/union/Entry.cpp.o"

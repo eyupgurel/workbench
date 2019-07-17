@@ -5,6 +5,12 @@
 #include "_tuple.h"
 using namespace containers;
 
+std::tuple<int,int,int> rotate(std::tuple<int,int,int> t)
+{
+    return tuple{std::get<2>(t),std::get<0>(t),std::get<1>(t)};
+}
+
+
 void drive_tuple() {
     int i =1;
     int j=2;
@@ -58,8 +64,9 @@ void drive_tuple() {
     typename tuple_element<5,decltype(a)>::type x3 = 13;// x3 is an int
 
 
+    tuple<int,int,int>t3ints{3,5,8};
+    auto rotatedexp=rotate(t3ints);
 
-
-
+    auto rotatedimp=rotate({6,8,9});
 
 }

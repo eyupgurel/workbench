@@ -230,6 +230,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../templates/conversions/conversions.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencededuction.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/specialization/specialization.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/typererasure/typeerasure.h
+CMakeFiles/workbench.dir/main.cpp.o: ../type_erasure/type_erasure.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
 CMakeFiles/workbench.dir/main.cpp.o: ../union/Entry.h
@@ -331,6 +332,9 @@ CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o: ../templ
 
 CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/typererasure/typeerasure.cpp
 CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/typererasure/typeerasure.h
+
+CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o: ../type_erasure/type_erasure.cpp
+CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o: ../type_erasure/type_erasure.h
 
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.cpp
 CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o: ../typeconversion/tiny.h

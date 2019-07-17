@@ -53,6 +53,7 @@
 #include "wrappers/reference_wrapper_.h"
 #include "lambda/lambda.h"
 #include "movesamples/movesamples.h"
+#include "type_erasure/type_erasure.h"
 
 
 using namespace algorithms;

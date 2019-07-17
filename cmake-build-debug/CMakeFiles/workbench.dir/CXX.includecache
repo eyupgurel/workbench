@@ -279,6 +279,8 @@ lambda/lambda.h
 /home/egl/Documents/sc/C++/workbench/lambda/lambda.h
 movesamples/movesamples.h
 /home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
+type_erasure/type_erasure.h
+/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
 
 /home/egl/Documents/sc/C++/workbench/math/_complex.h
 
@@ -350,10 +352,6 @@ iostream
 vector
 -
 
-/home/egl/Documents/sc/C++/workbench/stl/bitsetsamples/bitsetsamples.cpp
-bitsetsamples.h
-/home/egl/Documents/sc/C++/workbench/stl/bitsetsamples/bitsetsamples.h
-
 /home/egl/Documents/sc/C++/workbench/stl/bitsetsamples/bitsetsamples.h
 bitset
 -
@@ -410,6 +408,18 @@ iostream
 
 /home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.h
 memory
+-
+
+/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp
+type_erasure.h
+/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
+
+/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
+iostream
+-
+memory
+-
+string
 -
 
 /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
