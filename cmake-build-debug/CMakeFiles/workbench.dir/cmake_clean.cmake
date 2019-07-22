@@ -71,6 +71,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o"
   "CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o"
   "CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o"
+  "CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o"
   "workbench.pdb"
   "workbench"
 )

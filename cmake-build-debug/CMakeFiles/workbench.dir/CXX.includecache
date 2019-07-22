@@ -281,6 +281,8 @@ movesamples/movesamples.h
 /home/egl/Documents/sc/C++/workbench/movesamples/movesamples.h
 type_erasure/type_erasure.h
 /home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
+type_erasure/basic/basic_type_erasure.h
+/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h
 
 /home/egl/Documents/sc/C++/workbench/math/_complex.h
 
@@ -410,9 +412,15 @@ iostream
 memory
 -
 
-/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp
-type_erasure.h
-/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
+/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.cpp
+basic_type_erasure.h
+/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h
+
+/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h
+memory
+-
+iostream
+-
 
 /home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
 iostream

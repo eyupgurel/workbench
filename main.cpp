@@ -6,6 +6,7 @@
 
 int main()
 {
+    type_erasure::basic::drive_basic_type_erasure();
     type_erasure::drive_type_erasure();
     drive_tuple();
     bitsetsamples::drive_bitset_samples();
