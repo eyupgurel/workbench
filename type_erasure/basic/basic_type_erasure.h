@@ -12,7 +12,7 @@ namespace type_erasure::basic{
         TypeErased(T&& value){*this=std::forward<T>(value);}
         template<typename T>
         TypeErased& operator=(T&& value){
-            m_value.reset(new Model<T>{value});
+            m_value.reset(new Model<T>{std::forward<T>(value)});
             return *this;
         }
         void printName() const
