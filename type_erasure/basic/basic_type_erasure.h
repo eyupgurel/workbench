@@ -9,7 +9,7 @@
 namespace type_erasure::basic{
     struct TypeErased{
         template<typename T>
-        TypeErased(T&& value){*this=value;}
+        TypeErased(T&& value){*this=std::forward<T>(value);}
         template<typename T>
         TypeErased& operator=(T&& value){
             m_value.reset(new Model<T>{value});
@@ -24,7 +24,10 @@ namespace type_erasure::basic{
         };
         template<typename T>
         struct Model:Concept{
-            Model(T const& value):m_val{value}{}
+            template<typename V>
+            Model(V&& value):m_val{std::forward<V>(value)}{
+                std::cout << "value imparted" << std::endl;
+            }
             void printName() const override{m_val.printName();}
             T m_val;
         };
