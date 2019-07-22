@@ -10,14 +10,24 @@
 namespace type_erasure::pragmatic{
     struct anything{
         anything()=default;
-        anything(const anything& rhs):handle_(rhs.handle_->clone()){};
+        anything(const anything& rhs):handle_{rhs.handle_->clone()}{};
         anything& operator=(const anything& rhs){
             anything temp{rhs};
             std::swap(temp,*this);
             return *this;
         };
-        template<typename T> anything(T&& t):handle_{new handle<std::remove_reference_t<T>>(std::forward<T>(t))} {
-            std::cout << "anything::anything" << std::endl;
+
+        anything(anything&& rhs) noexcept :handle_{std::move(rhs.handle_)}{
+            std::cout << "anything(anything&& rhs) noexcept" << std::endl;
+        }
+
+        anything& operator=(anything&& rhs) noexcept{
+            handle_.swap(rhs.handle_);
+            return *this;
+        }
+
+        template<typename T,typename = std::enable_if_t<!std::is_base_of<anything, std::decay_t<T>>::value>> anything(T&& t):handle_{new handle<std::remove_reference_t<T>>(std::forward<T>(t))} {
+            std::cout << "template<typename T,typename = std::enable_if_t<!std::is_base_of<anything, std::decay_t<T>>::value>> anything(T&& t)" << std::endl;
         }
         template<typename T,typename = std::enable_if_t<!std::is_base_of<anything, std::decay_t<T>>::value>> anything& operator=(T&& t){
             handle_.reset(new handle<std::remove_reference_t<T>>(std::forward<T>(t)));

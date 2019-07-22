@@ -6,11 +6,6 @@
 #include "pragmatic_type_erasure.h"
 using namespace type_erasure::pragmatic;
 
-
-
-
-
-
 void type_erasure::pragmatic::drive_pragmatic_type_erasure() {
     int i=1;
     int* i_ptr{&i};
@@ -23,7 +18,19 @@ void type_erasure::pragmatic::drive_pragmatic_type_erasure() {
     struct foo{};
     a=foo{};
 
-    anything b=foo{};
+    struct bar{};
 
-    a=b;
+    anything b=bar{};
+
+    a=std::move(b);
+
+    anything c{foo{}};
+
+    anything d{bar{}};
+
+    d=c;
+
+    anything l{d};
+
+
 }
