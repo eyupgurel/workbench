@@ -7,12 +7,8 @@
 using namespace type_erasure::pragmatic;
 
 
-anything::anything(const anything& rhs):handle_(rhs.handle_->clone()){}
 
-anything& anything::operator=(const anything& rhs){
-    //handle_= std::make_unique<typename rhs.handle_::type> .reset(new handle<std::remove_reference_t<decltype(rhs.handle_.operator*())>(rhs.handle_.get()));
-    return *this;
-}
+
 
 
 void type_erasure::pragmatic::drive_pragmatic_type_erasure() {

@@ -10,8 +10,12 @@
 namespace type_erasure::pragmatic{
     struct anything{
         anything()=default;
-        anything(const anything& rhs);
-        anything& operator=(const anything& rhs);
+        anything(const anything& rhs):handle_(rhs.handle_->clone()){};
+        anything& operator=(const anything& rhs){
+            anything temp{rhs};
+            std::swap(temp,*this);
+            return *this;
+        };
         template<typename T> anything(T&& t):handle_{new handle<std::remove_reference_t<T>>(std::forward<T>(t))} {
             std::cout << "anything::anything" << std::endl;
         }
