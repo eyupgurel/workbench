@@ -231,6 +231,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../templates/referencededuction/referencede
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/specialization/specialization.h
 CMakeFiles/workbench.dir/main.cpp.o: ../templates/typererasure/typeerasure.h
 CMakeFiles/workbench.dir/main.cpp.o: ../type_erasure/basic/basic_type_erasure.h
+CMakeFiles/workbench.dir/main.cpp.o: ../type_erasure/pragmatic/pragmatic_type_erasure.h
 CMakeFiles/workbench.dir/main.cpp.o: ../type_erasure/type_erasure.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeconversion/tiny.h
 CMakeFiles/workbench.dir/main.cpp.o: ../typeid/typeid.h
@@ -336,6 +337,9 @@ CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/
 
 CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o: ../type_erasure/basic/basic_type_erasure.cpp
 CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o: ../type_erasure/basic/basic_type_erasure.h
+
+CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o: ../type_erasure/pragmatic/pragmatic_type_erasure.cpp
+CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o: ../type_erasure/pragmatic/pragmatic_type_erasure.h
 
 CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o: ../type_erasure/type_erasure.cpp
 CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o: ../type_erasure/type_erasure.h

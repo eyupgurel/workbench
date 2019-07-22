@@ -55,6 +55,7 @@
 #include "movesamples/movesamples.h"
 #include "type_erasure/type_erasure.h"
 #include "type_erasure/basic/basic_type_erasure.h"
+#include "type_erasure/pragmatic/pragmatic_type_erasure.h"
 
 
 using namespace algorithms;

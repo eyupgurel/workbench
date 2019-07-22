@@ -517,6 +517,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp">
 			<Option target="workbench"/>
 		</Unit>

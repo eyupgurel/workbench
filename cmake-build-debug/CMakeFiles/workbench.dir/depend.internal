@@ -232,6 +232,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.h
  /home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.h
  /home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h
+ /home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.h
  /home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h
  /home/egl/Documents/sc/C++/workbench/typeconversion/tiny.h
  /home/egl/Documents/sc/C++/workbench/typeid/typeid.h
@@ -337,6 +338,9 @@ CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o
 CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o
  /home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.cpp
  /home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.h
+CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
+ /home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.cpp
+ /home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.h
 CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o
  /home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp
  /home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.h

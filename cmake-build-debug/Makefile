@@ -1905,6 +1905,33 @@ type_erasure/basic/basic_type_erasure.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.s
 .PHONY : type_erasure/basic/basic_type_erasure.cpp.s
 
+type_erasure/pragmatic/pragmatic_type_erasure.o: type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
+
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.o
+
+# target to build an object file
+type_erasure/pragmatic/pragmatic_type_erasure.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
+
+type_erasure/pragmatic/pragmatic_type_erasure.i: type_erasure/pragmatic/pragmatic_type_erasure.cpp.i
+
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.i
+
+# target to preprocess a source file
+type_erasure/pragmatic/pragmatic_type_erasure.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.i
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.cpp.i
+
+type_erasure/pragmatic/pragmatic_type_erasure.s: type_erasure/pragmatic/pragmatic_type_erasure.cpp.s
+
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.s
+
+# target to generate assembly for a file
+type_erasure/pragmatic/pragmatic_type_erasure.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.s
+.PHONY : type_erasure/pragmatic/pragmatic_type_erasure.cpp.s
+
 type_erasure/type_erasure.o: type_erasure/type_erasure.cpp.o
 
 .PHONY : type_erasure/type_erasure.o
@@ -2301,6 +2328,9 @@ help:
 	@echo "... type_erasure/basic/basic_type_erasure.o"
 	@echo "... type_erasure/basic/basic_type_erasure.i"
 	@echo "... type_erasure/basic/basic_type_erasure.s"
+	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.o"
+	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.i"
+	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.s"
 	@echo "... type_erasure/type_erasure.o"
 	@echo "... type_erasure/type_erasure.i"
 	@echo "... type_erasure/type_erasure.s"
