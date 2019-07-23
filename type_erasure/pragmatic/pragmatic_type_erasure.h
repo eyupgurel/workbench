@@ -30,22 +30,27 @@ namespace type_erasure::pragmatic{
             std::cout << "template<typename T,typename = std::enable_if_t<!std::is_base_of<anything, std::decay_t<T>>::value>> anything(T&& t)" << std::endl;
         }
         template<typename T,typename = std::enable_if_t<!std::is_base_of<anything, std::decay_t<T>>::value>> anything& operator=(T&& t){
-            handle_.reset(new handle<std::remove_reference_t<T>>(std::forward<T>(t)));
+            handle_.reset(new handle<std::remove_reference_t<T>>{std::forward<T>(t)});
             return *this;
         };
 
         struct handle_base
         {
-            virtual ~handle_base(){}
+            virtual ~handle_base()=default;
             virtual handle_base* clone() const=0;
         };
 
         template<typename T>
         struct handle:handle_base{
             using type=T;
-            template<typename V>
-            handle(V&& value):value_{std::forward<V>(value)}{};
-            //handle(T value);
+            template<typename V,typename = std::enable_if_t<!std::is_base_of<handle, std::decay_t<V>>::value>>
+            explicit handle(V&& value):value_{std::forward<V>(value)}{};
+
+            handle(const handle& rhs)= default;
+            handle& operator=(const handle& rhs)=default;
+            handle(handle&& rhs)noexcept=default;
+            handle& operator=(handle&& rhs) noexcept =default;
+
             handle_base* clone() const override{return new anything::handle<T>{value_};};
             T value_;
         };

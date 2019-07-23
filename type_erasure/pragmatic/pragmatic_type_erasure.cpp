@@ -32,5 +32,7 @@ void type_erasure::pragmatic::drive_pragmatic_type_erasure() {
 
     anything l{d};
 
+    anything three{3};
+    anything four{4};
 
 }
