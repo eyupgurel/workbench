@@ -73,6 +73,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o"
   "CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o"
   "CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o"
+  "CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o"
+  "CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o"
+  "CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
   "workbench.pdb"
   "workbench"
 )

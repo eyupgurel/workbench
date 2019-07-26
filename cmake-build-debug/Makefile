@@ -1176,6 +1176,33 @@ membertemplates/membertemplates.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.s
 .PHONY : membertemplates/membertemplates.cpp.s
 
+memory/weakptr/weakpointersamples.o: memory/weakptr/weakpointersamples.cpp.o
+
+.PHONY : memory/weakptr/weakpointersamples.o
+
+# target to build an object file
+memory/weakptr/weakpointersamples.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o
+.PHONY : memory/weakptr/weakpointersamples.cpp.o
+
+memory/weakptr/weakpointersamples.i: memory/weakptr/weakpointersamples.cpp.i
+
+.PHONY : memory/weakptr/weakpointersamples.i
+
+# target to preprocess a source file
+memory/weakptr/weakpointersamples.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.i
+.PHONY : memory/weakptr/weakpointersamples.cpp.i
+
+memory/weakptr/weakpointersamples.s: memory/weakptr/weakpointersamples.cpp.s
+
+.PHONY : memory/weakptr/weakpointersamples.s
+
+# target to generate assembly for a file
+memory/weakptr/weakpointersamples.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s
+.PHONY : memory/weakptr/weakpointersamples.cpp.s
+
 metaprogramming/declval.o: metaprogramming/declval.cpp.o
 
 .PHONY : metaprogramming/declval.o
@@ -1905,6 +1932,60 @@ type_erasure/basic/basic_type_erasure.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.s
 .PHONY : type_erasure/basic/basic_type_erasure.cpp.s
 
+type_erasure/boost/custom.o: type_erasure/boost/custom.cpp.o
+
+.PHONY : type_erasure/boost/custom.o
+
+# target to build an object file
+type_erasure/boost/custom.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o
+.PHONY : type_erasure/boost/custom.cpp.o
+
+type_erasure/boost/custom.i: type_erasure/boost/custom.cpp.i
+
+.PHONY : type_erasure/boost/custom.i
+
+# target to preprocess a source file
+type_erasure/boost/custom.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.i
+.PHONY : type_erasure/boost/custom.cpp.i
+
+type_erasure/boost/custom.s: type_erasure/boost/custom.cpp.s
+
+.PHONY : type_erasure/boost/custom.s
+
+# target to generate assembly for a file
+type_erasure/boost/custom.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.s
+.PHONY : type_erasure/boost/custom.cpp.s
+
+type_erasure/boost/multi.o: type_erasure/boost/multi.cpp.o
+
+.PHONY : type_erasure/boost/multi.o
+
+# target to build an object file
+type_erasure/boost/multi.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o
+.PHONY : type_erasure/boost/multi.cpp.o
+
+type_erasure/boost/multi.i: type_erasure/boost/multi.cpp.i
+
+.PHONY : type_erasure/boost/multi.i
+
+# target to preprocess a source file
+type_erasure/boost/multi.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.i
+.PHONY : type_erasure/boost/multi.cpp.i
+
+type_erasure/boost/multi.s: type_erasure/boost/multi.cpp.s
+
+.PHONY : type_erasure/boost/multi.s
+
+# target to generate assembly for a file
+type_erasure/boost/multi.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.s
+.PHONY : type_erasure/boost/multi.cpp.s
+
 type_erasure/pragmatic/pragmatic_type_erasure.o: type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
 
 .PHONY : type_erasure/pragmatic/pragmatic_type_erasure.o
@@ -2247,6 +2328,9 @@ help:
 	@echo "... membertemplates/membertemplates.o"
 	@echo "... membertemplates/membertemplates.i"
 	@echo "... membertemplates/membertemplates.s"
+	@echo "... memory/weakptr/weakpointersamples.o"
+	@echo "... memory/weakptr/weakpointersamples.i"
+	@echo "... memory/weakptr/weakpointersamples.s"
 	@echo "... metaprogramming/declval.o"
 	@echo "... metaprogramming/declval.i"
 	@echo "... metaprogramming/declval.s"
@@ -2328,6 +2412,12 @@ help:
 	@echo "... type_erasure/basic/basic_type_erasure.o"
 	@echo "... type_erasure/basic/basic_type_erasure.i"
 	@echo "... type_erasure/basic/basic_type_erasure.s"
+	@echo "... type_erasure/boost/custom.o"
+	@echo "... type_erasure/boost/custom.i"
+	@echo "... type_erasure/boost/custom.s"
+	@echo "... type_erasure/boost/multi.o"
+	@echo "... type_erasure/boost/multi.i"
+	@echo "... type_erasure/boost/multi.s"
 	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.o"
 	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.i"
 	@echo "... type_erasure/pragmatic/pragmatic_type_erasure.s"

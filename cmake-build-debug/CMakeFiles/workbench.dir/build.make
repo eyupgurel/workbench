@@ -1019,6 +1019,45 @@ CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.cpp -o CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.s
 
+CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o: ../type_erasure/boost/multi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o -c /home/egl/Documents/sc/C++/workbench/type_erasure/boost/multi.cpp
+
+CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/type_erasure/boost/multi.cpp > CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.i
+
+CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/type_erasure/boost/multi.cpp -o CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.s
+
+CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o: ../type_erasure/boost/custom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o -c /home/egl/Documents/sc/C++/workbench/type_erasure/boost/custom.cpp
+
+CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/type_erasure/boost/custom.cpp > CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.i
+
+CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/type_erasure/boost/custom.cpp -o CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.s
+
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o: ../memory/weakptr/weakpointersamples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o -c /home/egl/Documents/sc/C++/workbench/memory/weakptr/weakpointersamples.cpp
+
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/memory/weakptr/weakpointersamples.cpp > CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.i
+
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/memory/weakptr/weakpointersamples.cpp -o CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -1094,7 +1133,10 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o" \
 "CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o" \
 "CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o" \
-"CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o"
+"CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o" \
+"CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o" \
+"CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o" \
+"CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -1173,9 +1215,12 @@ workbench: CMakeFiles/workbench.dir/stl/bitsetsamples/bitsetsamples.cpp.o
 workbench: CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o
 workbench: CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o
 workbench: CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o
+workbench: CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o
+workbench: CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o
+workbench: CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

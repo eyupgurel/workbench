@@ -6,6 +6,9 @@
 
 int main()
 {
+    weakpointersamples::drive_weakpointersamples();
+    drive_type_erasure_boost_custom();
+    drive_boost_type_erasure_multi();
     type_erasure::pragmatic::drive_pragmatic_type_erasure();
     type_erasure::basic::drive_basic_type_erasure();
     type_erasure::drive_type_erasure();

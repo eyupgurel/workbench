@@ -56,6 +56,7 @@
 #include "type_erasure/type_erasure.h"
 #include "type_erasure/basic/basic_type_erasure.h"
 #include "type_erasure/pragmatic/pragmatic_type_erasure.h"
+#include "memory/weakptr/weakpointersamples.h"
 
 
 using namespace algorithms;
@@ -70,6 +71,8 @@ void move_hanoi_towers();
 void drive_tuple();
 void drive_si_unit();
 
+void drive_boost_type_erasure_multi();
+void drive_type_erasure_boost_custom();
 
 template<typename T>
 containers::vector<T> square_vector(containers::vector<T>& v);

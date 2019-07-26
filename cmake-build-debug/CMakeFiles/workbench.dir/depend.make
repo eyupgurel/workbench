@@ -212,6 +212,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../main.h
 CMakeFiles/workbench.dir/main.cpp.o: ../math/_complex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../membertemplates/membertemplates.h
 CMakeFiles/workbench.dir/main.cpp.o: ../memory/move.h
+CMakeFiles/workbench.dir/main.cpp.o: ../memory/weakptr/weakpointersamples.h
 CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/declval.h
 CMakeFiles/workbench.dir/main.cpp.o: ../metaprogramming/metaprogramming.h
 CMakeFiles/workbench.dir/main.cpp.o: ../movesamples/movesamples.h
@@ -244,6 +245,9 @@ CMakeFiles/workbench.dir/math/_complex.cpp.o: ../math/_complex.h
 
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.cpp
 CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o: ../membertemplates/membertemplates.h
+
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o: ../memory/weakptr/weakpointersamples.cpp
+CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o: ../memory/weakptr/weakpointersamples.h
 
 CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o: ../metaprogramming/declval.cpp
 CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o: ../metaprogramming/declval.h
@@ -337,6 +341,10 @@ CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o: ../templates/
 
 CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o: ../type_erasure/basic/basic_type_erasure.cpp
 CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o: ../type_erasure/basic/basic_type_erasure.h
+
+CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o: ../type_erasure/boost/custom.cpp
+
+CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o: ../type_erasure/boost/multi.cpp
 
 CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o: ../type_erasure/pragmatic/pragmatic_type_erasure.cpp
 CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o: ../type_erasure/pragmatic/pragmatic_type_erasure.h

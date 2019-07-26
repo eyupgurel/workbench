@@ -43,6 +43,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/main.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/main.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/math/_complex.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/math/_complex.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/membertemplates/membertemplates.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/membertemplates/membertemplates.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/memory/weakptr/weakpointersamples.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/metaprogramming/declval.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/metaprogramming/declval.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/metaprogramming/metaprogramming.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/metaprogramming/metaprogramming.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/movesamples/movesamples.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/movesamples/movesamples.cpp.o"
@@ -70,6 +71,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/templates/specialization/specialization.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/specialization/specialization.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/templates/typererasure/typeerasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/templates/typererasure/typeerasure.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/type_erasure/basic/basic_type_erasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/basic/basic_type_erasure.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/type_erasure/boost/custom.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/type_erasure/boost/multi.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/type_erasure/pragmatic/pragmatic_type_erasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/type_erasure/type_erasure.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/type_erasure/type_erasure.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/typeconversion/tiny.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/typeconversion/tiny.cpp.o"
@@ -83,6 +86,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../../boost_1_70_0/boost"
   )
 
 # Targets to which this target links.
