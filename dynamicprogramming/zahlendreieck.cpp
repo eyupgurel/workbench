@@ -6,21 +6,39 @@
 
 using namespace dynamicprogramming;
 
- int dynamicprogramming::berechnen_maximale_gesammt(Matrix<int, 2>& m) {
+ vector<int> dynamicprogramming::berechnen_maximale_gesammt_kette(Matrix<int, 2> m) {
     assert(m.extent(0)==m.extent(1)); // Must be a square matrix
+    int size =m.extent(0);
     auto max {0};
     auto max_j{0};
-    for(size_t i=0;i<m.extent(0);++i){
-        for(size_t j=0; j<=i;++j){
-            auto max_vorganger = i==0 ? 0 : j==0 ? m[i-1][0] :  i==j ? m[i-1][j-1] : m[i-1][j-1] > m[i-1][j] ? m[i-1][j-1] : m[i-1][j];
+    vector<int>kette;
+    Matrix<int,2>ancestor_offset(m.extent(0),m.extent(1));
+    for(int i=0;i<size;++i){
+        for(int j=0; j<=i;++j){
+            auto offset = i==0 ? 0 : j==0 ? 0 :  i==j ? -1 :  m[i-1][j-1] > m[i-1][j] ? -1 : 0;
+            ancestor_offset[i][j]+=offset;
+            auto max_vorganger = i==0 ? 0 : j==0 ? m[i-1][0] : m[i-1][j+offset];
             m[i][j]+=max_vorganger;
-            if(i==m.extent(0)-1){
-                max=max<m[i][j]?m[i][j]:max;
+            if(i==size-1){
                 max_j=max<m[i][j]?j:max_j;
+                max=max<m[i][j]?m[i][j]:max;
             }
         }
     }
-    return max;
+    kette.emplace(kette.begin(), max_j);
+    for(int i=size-2;i>-1;--i){
+        kette.emplace(kette.begin(),kette[0]+ancestor_offset[i+1][kette[0]]);
+    }
+    return kette;
+}
+
+int dynamicprogramming::berechnen_maximale_gesammt(Matrix<int, 2>& m, vector<int> kette){
+    int size = kette.size();
+    auto sum = 0;
+    for(int i=size-1;i>-1;--i){
+        sum+=m[i][kette[i]];
+    }
+    return sum;
 }
 
 void dynamicprogramming::drive_maximale_dreieck_gesammt() {
@@ -36,7 +54,8 @@ void dynamicprogramming::drive_maximale_dreieck_gesammt() {
 
     cout << m2 << endl;
 
-    auto w = berechnen_maximale_gesammt(m2);
+    auto kette = berechnen_maximale_gesammt_kette(m2);
+    auto gesammt = berechnen_maximale_gesammt(m2, kette);
     cout << m2 << endl;
 
     cout << endl;

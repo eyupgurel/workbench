@@ -14,7 +14,8 @@
 using namespace std;
 using namespace slab;
 namespace dynamicprogramming{
-    int berechnen_maximale_gesammt(Matrix<int,2>& m);
+    vector<int> berechnen_maximale_gesammt_kette(Matrix<int, 2> m);
+    int berechnen_maximale_gesammt(Matrix<int, 2>& m, vector<int> kette);
     void drive_maximale_dreieck_gesammt();
 }
 
