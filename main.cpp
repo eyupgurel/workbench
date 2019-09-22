@@ -6,6 +6,10 @@
 
 int main()
 {
+    dynamicprogramming::drive_maximale_dreieck_gesammt();
+    auto teilfolgen = dynamicprogramming::berechnen_alle_langste_aufsteigende_teilfolge();
+    auto eigenteilfolge=dynamicprogramming::berechnen_langste_aufsteigende_teilfolge();
+    auto kannichenzahlen = fibonacci::berechnen_zahlen_der_kannichen();
     weakpointersamples::drive_weakpointersamples();
     drive_type_erasure_boost_custom();
     drive_boost_type_erasure_multi();

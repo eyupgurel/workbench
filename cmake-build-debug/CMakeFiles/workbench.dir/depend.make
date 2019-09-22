@@ -72,6 +72,26 @@ CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../memory/move.h
 
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.cpp
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.h
+
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../dynamicprogramming/zahlendreieck.cpp
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../dynamicprogramming/zahlendreieck.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../include/slab/matrix/traits.h
+
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o: ../fibonacci/fibonacci.cpp
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o: ../fibonacci/fibonacci.h
+
 CMakeFiles/workbench.dir/forward/Xref.cpp.o: ../forward/Xref.cpp
 CMakeFiles/workbench.dir/forward/Xref.cpp.o: ../forward/Xref.h
 
@@ -201,10 +221,24 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vectorex.h
+CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.h
+CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/zahlendreieck.h
+CMakeFiles/workbench.dir/main.cpp.o: ../fibonacci/fibonacci.h
 CMakeFiles/workbench.dir/main.cpp.o: ../forward/Xref.h
 CMakeFiles/workbench.dir/main.cpp.o: ../forward/forward.h
 CMakeFiles/workbench.dir/main.cpp.o: ../functional/bind/bind.h
 CMakeFiles/workbench.dir/main.cpp.o: ../functionobject/functionobject.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/main.cpp.o: ../include/slab/matrix/traits.h
 CMakeFiles/workbench.dir/main.cpp.o: ../lambda/lambda.h
 CMakeFiles/workbench.dir/main.cpp.o: ../lifetime/lifetime.h
 CMakeFiles/workbench.dir/main.cpp.o: ../main.cpp

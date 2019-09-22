@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/egl/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -1058,6 +1058,45 @@ CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/memory/weakptr/weakpointersamples.cpp -o CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.s
 
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o: ../fibonacci/fibonacci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o -c /home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.cpp
+
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.cpp > CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.i
+
+CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.cpp -o CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.s
+
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o -c /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp
+
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp > CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.i
+
+CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp -o CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
+
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o: ../dynamicprogramming/zahlendreieck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o -c /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp
+
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp > CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.i
+
+CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp -o CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -1136,7 +1175,10 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasure.cpp.o" \
 "CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o" \
 "CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o" \
-"CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
+"CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o" \
+"CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o" \
+"CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o" \
+"CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -1218,9 +1260,12 @@ workbench: CMakeFiles/workbench.dir/type_erasure/pragmatic/pragmatic_type_erasur
 workbench: CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o
 workbench: CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o
 workbench: CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o
+workbench: CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o
+workbench: CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o
+workbench: CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

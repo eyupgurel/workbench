@@ -76,6 +76,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/type_erasure/boost/multi.cpp.o"
   "CMakeFiles/workbench.dir/type_erasure/boost/custom.cpp.o"
   "CMakeFiles/workbench.dir/memory/weakptr/weakpointersamples.cpp.o"
+  "CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o"
+  "CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o"
+  "CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"
   "workbench.pdb"
   "workbench"
 )

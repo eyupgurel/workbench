@@ -8,6 +8,7 @@
 
 #include <vector>
 #include <assert.h>
+#include <numeric>
 #include "../metaprogramming/metaprogramming.h"
 
 using namespace std;

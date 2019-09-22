@@ -216,6 +216,24 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vectorex.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.h">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/forward/Xref.cpp">
 			<Option target="workbench"/>
 		</Unit>

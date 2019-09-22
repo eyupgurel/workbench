@@ -57,7 +57,9 @@
 #include "type_erasure/basic/basic_type_erasure.h"
 #include "type_erasure/pragmatic/pragmatic_type_erasure.h"
 #include "memory/weakptr/weakpointersamples.h"
-
+#include "fibonacci/fibonacci.h"
+#include "dynamicprogramming/langsteaufsteigendeteilfolge.h"
+#include "dynamicprogramming/zahlendreieck.h"
 
 using namespace algorithms;
 using namespace containers;
