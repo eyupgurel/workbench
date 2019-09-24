@@ -717,6 +717,33 @@ dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 .PHONY : dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 
+dynamicprogramming/shortestcommonsuperseq.o: dynamicprogramming/shortestcommonsuperseq.cpp.o
+
+.PHONY : dynamicprogramming/shortestcommonsuperseq.o
+
+# target to build an object file
+dynamicprogramming/shortestcommonsuperseq.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.o
+.PHONY : dynamicprogramming/shortestcommonsuperseq.cpp.o
+
+dynamicprogramming/shortestcommonsuperseq.i: dynamicprogramming/shortestcommonsuperseq.cpp.i
+
+.PHONY : dynamicprogramming/shortestcommonsuperseq.i
+
+# target to preprocess a source file
+dynamicprogramming/shortestcommonsuperseq.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.i
+.PHONY : dynamicprogramming/shortestcommonsuperseq.cpp.i
+
+dynamicprogramming/shortestcommonsuperseq.s: dynamicprogramming/shortestcommonsuperseq.cpp.s
+
+.PHONY : dynamicprogramming/shortestcommonsuperseq.s
+
+# target to generate assembly for a file
+dynamicprogramming/shortestcommonsuperseq.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.s
+.PHONY : dynamicprogramming/shortestcommonsuperseq.cpp.s
+
 dynamicprogramming/zahlendreieck.o: dynamicprogramming/zahlendreieck.cpp.o
 
 .PHONY : dynamicprogramming/zahlendreieck.o
@@ -2358,6 +2385,9 @@ help:
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.o"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.i"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.s"
+	@echo "... dynamicprogramming/shortestcommonsuperseq.o"
+	@echo "... dynamicprogramming/shortestcommonsuperseq.i"
+	@echo "... dynamicprogramming/shortestcommonsuperseq.s"
 	@echo "... dynamicprogramming/zahlendreieck.o"
 	@echo "... dynamicprogramming/zahlendreieck.i"
 	@echo "... dynamicprogramming/zahlendreieck.s"

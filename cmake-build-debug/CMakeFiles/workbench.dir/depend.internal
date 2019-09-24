@@ -75,6 +75,9 @@ CMakeFiles/workbench.dir/containers/vectorex.cpp.o
 CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h
+CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.o
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.cpp
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
 CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.h
@@ -223,6 +226,7 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/containers/vector_container.h
  /home/egl/Documents/sc/C++/workbench/containers/vectorex.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.h
  /home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.h
  /home/egl/Documents/sc/C++/workbench/forward/Xref.h

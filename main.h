@@ -60,6 +60,7 @@
 #include "fibonacci/fibonacci.h"
 #include "dynamicprogramming/langsteaufsteigendeteilfolge.h"
 #include "dynamicprogramming/zahlendreieck.h"
+#include "dynamicprogramming/shortestcommonsuperseq.h"
 
 using namespace algorithms;
 using namespace containers;

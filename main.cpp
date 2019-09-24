@@ -6,6 +6,7 @@
 
 int main()
 {
+    dynamicprogramming::drive();
     dynamicprogramming::drive_maximale_dreieck_gesammt();
     auto teilfolgen = dynamicprogramming::berechnen_alle_langste_aufsteigende_teilfolge();
     auto eigenteilfolge=dynamicprogramming::berechnen_langste_aufsteigende_teilfolge();

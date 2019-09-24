@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/containers/vector_container.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/containers/vectorex.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/containers/vectorex.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/fibonacci/fibonacci.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/fibonacci/fibonacci.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/forward/Xref.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/forward/Xref.cpp.o"
