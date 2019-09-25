@@ -6,9 +6,11 @@
 #define WORKBENCH_SETSOFNUMBERSTHATADDUP_H
 
 #include <vector>
+#include <map>
+#include <iostream>
 using namespace std;
 namespace dynamicprogramming{
-    void find_sets_of_numbers_that_addup_to_N(vector<int>& set, int i, int n, int& r);
+    bool find_sets_of_numbers_that_addup_to_N(vector<int>& set, int i, int n, int& r, map<pair<int,int>,bool>& history);
     void drive_to_find_sets_of_numbers();
 }
 
