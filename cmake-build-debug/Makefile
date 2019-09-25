@@ -717,6 +717,33 @@ dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 .PHONY : dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 
+dynamicprogramming/longestcommonsubsequence.o: dynamicprogramming/longestcommonsubsequence.cpp.o
+
+.PHONY : dynamicprogramming/longestcommonsubsequence.o
+
+# target to build an object file
+dynamicprogramming/longestcommonsubsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o
+.PHONY : dynamicprogramming/longestcommonsubsequence.cpp.o
+
+dynamicprogramming/longestcommonsubsequence.i: dynamicprogramming/longestcommonsubsequence.cpp.i
+
+.PHONY : dynamicprogramming/longestcommonsubsequence.i
+
+# target to preprocess a source file
+dynamicprogramming/longestcommonsubsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.i
+.PHONY : dynamicprogramming/longestcommonsubsequence.cpp.i
+
+dynamicprogramming/longestcommonsubsequence.s: dynamicprogramming/longestcommonsubsequence.cpp.s
+
+.PHONY : dynamicprogramming/longestcommonsubsequence.s
+
+# target to generate assembly for a file
+dynamicprogramming/longestcommonsubsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.s
+.PHONY : dynamicprogramming/longestcommonsubsequence.cpp.s
+
 dynamicprogramming/setsofnumbersthataddup.o: dynamicprogramming/setsofnumbersthataddup.cpp.o
 
 .PHONY : dynamicprogramming/setsofnumbersthataddup.o
@@ -2412,6 +2439,9 @@ help:
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.o"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.i"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.s"
+	@echo "... dynamicprogramming/longestcommonsubsequence.o"
+	@echo "... dynamicprogramming/longestcommonsubsequence.i"
+	@echo "... dynamicprogramming/longestcommonsubsequence.s"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.o"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.i"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.s"

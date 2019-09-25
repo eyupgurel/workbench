@@ -6,6 +6,7 @@
 
 int main()
 {
+    dynamicprogramming::drive_to_find_longest_common_subsequence();
     dynamicprogramming::drive_to_find_sets_of_numbers();
     dynamicprogramming::drive_to_find_shortest_common_super_seq();
     dynamicprogramming::drive_maximale_dreieck_gesammt();

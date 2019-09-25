@@ -62,6 +62,7 @@
 #include "dynamicprogramming/zahlendreieck.h"
 #include "dynamicprogramming/shortestcommonsuperseq.h"
 #include "dynamicprogramming/setsofnumbersthataddup.h"
+#include "dynamicprogramming/longestcommonsubsequence.h"
 
 using namespace algorithms;
 using namespace containers;

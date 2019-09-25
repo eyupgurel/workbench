@@ -81,6 +81,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o"
+  "CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o"
   "workbench.pdb"
   "workbench"
 )

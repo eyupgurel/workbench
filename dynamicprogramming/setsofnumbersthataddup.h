@@ -8,9 +8,11 @@
 #include <vector>
 #include <map>
 #include <iostream>
+#include <bitset>
 using namespace std;
 namespace dynamicprogramming{
-    bool find_sets_of_numbers_that_addup_to_N(vector<int>& set, int i, int n, int& r, map<pair<int,int>,bool>& history);
+    template<int N>
+    bool find_sets_of_numbers_that_addup_to_N(vector<int>& set, bitset<N>& subset, int i, int n, int& r, vector<bitset<N>>& match_set, map<pair<int,int>,bool>& history);
     void drive_to_find_sets_of_numbers();
 }
 

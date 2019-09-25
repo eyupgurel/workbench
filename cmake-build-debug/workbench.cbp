@@ -222,6 +222,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.cpp">
 			<Option target="workbench"/>
 		</Unit>
