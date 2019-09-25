@@ -6,6 +6,35 @@
 
 using namespace dynamicprogramming;
 
+/*int dynamicprogramming::find_shortest_common_superseq2(string& a, string& b, vector<pair<int,int>>& history,
+        int pa, int pb){
+    if(pa==a.length() && pb==b.length()){
+        return 0;
+    } else if(pa==a.length() && pb!=b.length()){
+        history.emplace_back(pair<int,int>{pa,pb+1});
+        return 1+find_shortest_common_superseq2(a,b,history,pa,pb+1);
+    } else if(pa!=a.length() && pb==b.length()){
+        history.emplace_back(pair<int,int>{pa+1,pb});
+        return 1+find_shortest_common_superseq2(a,b,history,pa+1,pb);
+    }
+
+    if(a[pa]==b[pb]){
+       history.emplace_back(pair<int,int>{pa+1,pb+1});
+       return 1+find_shortest_common_superseq2(a,b,history,pa+1,pb+1);
+    } else{
+        auto r1 = find_shortest_common_superseq2(a,b,history,pa+1,pb);
+        auto r2 = find_shortest_common_superseq2(a,b,history,pa,pb+1);
+        if(r1<r2){
+            history.emplace_back(pair<int,int>{pa+1,pb});
+            return r1;
+        } else{
+            history.emplace_back(pair<int,int>{pa,pb+1});
+            return r2;
+        }
+
+    }
+}
+*/
 string dynamicprogramming::find_shortest_common_superseq(string a, string b) {
     if(a.empty()) return b;
     if(b.empty()) return a;
@@ -33,10 +62,13 @@ string dynamicprogramming::find_shortest_common_superseq(string a, string b) {
 
 }
 
-void dynamicprogramming::drive() {
+void dynamicprogramming::drive_to_find_shortest_common_super_seq() {
      string a{"ABCBDAB"};
      string b{"BDCABA"};
     //string a{"AB"};
     //string b{"BA"};
+    //vector<pair<int,int>> history;
+    //int r = find_shortest_common_superseq2(a,b,history,0,0);
+
      string scs=find_shortest_common_superseq(a,b);
 }

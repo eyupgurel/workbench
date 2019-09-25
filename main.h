@@ -61,6 +61,7 @@
 #include "dynamicprogramming/langsteaufsteigendeteilfolge.h"
 #include "dynamicprogramming/zahlendreieck.h"
 #include "dynamicprogramming/shortestcommonsuperseq.h"
+#include "dynamicprogramming/setsofnumbersthataddup.h"
 
 using namespace algorithms;
 using namespace containers;

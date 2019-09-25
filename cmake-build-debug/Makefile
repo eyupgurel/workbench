@@ -717,6 +717,33 @@ dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 .PHONY : dynamicprogramming/langsteaufsteigendeteilfolge.cpp.s
 
+dynamicprogramming/setsofnumbersthataddup.o: dynamicprogramming/setsofnumbersthataddup.cpp.o
+
+.PHONY : dynamicprogramming/setsofnumbersthataddup.o
+
+# target to build an object file
+dynamicprogramming/setsofnumbersthataddup.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o
+.PHONY : dynamicprogramming/setsofnumbersthataddup.cpp.o
+
+dynamicprogramming/setsofnumbersthataddup.i: dynamicprogramming/setsofnumbersthataddup.cpp.i
+
+.PHONY : dynamicprogramming/setsofnumbersthataddup.i
+
+# target to preprocess a source file
+dynamicprogramming/setsofnumbersthataddup.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.i
+.PHONY : dynamicprogramming/setsofnumbersthataddup.cpp.i
+
+dynamicprogramming/setsofnumbersthataddup.s: dynamicprogramming/setsofnumbersthataddup.cpp.s
+
+.PHONY : dynamicprogramming/setsofnumbersthataddup.s
+
+# target to generate assembly for a file
+dynamicprogramming/setsofnumbersthataddup.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.s
+.PHONY : dynamicprogramming/setsofnumbersthataddup.cpp.s
+
 dynamicprogramming/shortestcommonsuperseq.o: dynamicprogramming/shortestcommonsuperseq.cpp.o
 
 .PHONY : dynamicprogramming/shortestcommonsuperseq.o
@@ -2385,6 +2412,9 @@ help:
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.o"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.i"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.s"
+	@echo "... dynamicprogramming/setsofnumbersthataddup.o"
+	@echo "... dynamicprogramming/setsofnumbersthataddup.i"
+	@echo "... dynamicprogramming/setsofnumbersthataddup.s"
 	@echo "... dynamicprogramming/shortestcommonsuperseq.o"
 	@echo "... dynamicprogramming/shortestcommonsuperseq.i"
 	@echo "... dynamicprogramming/shortestcommonsuperseq.s"

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.cpp
-shortestcommonsuperseq.h
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.cpp
+setsofnumbersthataddup.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.h
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
-string
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.h
+vector
 -
 
