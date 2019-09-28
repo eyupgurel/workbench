@@ -6,16 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.cpp
-longestcommonsubsequence.h
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.cpp
+eggdropproblem.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.h
-string
--
-vector
--
-iostream
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h
+climits
 -
 ../include/slab/matrix/matrix.h
 /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.h

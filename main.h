@@ -63,6 +63,7 @@
 #include "dynamicprogramming/shortestcommonsuperseq.h"
 #include "dynamicprogramming/setsofnumbersthataddup.h"
 #include "dynamicprogramming/longestcommonsubsequence.h"
+#include "dynamicprogramming/eggdropproblem.h"
 
 using namespace algorithms;
 using namespace containers;

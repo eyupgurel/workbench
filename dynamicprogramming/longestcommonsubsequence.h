@@ -9,6 +9,7 @@
 #include <iostream>
 #include "../include/slab/matrix/matrix.h"
 using namespace std;
+using namespace slab;
 namespace dynamicprogramming {
     string find_longest_common_subsequence(string& lhs, string& rhs);
     void drive_to_find_longest_common_subsequence();

@@ -5,6 +5,7 @@
 #include "shortestcommonsuperseq.h"
 
 using namespace dynamicprogramming;
+using namespace slab;
 
 /*int dynamicprogramming::find_shortest_common_superseq2(string& a, string& b, vector<pair<int,int>>& history,
         int pa, int pb){
@@ -71,4 +72,53 @@ void dynamicprogramming::drive_to_find_shortest_common_super_seq() {
     //int r = find_shortest_common_superseq2(a,b,history,0,0);
 
      string scs=find_shortest_common_superseq(a,b);
+}
+
+string dynamicprogramming::find_shortest_common_superseq_by_back_tracking(string& lhs, string& rhs) {
+    Matrix<int,2> matrix(lhs.length()+1,rhs.length()+1);
+    for(size_t i=1;i<=lhs.length();++i){
+        for(size_t j=1;j<=rhs.length();++j){
+            if(lhs[i-1]==rhs[j-1]){
+                matrix(i,j)= matrix[i-1][j-1]+1;
+            } else{
+                matrix(i,j) = matrix[i][j-1] > matrix[i-1][j] ? matrix[i][j-1] : matrix[i-1][j];
+            }
+        }
+    }
+    cout << matrix << endl;
+    auto i=lhs.length();
+    auto j= rhs.length();
+    string res;
+    while(i!=0 && j!=0){
+        if(lhs[i-1]==rhs[j-1]){
+            res.insert(res.begin(),lhs[i-1]);
+            --i;
+            --j;
+        } else{
+            //matrix(i-1,j) > matrix(i,j-1)?--i:--j;
+            if(matrix(i,j-1) > matrix(i-1,j)){
+                --j;
+                res.insert(res.begin(),rhs[j-1]);
+            } else{
+                --i;
+                res.insert(res.begin(),lhs[i-1]);
+            }
+        }
+    }
+    return res;
+}
+
+void dynamicprogramming::drive_to_find_shortest_common_superseq_by_back_tracking() {
+    string lhs{"AB"};
+    string rhs{"BA"};
+
+    //string lhs{"ABCBDAB"};
+    //string rhs{"BDCABA"};
+
+    //string lhs{"ABCBDAB"};
+    //string rhs{"BDCABA"};
+    //string lhs{"GXTXAYB"};
+    //string rhs{"AGGTAB"};
+
+    auto lcs = find_shortest_common_superseq_by_back_tracking(lhs,rhs);
 }

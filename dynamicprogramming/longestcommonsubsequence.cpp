@@ -4,7 +4,7 @@
 
 #include "longestcommonsubsequence.h"
 using namespace dynamicprogramming;
-using namespace slab;
+
 
 
 string dynamicprogramming::find_longest_common_subsequence(string& lhs, string& rhs) {

@@ -690,6 +690,33 @@ containers/vectorex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
 .PHONY : containers/vectorex.cpp.s
 
+dynamicprogramming/eggdropproblem.o: dynamicprogramming/eggdropproblem.cpp.o
+
+.PHONY : dynamicprogramming/eggdropproblem.o
+
+# target to build an object file
+dynamicprogramming/eggdropproblem.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o
+.PHONY : dynamicprogramming/eggdropproblem.cpp.o
+
+dynamicprogramming/eggdropproblem.i: dynamicprogramming/eggdropproblem.cpp.i
+
+.PHONY : dynamicprogramming/eggdropproblem.i
+
+# target to preprocess a source file
+dynamicprogramming/eggdropproblem.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.i
+.PHONY : dynamicprogramming/eggdropproblem.cpp.i
+
+dynamicprogramming/eggdropproblem.s: dynamicprogramming/eggdropproblem.cpp.s
+
+.PHONY : dynamicprogramming/eggdropproblem.s
+
+# target to generate assembly for a file
+dynamicprogramming/eggdropproblem.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.s
+.PHONY : dynamicprogramming/eggdropproblem.cpp.s
+
 dynamicprogramming/langsteaufsteigendeteilfolge.o: dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o
 
 .PHONY : dynamicprogramming/langsteaufsteigendeteilfolge.o
@@ -2436,6 +2463,9 @@ help:
 	@echo "... containers/vectorex.o"
 	@echo "... containers/vectorex.i"
 	@echo "... containers/vectorex.s"
+	@echo "... dynamicprogramming/eggdropproblem.o"
+	@echo "... dynamicprogramming/eggdropproblem.i"
+	@echo "... dynamicprogramming/eggdropproblem.s"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.o"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.i"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.s"
