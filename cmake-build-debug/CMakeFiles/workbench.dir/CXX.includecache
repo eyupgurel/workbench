@@ -6,12 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.cpp
-eggdropproblem.h
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.cpp
+shortestcommonsuperseq.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h
-climits
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
+string
+-
+vector
+-
+map
+-
+iostream
 -
 ../include/slab/matrix/matrix.h
 /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.h

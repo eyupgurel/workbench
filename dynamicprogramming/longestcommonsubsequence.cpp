@@ -36,8 +36,11 @@ string dynamicprogramming::find_longest_common_subsequence(string& lhs, string& 
 }
 
 void dynamicprogramming::drive_to_find_longest_common_subsequence() {
-    string lhs{"ABCBDAB"};
-    string rhs{"BDCABA"};
+    //string lhs{"ABCBDAB"};
+    //string rhs{"BDCABA"};
+
+    string rhs{"ACABAD"};
+    string lhs{"CABCA"};
     //string lhs{"GXTXAYB"};
     //string rhs{"AGGTAB"};
 

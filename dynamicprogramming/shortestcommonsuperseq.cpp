@@ -95,30 +95,36 @@ string dynamicprogramming::find_shortest_common_superseq_by_back_tracking(string
             --i;
             --j;
         } else{
-            //matrix(i-1,j) > matrix(i,j-1)?--i:--j;
             if(matrix(i,j-1) > matrix(i-1,j)){
-                --j;
                 res.insert(res.begin(),rhs[j-1]);
+                --j;
             } else{
-                --i;
                 res.insert(res.begin(),lhs[i-1]);
+                --i;
             }
         }
+    }
+    while(i!=0){
+        res.insert(res.begin(),lhs[i-1]);
+        --i;
+    }
+    while(j!=0){
+        res.insert(res.begin(),rhs[j-1]);
+        --j;
     }
     return res;
 }
 
 void dynamicprogramming::drive_to_find_shortest_common_superseq_by_back_tracking() {
-    string lhs{"AB"};
-    string rhs{"BA"};
+    string lhs{"CABCA"};
+    string rhs{"ACABAD"};
+    auto scs = find_shortest_common_superseq_by_back_tracking(lhs,rhs);
 
-    //string lhs{"ABCBDAB"};
-    //string rhs{"BDCABA"};
+    lhs="ABCBDAB";
+    rhs="BDCABA";
+    scs = find_shortest_common_superseq_by_back_tracking(lhs,rhs);
 
-    //string lhs{"ABCBDAB"};
-    //string rhs{"BDCABA"};
-    //string lhs{"GXTXAYB"};
-    //string rhs{"AGGTAB"};
-
-    auto lcs = find_shortest_common_superseq_by_back_tracking(lhs,rhs);
+    lhs="GXTXAYB";
+    rhs="AGGTAB";
+    scs = find_shortest_common_superseq_by_back_tracking(lhs,rhs);
 }
