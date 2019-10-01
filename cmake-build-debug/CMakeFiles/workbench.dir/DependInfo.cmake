@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o"
+  "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/shortestcommonsuperseq.cpp.o"
   "/home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.cpp" "/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles/workbench.dir/dynamicprogramming/zahlendreieck.cpp.o"

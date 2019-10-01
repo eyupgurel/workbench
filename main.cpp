@@ -6,6 +6,7 @@
 
 int main()
 {
+    dynamicprogramming::drive_partition_same_sum();
     dynamicprogramming::drive_egg_problem_solution();
     dynamicprogramming::drive_to_find_shortest_common_superseq_by_back_tracking();
     dynamicprogramming::drive_to_find_longest_common_subsequence();
