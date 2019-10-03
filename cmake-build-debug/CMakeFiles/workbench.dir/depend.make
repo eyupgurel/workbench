@@ -72,6 +72,9 @@ CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.cpp
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../containers/vectorex.h
 CMakeFiles/workbench.dir/containers/vectorex.cpp.o: ../memory/move.h
 
+CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o: ../dynamicprogramming/booleanparenthesization.cpp
+CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o: ../dynamicprogramming/booleanparenthesization.h
+
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../dynamicprogramming/eggdropproblem.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../dynamicprogramming/eggdropproblem.h
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../include/slab/__config.h
@@ -269,6 +272,7 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_base.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vector_container.h
 CMakeFiles/workbench.dir/main.cpp.o: ../containers/vectorex.h
+CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/booleanparenthesization.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/eggdropproblem.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/longestcommonsubsequence.h

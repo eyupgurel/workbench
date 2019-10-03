@@ -690,6 +690,33 @@ containers/vectorex.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/containers/vectorex.cpp.s
 .PHONY : containers/vectorex.cpp.s
 
+dynamicprogramming/booleanparenthesization.o: dynamicprogramming/booleanparenthesization.cpp.o
+
+.PHONY : dynamicprogramming/booleanparenthesization.o
+
+# target to build an object file
+dynamicprogramming/booleanparenthesization.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o
+.PHONY : dynamicprogramming/booleanparenthesization.cpp.o
+
+dynamicprogramming/booleanparenthesization.i: dynamicprogramming/booleanparenthesization.cpp.i
+
+.PHONY : dynamicprogramming/booleanparenthesization.i
+
+# target to preprocess a source file
+dynamicprogramming/booleanparenthesization.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.i
+.PHONY : dynamicprogramming/booleanparenthesization.cpp.i
+
+dynamicprogramming/booleanparenthesization.s: dynamicprogramming/booleanparenthesization.cpp.s
+
+.PHONY : dynamicprogramming/booleanparenthesization.s
+
+# target to generate assembly for a file
+dynamicprogramming/booleanparenthesization.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.s
+.PHONY : dynamicprogramming/booleanparenthesization.cpp.s
+
 dynamicprogramming/eggdropproblem.o: dynamicprogramming/eggdropproblem.cpp.o
 
 .PHONY : dynamicprogramming/eggdropproblem.o
@@ -2490,6 +2517,9 @@ help:
 	@echo "... containers/vectorex.o"
 	@echo "... containers/vectorex.i"
 	@echo "... containers/vectorex.s"
+	@echo "... dynamicprogramming/booleanparenthesization.o"
+	@echo "... dynamicprogramming/booleanparenthesization.i"
+	@echo "... dynamicprogramming/booleanparenthesization.s"
 	@echo "... dynamicprogramming/eggdropproblem.o"
 	@echo "... dynamicprogramming/eggdropproblem.i"
 	@echo "... dynamicprogramming/eggdropproblem.s"

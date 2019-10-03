@@ -216,6 +216,12 @@
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/containers/vectorex.h">
 			<Option target="workbench"/>
 		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.cpp">
+			<Option target="workbench"/>
+		</Unit>
+		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h">
+			<Option target="workbench"/>
+		</Unit>
 		<Unit filename="/home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.cpp">
 			<Option target="workbench"/>
 		</Unit>

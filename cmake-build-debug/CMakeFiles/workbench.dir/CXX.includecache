@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.cpp
-partitionsamesum.h
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.cpp
+booleanparenthesization.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.h
-numeric
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h
+set
 -
-iostream
--
-stack
+map
 -
 

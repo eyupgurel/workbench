@@ -65,6 +65,7 @@
 #include "dynamicprogramming/longestcommonsubsequence.h"
 #include "dynamicprogramming/eggdropproblem.h"
 #include "dynamicprogramming/partitionsamesum.h"
+#include "dynamicprogramming/booleanparenthesization.h"
 
 using namespace algorithms;
 using namespace containers;
