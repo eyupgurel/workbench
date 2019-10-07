@@ -52,10 +52,10 @@ int dynamicprogramming::count_ways(bool (&symbols)[N], char(&operations)[N-1]) {
 void dynamicprogramming::drive_boolean_parenthesization(){
     bool trio_symbols[3]{true,false,true};
     char operations1[2]{'^', '&'};
-    auto total_ways = count_every_ways<3>(trio_symbols, operations1);
+    auto total_ways = count_ways<3>(trio_symbols, operations1);
 
     bool quatro_symbols[4]{true,true,false,true};
     char operations2[3]{'|','&', '^'};
-    total_ways = count_every_ways<4>(quatro_symbols,operations2);
+    total_ways = count_ways<4>(quatro_symbols,operations2);
 }
 
