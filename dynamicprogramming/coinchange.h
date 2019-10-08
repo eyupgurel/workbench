@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 namespace dynamicprogramming{
-    void count_coin_change_ways(vector<int>& coins, int offset, int total_sum, int& ways);
+    int count_coin_change_ways(vector<int>& coins, int offset, int total_sum);
     void drive_coin_change_ways();
 }
 
