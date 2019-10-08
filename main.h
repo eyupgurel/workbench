@@ -66,6 +66,7 @@
 #include "dynamicprogramming/eggdropproblem.h"
 #include "dynamicprogramming/partitionsamesum.h"
 #include "dynamicprogramming/booleanparenthesization.h"
+#include "dynamicprogramming/coinchange.h"
 
 using namespace algorithms;
 using namespace containers;

@@ -717,6 +717,33 @@ dynamicprogramming/booleanparenthesization.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.s
 .PHONY : dynamicprogramming/booleanparenthesization.cpp.s
 
+dynamicprogramming/coinchange.o: dynamicprogramming/coinchange.cpp.o
+
+.PHONY : dynamicprogramming/coinchange.o
+
+# target to build an object file
+dynamicprogramming/coinchange.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o
+.PHONY : dynamicprogramming/coinchange.cpp.o
+
+dynamicprogramming/coinchange.i: dynamicprogramming/coinchange.cpp.i
+
+.PHONY : dynamicprogramming/coinchange.i
+
+# target to preprocess a source file
+dynamicprogramming/coinchange.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.i
+.PHONY : dynamicprogramming/coinchange.cpp.i
+
+dynamicprogramming/coinchange.s: dynamicprogramming/coinchange.cpp.s
+
+.PHONY : dynamicprogramming/coinchange.s
+
+# target to generate assembly for a file
+dynamicprogramming/coinchange.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.s
+.PHONY : dynamicprogramming/coinchange.cpp.s
+
 dynamicprogramming/eggdropproblem.o: dynamicprogramming/eggdropproblem.cpp.o
 
 .PHONY : dynamicprogramming/eggdropproblem.o
@@ -2520,6 +2547,9 @@ help:
 	@echo "... dynamicprogramming/booleanparenthesization.o"
 	@echo "... dynamicprogramming/booleanparenthesization.i"
 	@echo "... dynamicprogramming/booleanparenthesization.s"
+	@echo "... dynamicprogramming/coinchange.o"
+	@echo "... dynamicprogramming/coinchange.i"
+	@echo "... dynamicprogramming/coinchange.s"
 	@echo "... dynamicprogramming/eggdropproblem.o"
 	@echo "... dynamicprogramming/eggdropproblem.i"
 	@echo "... dynamicprogramming/eggdropproblem.s"

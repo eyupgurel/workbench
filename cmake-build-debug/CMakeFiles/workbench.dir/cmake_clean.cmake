@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/workbench.dir/containers/vector_container.cpp.o"
   "CMakeFiles/workbench.dir/containers/vectorex.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o"
+  "CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o"
   "CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o"

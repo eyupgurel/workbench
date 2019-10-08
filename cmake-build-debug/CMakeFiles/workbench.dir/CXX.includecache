@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.cpp
-booleanparenthesization.h
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.cpp
+coinchange.h
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.h
 
-/home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h
-set
--
-map
+/home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.h
+vector
 -
 

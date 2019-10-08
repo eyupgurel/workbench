@@ -6,6 +6,7 @@
 
 int main()
 {
+    dynamicprogramming::drive_coin_change_ways();
     dynamicprogramming::drive_boolean_parenthesization();
     dynamicprogramming::drive_partition_same_sum();
     dynamicprogramming::drive_egg_problem_solution();
