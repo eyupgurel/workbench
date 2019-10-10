@@ -78,6 +78,17 @@ CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o
 CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/__config.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/__error.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_base.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_fwd.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_ref.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/matrix_slice.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/packed_matrix.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/slice.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/support.h
+ /home/egl/Documents/sc/C++/workbench/include/slab/matrix/traits.h
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h

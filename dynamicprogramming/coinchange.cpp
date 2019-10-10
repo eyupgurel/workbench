@@ -37,35 +37,52 @@ int dynamicprogramming::bottom_up_count_change_ways(vector<int> &coins, int tota
 
 }
 
-int dynamicprogramming::top_down_count_change_ways(vector<int>& coins, int offset, int total_sum) {
-
+int dynamicprogramming::top_down_count_change_ways(vector<int>& coins, int offset, int total_sum, Matrix<int,2>& mem) {
     if(offset<0 || total_sum < 0 )
         return 0;
-    if(total_sum == 0){
-        return 1;
-    }
+
+    if(mem[total_sum][offset+1]!=-1)
+        return mem[total_sum][offset+1];
+
     int ways{0};
 
-    ways+= top_down_count_change_ways(coins, offset, total_sum - coins[offset]);
-    ways+= top_down_count_change_ways(coins, offset-1, total_sum);
+    if(total_sum == 0){
+       ways = 1;
+    } else{
+        ways+= top_down_count_change_ways(coins, offset, total_sum - coins[offset],mem);
+        ways+= top_down_count_change_ways(coins, offset-1, total_sum,mem);
+    }
+    mem(total_sum,offset+1)=ways;
     return ways;
 }
 
 
 void dynamicprogramming::drive_coin_change_ways() {
+    Matrix<int,2>mem{{-1,-1,-1,-1},{-1,-1,-1,-1},{-1,-1,-1,-1},{-1,-1,-1,-1},{-1,-1,-1,-1}};
     vector<int> coinset1{1,2,3};
-
     auto ways = bottom_up_count_change_ways(coinset1,4);
 
-    ways=top_down_count_change_ways(coinset1, coinset1.size()-1 , 4);
+    ways=top_down_count_change_ways(coinset1, coinset1.size()-1 , 4,mem);
+    cout << mem << endl;
 
+
+    mem = {{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},
+           {-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},
+           {-1,-1,-1,-1,-1}};
     vector<int>coinset2{2, 5, 3, 6};
-    ways=top_down_count_change_ways(coinset2,coinset2.size()-1,10);
+    ways=top_down_count_change_ways(coinset2,coinset2.size()-1,10,mem);
+
 
     ways = bottom_up_count_change_ways(coinset2,10);
 
+    mem = {{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},
+           {-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},
+           {-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},{-1,-1,-1,-1,-1},
+           {-1,-1,-1,-1,-1}};
     vector<int>coinset3{1, 3, 5, 7};
-    ways=top_down_count_change_ways(coinset3,coinset3.size()-1,15);
+
+
+    ways=top_down_count_change_ways(coinset3,coinset3.size()-1,15,mem);
 
     ways = bottom_up_count_change_ways(coinset3,15);
 

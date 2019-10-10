@@ -77,6 +77,17 @@ CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o: ../dy
 
 CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../dynamicprogramming/coinchange.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../dynamicprogramming/coinchange.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/__config.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/__error.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/matrix.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/matrix_base.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/matrix_fwd.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/matrix_ref.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/matrix_slice.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/packed_matrix.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/slice.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/support.h
+CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o: ../include/slab/matrix/traits.h
 
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../dynamicprogramming/eggdropproblem.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../dynamicprogramming/eggdropproblem.h
