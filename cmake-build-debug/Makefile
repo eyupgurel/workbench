@@ -771,6 +771,33 @@ dynamicprogramming/eggdropproblem.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.s
 .PHONY : dynamicprogramming/eggdropproblem.cpp.s
 
+dynamicprogramming/knapsack.o: dynamicprogramming/knapsack.cpp.o
+
+.PHONY : dynamicprogramming/knapsack.o
+
+# target to build an object file
+dynamicprogramming/knapsack.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o
+.PHONY : dynamicprogramming/knapsack.cpp.o
+
+dynamicprogramming/knapsack.i: dynamicprogramming/knapsack.cpp.i
+
+.PHONY : dynamicprogramming/knapsack.i
+
+# target to preprocess a source file
+dynamicprogramming/knapsack.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.i
+.PHONY : dynamicprogramming/knapsack.cpp.i
+
+dynamicprogramming/knapsack.s: dynamicprogramming/knapsack.cpp.s
+
+.PHONY : dynamicprogramming/knapsack.s
+
+# target to generate assembly for a file
+dynamicprogramming/knapsack.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.s
+.PHONY : dynamicprogramming/knapsack.cpp.s
+
 dynamicprogramming/langsteaufsteigendeteilfolge.o: dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o
 
 .PHONY : dynamicprogramming/langsteaufsteigendeteilfolge.o
@@ -851,6 +878,33 @@ dynamicprogramming/partitionsamesum.s: dynamicprogramming/partitionsamesum.cpp.s
 dynamicprogramming/partitionsamesum.cpp.s:
 	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.s
 .PHONY : dynamicprogramming/partitionsamesum.cpp.s
+
+dynamicprogramming/rodcutting.o: dynamicprogramming/rodcutting.cpp.o
+
+.PHONY : dynamicprogramming/rodcutting.o
+
+# target to build an object file
+dynamicprogramming/rodcutting.cpp.o:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o
+.PHONY : dynamicprogramming/rodcutting.cpp.o
+
+dynamicprogramming/rodcutting.i: dynamicprogramming/rodcutting.cpp.i
+
+.PHONY : dynamicprogramming/rodcutting.i
+
+# target to preprocess a source file
+dynamicprogramming/rodcutting.cpp.i:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.i
+.PHONY : dynamicprogramming/rodcutting.cpp.i
+
+dynamicprogramming/rodcutting.s: dynamicprogramming/rodcutting.cpp.s
+
+.PHONY : dynamicprogramming/rodcutting.s
+
+# target to generate assembly for a file
+dynamicprogramming/rodcutting.cpp.s:
+	$(MAKE) -f CMakeFiles/workbench.dir/build.make CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.s
+.PHONY : dynamicprogramming/rodcutting.cpp.s
 
 dynamicprogramming/setsofnumbersthataddup.o: dynamicprogramming/setsofnumbersthataddup.cpp.o
 
@@ -2553,6 +2607,9 @@ help:
 	@echo "... dynamicprogramming/eggdropproblem.o"
 	@echo "... dynamicprogramming/eggdropproblem.i"
 	@echo "... dynamicprogramming/eggdropproblem.s"
+	@echo "... dynamicprogramming/knapsack.o"
+	@echo "... dynamicprogramming/knapsack.i"
+	@echo "... dynamicprogramming/knapsack.s"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.o"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.i"
 	@echo "... dynamicprogramming/langsteaufsteigendeteilfolge.s"
@@ -2562,6 +2619,9 @@ help:
 	@echo "... dynamicprogramming/partitionsamesum.o"
 	@echo "... dynamicprogramming/partitionsamesum.i"
 	@echo "... dynamicprogramming/partitionsamesum.s"
+	@echo "... dynamicprogramming/rodcutting.o"
+	@echo "... dynamicprogramming/rodcutting.i"
+	@echo "... dynamicprogramming/rodcutting.s"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.o"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.i"
 	@echo "... dynamicprogramming/setsofnumbersthataddup.s"

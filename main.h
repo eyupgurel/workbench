@@ -67,6 +67,8 @@
 #include "dynamicprogramming/partitionsamesum.h"
 #include "dynamicprogramming/booleanparenthesization.h"
 #include "dynamicprogramming/coinchange.h"
+#include "dynamicprogramming/rodcutting.h"
+#include "dynamicprogramming/knapsack.h"
 
 using namespace algorithms;
 using namespace containers;

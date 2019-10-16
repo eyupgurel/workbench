@@ -6,6 +6,8 @@
 
 int main()
 {
+    dynamicprogramming::drive_knapsack();
+    dynamicprogramming::drive_rod_cutting_problem();
     dynamicprogramming::drive_coin_change_ways();
     dynamicprogramming::drive_boolean_parenthesization();
     dynamicprogramming::drive_partition_same_sum();

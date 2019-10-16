@@ -103,6 +103,9 @@ CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/slice.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/support.h
  /home/egl/Documents/sc/C++/workbench/include/slab/matrix/traits.h
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.cpp
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.h
 CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h
@@ -123,6 +126,9 @@ CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o
 CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.h
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.cpp
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.h
 CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.cpp
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.h
@@ -290,9 +296,11 @@ CMakeFiles/workbench.dir/main.cpp.o
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/booleanparenthesization.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/eggdropproblem.h
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/langsteaufsteigendeteilfolge.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/longestcommonsubsequence.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/partitionsamesum.h
+ /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/setsofnumbersthataddup.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/shortestcommonsuperseq.h
  /home/egl/Documents/sc/C++/workbench/dynamicprogramming/zahlendreieck.h

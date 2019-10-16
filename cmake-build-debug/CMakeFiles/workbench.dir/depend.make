@@ -103,6 +103,9 @@ CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../include/sla
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../include/slab/matrix/support.h
 CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o: ../include/slab/matrix/traits.h
 
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o: ../dynamicprogramming/knapsack.cpp
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o: ../dynamicprogramming/knapsack.h
+
 CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/langsteaufsteigendeteilfolge.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.h
 
@@ -122,6 +125,9 @@ CMakeFiles/workbench.dir/dynamicprogramming/longestcommonsubsequence.cpp.o: ../i
 
 CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o: ../dynamicprogramming/partitionsamesum.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o: ../dynamicprogramming/partitionsamesum.h
+
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o: ../dynamicprogramming/rodcutting.cpp
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o: ../dynamicprogramming/rodcutting.h
 
 CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o: ../dynamicprogramming/setsofnumbersthataddup.cpp
 CMakeFiles/workbench.dir/dynamicprogramming/setsofnumbersthataddup.cpp.o: ../dynamicprogramming/setsofnumbersthataddup.h
@@ -289,9 +295,11 @@ CMakeFiles/workbench.dir/main.cpp.o: ../containers/vectorex.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/booleanparenthesization.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/coinchange.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/eggdropproblem.h
+CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/knapsack.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/langsteaufsteigendeteilfolge.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/longestcommonsubsequence.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/partitionsamesum.h
+CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/rodcutting.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/setsofnumbersthataddup.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/shortestcommonsuperseq.h
 CMakeFiles/workbench.dir/main.cpp.o: ../dynamicprogramming/zahlendreieck.h

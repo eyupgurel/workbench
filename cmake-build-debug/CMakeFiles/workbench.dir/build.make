@@ -1188,6 +1188,32 @@ CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/dynamicprogramming/coinchange.cpp -o CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.s
 
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o: ../dynamicprogramming/rodcutting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o -c /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.cpp
+
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.cpp > CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.i
+
+CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/dynamicprogramming/rodcutting.cpp -o CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.s
+
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o: CMakeFiles/workbench.dir/flags.make
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o: ../dynamicprogramming/knapsack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o -c /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.cpp
+
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.cpp > CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.i
+
+CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/egl/Documents/sc/C++/workbench/dynamicprogramming/knapsack.cpp -o CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.s
+
 # Object files for target workbench
 workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/main.cpp.o" \
@@ -1276,7 +1302,9 @@ workbench_OBJECTS = \
 "CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o" \
 "CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o" \
 "CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o" \
-"CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o"
+"CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o" \
+"CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o" \
+"CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o"
 
 # External object files for target workbench
 workbench_EXTERNAL_OBJECTS =
@@ -1368,9 +1396,11 @@ workbench: CMakeFiles/workbench.dir/dynamicprogramming/eggdropproblem.cpp.o
 workbench: CMakeFiles/workbench.dir/dynamicprogramming/partitionsamesum.cpp.o
 workbench: CMakeFiles/workbench.dir/dynamicprogramming/booleanparenthesization.cpp.o
 workbench: CMakeFiles/workbench.dir/dynamicprogramming/coinchange.cpp.o
+workbench: CMakeFiles/workbench.dir/dynamicprogramming/rodcutting.cpp.o
+workbench: CMakeFiles/workbench.dir/dynamicprogramming/knapsack.cpp.o
 workbench: CMakeFiles/workbench.dir/build.make
 workbench: CMakeFiles/workbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable workbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/egl/Documents/sc/C++/workbench/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking CXX executable workbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/workbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

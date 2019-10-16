@@ -84,6 +84,8 @@ void dynamicprogramming::drive_coin_change_ways() {
 
     ways=top_down_count_change_ways(coinset3,coinset3.size()-1,15,mem);
 
+    cout << mem << endl;
+
     ways = bottom_up_count_change_ways(coinset3,15);
 
 }
